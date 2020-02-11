@@ -6,6 +6,7 @@ backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace//0.3.38 backtrace 0.3.38
 base64//0.10.1 base64 0.10.1
 bincode//0.8.0 bincode 0.8.0
+bincode//1.2.0 bincode 1.2.0
 bitflags//0.9.1 bitflags 0.9.1
 bitflags//1.2.1 bitflags 1.2.1
 block-buffer//0.7.3 block-buffer 0.7.3
@@ -20,6 +21,7 @@ clicolors-control//1.0.1 clicolors-control 1.0.1
 cmake//0.1.42 cmake 0.1.42
 console//0.7.7 console 0.7.7
 console//0.8.0 console 0.8.0
+crates-index//0.5.1 crates-index 0.5.1
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
 crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
@@ -41,14 +43,17 @@ env_logger//0.6.2 env_logger 0.6.2
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
+fixedbitset//0.1.9 fixedbitset 0.1.9
 fs_extra//1.1.0 fs_extra 1.1.0
 generic-array//0.12.3 generic-array 0.12.3
+git2//0.6.11 git2 0.6.11
 glob//0.2.11 glob 0.2.11
 glob//0.3.0 glob 0.3.0
 heapsize//0.4.2 heapsize 0.4.2
 humantime//1.3.0 humantime 1.3.0
 idna//0.1.5 idna 0.1.5
 indexmap//1.3.0 indexmap 1.3.0
+insta//0.11.0 insta 0.11.0
 insta//0.9.0 insta 0.9.0
 itoa//0.4.4 itoa 0.4.4
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
@@ -79,6 +84,7 @@ opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
+ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
@@ -145,6 +151,7 @@ sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
 syn//0.15.29 syn 0.15.29
 syn//1.0.5 syn 1.0.5
+syn//1.0.7 syn 1.0.7
 synom//0.11.3 synom 0.11.3
 synstructure//0.12.1 synstructure 0.12.1
 tempdir//0.3.7 tempdir 0.3.7
@@ -163,6 +170,7 @@ unicode-xid//0.0.4 unicode-xid 0.0.4
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 untrusted//0.7.0 untrusted 0.7.0
+url//1.7.2 url 1.7.2
 uuid//0.7.4 uuid 0.7.4
 walkdir//2.2.9 walkdir 2.2.9
 webpki-roots//0.17.0 webpki-roots 0.17.0
@@ -184,6 +192,9 @@ base64//0.10.1 byteorder//1.3.2
 bincode//0.8.0 byteorder//1.3.2
 bincode//0.8.0 num-traits//0.1.43
 bincode//0.8.0 serde//1.0.101
+bincode//1.2.0 autocfg//0.1.6
+bincode//1.2.0 byteorder//1.3.2
+bincode//1.2.0 serde//1.0.101
 block-buffer//0.7.3 block-padding//0.1.4
 block-buffer//0.7.3 byte-tools//0.3.1
 block-buffer//0.7.3 byteorder//1.3.2
@@ -223,6 +234,9 @@ console//0.8.0 libc//0.2.62
 console//0.8.0 regex//1.3.1
 console//0.8.0 termios//0.3.1
 console//0.8.0 unicode-width//0.1.6
+crates-index//0.5.1 git2//0.6.11
+crates-index//0.5.1 glob//0.2.11
+crates-index//0.5.1 rustc-serialize//0.3.24
 crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
 crossbeam-deque//0.7.1 crossbeam-utils//0.6.6
 crossbeam-deque//0.7.1 rand//0.6.5 weak:test
@@ -279,10 +293,23 @@ failure//0.1.6 failure_derive//0.1.6 weak:feature:derive
 failure//0.1.6 failure_derive//0.1.6 weak:optional
 failure_derive//0.1.6 proc-macro2//1.0.5
 failure_derive//0.1.6 quote//1.0.2
-failure_derive//0.1.6 syn//1.0.5
+failure_derive//0.1.6 syn//1.0.7
 failure_derive//0.1.6 synstructure//0.12.1
 generic-array//0.12.3 serde//1.0.101 weak:optional
 generic-array//0.12.3 typenum//1.11.2
+git2//0.6.11 bitflags//0.9.1
+git2//0.6.11 libc//0.2.62
+git2//0.6.11 libgit2-sys//0.6.19
+git2//0.6.11 openssl-probe//0.1.2 feature:default
+git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
+git2//0.6.11 openssl-probe//0.1.2 weak:optional
+git2//0.6.11 openssl-sys//0.9.52 feature:default
+git2//0.6.11 openssl-sys//0.9.52 weak:feature:https
+git2//0.6.11 openssl-sys//0.9.52 weak:optional
+git2//0.6.11 tempdir//0.3.7 weak:optional
+git2//0.6.11 tempdir//0.3.7 weak:test
+git2//0.6.11 time//0.1.42 weak:test
+git2//0.6.11 url//1.7.2
 glob//0.2.11 tempdir//0.3.7 weak:test
 glob//0.3.0 tempdir//0.3.7 weak:test
 humantime//1.3.0 quick-error//1.2.2
@@ -295,6 +322,18 @@ indexmap//1.3.0 autocfg//0.1.6
 indexmap//1.3.0 rayon//1.2.0 weak:optional
 indexmap//1.3.0 serde//1.0.101 weak:feature:serde-1
 indexmap//1.3.0 serde//1.0.101 weak:optional
+insta//0.11.0 console//0.8.0
+insta//0.11.0 difference//2.0.0
+insta//0.11.0 lazy_static//1.4.0
+insta//0.11.0 pest//2.1.2 weak:feature:redactions
+insta//0.11.0 pest//2.1.2 weak:optional
+insta//0.11.0 pest_derive//2.1.0 weak:feature:redactions
+insta//0.11.0 pest_derive//2.1.0 weak:optional
+insta//0.11.0 ron//0.5.1
+insta//0.11.0 serde//1.0.101
+insta//0.11.0 serde_json//1.0.41
+insta//0.11.0 serde_yaml//0.8.11
+insta//0.11.0 uuid//0.7.4
 insta//0.9.0 chrono//0.4.9
 insta//0.9.0 ci_info//0.3.1
 insta//0.9.0 console//0.7.7
@@ -369,7 +408,7 @@ mesalink//1.1.0 webpki-roots//0.17.0
 mesalink//1.1.0 webpki//0.21.0
 no-panic//0.1.11 proc-macro2//1.0.5
 no-panic//0.1.11 quote//1.0.2
-no-panic//0.1.11 syn//1.0.5
+no-panic//0.1.11 syn//1.0.7
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.8
 num-iter//0.1.39 autocfg//0.1.6
@@ -386,6 +425,8 @@ openssl-sys//0.9.52 libc//0.2.62
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
+ordermap//0.3.5 serde//1.0.101 weak:feature:serde-1
+ordermap//0.3.5 serde//1.0.101 weak:optional
 owning_ref//0.4.0 stable_deref_trait//1.1.1
 parking_lot//0.9.0 lock_api//0.3.1
 parking_lot//0.9.0 parking_lot_core//0.6.2
@@ -405,7 +446,7 @@ pest_generator//2.1.1 pest//2.1.2
 pest_generator//2.1.1 pest_meta//2.1.2
 pest_generator//2.1.1 proc-macro2//1.0.5
 pest_generator//2.1.1 quote//1.0.2
-pest_generator//2.1.1 syn//1.0.5
+pest_generator//2.1.1 syn//1.0.7
 pest_meta//2.1.2 maplit//1.0.2
 pest_meta//2.1.2 pest//2.1.2
 pest_meta//2.1.2 sha-1//0.8.1
@@ -474,7 +515,7 @@ rayon//1.2.0 rand_xorshift//0.1.1 weak:test
 rayon//1.2.0 rayon-core//1.6.0
 ref-cast-impl//0.2.7 proc-macro2//1.0.5
 ref-cast-impl//0.2.7 quote//1.0.2
-ref-cast-impl//0.2.7 syn//1.0.5
+ref-cast-impl//0.2.7 syn//1.0.7
 ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
@@ -501,13 +542,19 @@ rustls//0.16.0 sct//0.6.0
 rustls//0.16.0 webpki//0.21.0
 rustversion//0.1.4 proc-macro2//1.0.5
 rustversion//0.1.4 quote//1.0.2
-rustversion//0.1.4 syn//1.0.5
+rustversion//0.1.4 syn//1.0.7
 ryu//1.0.1 no-panic//0.1.11 weak:optional
 ryu//1.0.1 num_cpus//1.10.1 weak:test
 ryu//1.0.1 rand//0.5.6 weak:test
 sct//0.6.0 ring//0.16.9
 sct//0.6.0 untrusted//0.7.0
+semver//0.9.0 crates-index//0.5.1 weak:test
 semver//0.9.0 semver-parser//0.7.0
+semver//0.9.0 serde//1.0.101 weak:feature:ci
+semver//0.9.0 serde//1.0.101 weak:optional
+semver//0.9.0 serde_derive//1.0.89 weak:test
+semver//0.9.0 serde_json//1.0.41 weak:test
+semver//0.9.0 tempdir//0.3.7 weak:test
 serde//1.0.101 serde_derive//1.0.89 weak:feature:derive
 serde//1.0.101 serde_derive//1.0.89 weak:optional
 serde//1.0.101 serde_derive//1.0.89 weak:test
@@ -531,6 +578,8 @@ sha-1//0.8.1 block-buffer//0.7.3
 sha-1//0.8.1 digest//0.8.1
 sha-1//0.8.1 fake-simd//0.1.2
 sha-1//0.8.1 opaque-debug//0.2.3
+smallvec//0.6.10 bincode//1.2.0 weak:test
+smallvec//0.6.10 serde//1.0.101 weak:optional
 sval//0.4.7 serde//1.0.101 weak:feature:serde_no_std
 sval//0.4.7 serde//1.0.101 weak:feature:serde_std
 sval//0.4.7 serde//1.0.101 weak:optional
@@ -540,7 +589,7 @@ sval//0.4.7 sval_derive//0.4.7 weak:feature:derive
 sval//0.4.7 sval_derive//0.4.7 weak:optional
 sval_derive//0.4.7 proc-macro2//1.0.5
 sval_derive//0.4.7 quote//1.0.2
-sval_derive//0.4.7 syn//1.0.5
+sval_derive//0.4.7 syn//1.0.7
 syn//0.11.11 quote//0.3.15 feature:default
 syn//0.11.11 quote//0.3.15 weak:feature:printing
 syn//0.11.11 quote//0.3.15 weak:optional
@@ -567,11 +616,23 @@ syn//1.0.5 regex//1.3.1 weak:test
 syn//1.0.5 termcolor//1.0.5 weak:test
 syn//1.0.5 unicode-xid//0.2.0
 syn//1.0.5 walkdir//2.2.9 weak:test
+syn//1.0.7 insta//0.11.0 weak:test
+syn//1.0.7 proc-macro2//1.0.5
+syn//1.0.7 quote//1.0.2 feature:default
+syn//1.0.7 quote//1.0.2 weak:feature:printing
+syn//1.0.7 quote//1.0.2 weak:feature:proc-macro
+syn//1.0.7 quote//1.0.2 weak:optional
+syn//1.0.7 rayon//1.2.0 weak:test
+syn//1.0.7 ref-cast//0.2.7 weak:test
+syn//1.0.7 regex//1.3.1 weak:test
+syn//1.0.7 termcolor//1.0.5 weak:test
+syn//1.0.7 unicode-xid//0.2.0
+syn//1.0.7 walkdir//2.2.9 weak:test
 synom//0.11.3 syn//0.11.11 weak:test
 synom//0.11.3 unicode-xid//0.0.4
 synstructure//0.12.1 proc-macro2//1.0.5
 synstructure//0.12.1 quote//1.0.2
-synstructure//0.12.1 syn//1.0.5
+synstructure//0.12.1 syn//1.0.7
 synstructure//0.12.1 unicode-xid//0.2.0
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
@@ -592,6 +653,15 @@ trybuild//1.0.17 toml//0.5.3
 ucd-trie//0.1.2 lazy_static//1.4.0 weak:test
 unicode-bidi//0.3.4 matches//0.1.8
 unicode-normalization//0.1.8 smallvec//0.6.10
+url//1.7.2 encoding//0.2.33 weak:feature:query_encoding
+url//1.7.2 encoding//0.2.33 weak:optional
+url//1.7.2 heapsize//0.4.2 weak:feature:heap_size
+url//1.7.2 heapsize//0.4.2 weak:optional
+url//1.7.2 idna//0.1.5
+url//1.7.2 matches//0.1.8
+url//1.7.2 percent-encoding//1.0.1
+url//1.7.2 rustc-serialize//0.3.24 weak:optional
+url//1.7.2 serde//0.8.23 weak:optional
 walkdir//2.2.9 doc-comment//0.3.1 weak:test
 walkdir//2.2.9 same-file//1.0.5
 webpki-roots//0.17.0 webpki//0.21.0
