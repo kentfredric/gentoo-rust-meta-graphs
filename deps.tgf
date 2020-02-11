@@ -62,6 +62,7 @@ findshlibs//0.5.0 findshlibs 0.5.0
 fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
+fnv//1.0.6 fnv 1.0.6
 fs_extra//1.1.0 fs_extra 1.1.0
 futures//0.1.29 futures 0.1.29
 generic-array//0.12.3 generic-array 0.12.3
@@ -82,6 +83,8 @@ indexmap//1.3.0 indexmap 1.3.0
 insta//0.11.0 insta 0.11.0
 insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
+itertools//0.7.11 itertools 0.7.11
+itoa//0.1.1 itoa 0.1.1
 itoa//0.4.4 itoa 0.4.4
 jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
 jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
@@ -146,6 +149,7 @@ proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
 quick-error//1.2.2 quick-error 1.2.2
 quickcheck//0.4.1 quickcheck 0.4.1
+quickcheck//0.6.2 quickcheck 0.6.2
 quickcheck//0.7.2 quickcheck 0.7.2
 quickcheck//0.8.5 quickcheck 0.8.5
 quickcheck//0.9.0 quickcheck 0.9.0
@@ -204,7 +208,9 @@ serde//0.8.23 serde 0.8.23
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
 serde_bytes//0.10.4 serde_bytes 0.10.4
+serde_bytes//0.11.2 serde_bytes 0.11.2
 serde_derive//1.0.89 serde_derive 1.0.89
+serde_json//0.8.6 serde_json 0.8.6
 serde_json//1.0.41 serde_json 1.0.41
 serde_test//1.0.102 serde_test 1.0.102
 serde_yaml//0.8.11 serde_yaml 0.8.11
@@ -311,6 +317,8 @@ bincode//0.8.0 serde_derive//1.0.89 weak:test
 bincode//1.2.0 autocfg//0.1.6
 bincode//1.2.0 byteorder//1.3.2
 bincode//1.2.0 serde//1.0.101
+bincode//1.2.0 serde_bytes//0.11.2 weak:test
+bincode//1.2.0 serde_derive//1.0.89 weak:test
 blobby//0.1.2 byteorder//1.3.2
 block-buffer//0.7.3 block-padding//0.1.4
 block-buffer//0.7.3 byte-tools//0.3.1
@@ -551,6 +559,7 @@ insta//0.9.0 serde_json//1.0.41
 insta//0.9.0 serde_yaml//0.8.11
 insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
+itertools//0.7.11 either//1.5.3
 jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
 jemalloc-ctl//0.3.3 libc//0.2.65
@@ -661,8 +670,12 @@ openssl-sys//0.9.52 libc//0.2.65
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
+ordermap//0.3.5 fnv//1.0.6 weak:test
+ordermap//0.3.5 itertools//0.7.11 weak:test
+ordermap//0.3.5 quickcheck//0.6.2 weak:test
 ordermap//0.3.5 serde//1.0.101 weak:feature:serde-1
 ordermap//0.3.5 serde//1.0.101 weak:optional
+ordermap//0.3.5 serde_test//1.0.102 weak:test
 owning_ref//0.4.0 stable_deref_trait//1.1.1
 parking_lot//0.9.0 bincode//1.2.0 weak:test
 parking_lot//0.9.0 lazy_static//1.4.0 weak:test
@@ -713,6 +726,14 @@ proc-macro2//0.4.30 unicode-xid//0.1.0
 proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
 quickcheck//0.4.1 rand//0.3.23
+quickcheck//0.6.2 env_logger//0.5.13 feature:default
+quickcheck//0.6.2 env_logger//0.5.13 weak:feature:regex
+quickcheck//0.6.2 env_logger//0.5.13 weak:feature:use_logging
+quickcheck//0.6.2 env_logger//0.5.13 weak:optional
+quickcheck//0.6.2 log//0.4.8 feature:default
+quickcheck//0.6.2 log//0.4.8 weak:feature:use_logging
+quickcheck//0.6.2 log//0.4.8 weak:optional
+quickcheck//0.6.2 rand//0.4.6
 quickcheck//0.7.2 env_logger//0.5.13 feature:default
 quickcheck//0.7.2 env_logger//0.5.13 weak:feature:regex
 quickcheck//0.7.2 env_logger//0.5.13 weak:feature:use_logging
@@ -927,10 +948,18 @@ serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.101
 serde_bytes//0.10.4 serde_derive//1.0.89 weak:test
 serde_bytes//0.10.4 serde_test//1.0.102 weak:test
+serde_bytes//0.11.2 bincode//1.2.0 weak:test
+serde_bytes//0.11.2 serde//1.0.101
+serde_bytes//0.11.2 serde_derive//1.0.89 weak:test
+serde_bytes//0.11.2 serde_test//1.0.102 weak:test
 serde_derive//1.0.89 proc-macro2//0.4.30
 serde_derive//1.0.89 quote//0.6.13
 serde_derive//1.0.89 serde//1.0.101 weak:test
 serde_derive//1.0.89 syn//0.15.29
+serde_json//0.8.6 dtoa//0.2.2
+serde_json//0.8.6 itoa//0.1.1
+serde_json//0.8.6 num-traits//0.1.43
+serde_json//0.8.6 serde//0.8.23
 serde_json//1.0.41 indexmap//1.3.0 weak:feature:preserve_order
 serde_json//1.0.41 indexmap//1.3.0 weak:optional
 serde_json//1.0.41 itoa//0.4.4
@@ -1055,7 +1084,9 @@ url//1.7.2 idna//0.1.5
 url//1.7.2 matches//0.1.8
 url//1.7.2 percent-encoding//1.0.1
 url//1.7.2 rustc-serialize//0.3.24 weak:optional
+url//1.7.2 rustc-test//0.3.0 weak:test
 url//1.7.2 serde//0.8.23 weak:optional
+url//1.7.2 serde_json//0.8.6 weak:test
 uuid//0.7.4 bincode//1.2.0 weak:test
 uuid//0.7.4 byteorder//1.3.2 weak:feature:u128
 uuid//0.7.4 byteorder//1.3.2 weak:optional
