@@ -6,6 +6,7 @@ backtrace-sys//0.1.31 backtrace-sys 0.1.31
 backtrace//0.3.38 backtrace 0.3.38
 base64//0.10.1 base64 0.10.1
 bincode//0.8.0 bincode 0.8.0
+bitflags//0.9.1 bitflags 0.9.1
 bitflags//1.2.1 bitflags 1.2.1
 block-buffer//0.7.3 block-buffer 0.7.3
 block-padding//0.1.4 block-padding 0.1.4
@@ -16,6 +17,7 @@ cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
 clicolors-control//1.0.1 clicolors-control 1.0.1
+cmake//0.1.42 cmake 0.1.42
 console//0.7.7 console 0.7.7
 crossbeam-deque//0.7.1 crossbeam-deque 0.7.1
 crossbeam-epoch//0.7.2 crossbeam-epoch 0.7.2
@@ -30,6 +32,7 @@ failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
 generic-array//0.12.3 generic-array 0.12.3
+glob//0.2.11 glob 0.2.11
 glob//0.3.0 glob 0.3.0
 indexmap//1.3.0 indexmap 1.3.0
 insta//0.9.0 insta 0.9.0
@@ -37,6 +40,8 @@ itoa//0.4.4 itoa 0.4.4
 lazy_static//1.4.0 lazy_static 1.4.0
 libc//0.2.50 libc 0.2.50
 libc//0.2.62 libc 0.2.62
+libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
+libz-sys//1.0.25 libz-sys 1.0.25
 linked-hash-map//0.5.2 linked-hash-map 0.5.2
 lock_api//0.3.1 lock_api 0.3.1
 maplit//1.0.2 maplit 1.0.2
@@ -50,6 +55,8 @@ num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.8 num-traits 0.2.8
 num_cpus//1.10.1 num_cpus 1.10.1
 opaque-debug//0.2.3 opaque-debug 0.2.3
+openssl-src//111.6.0 openssl-src 111.6.0
+openssl-sys//0.9.52 openssl-sys 0.9.52
 owning_ref//0.4.0 owning_ref 0.4.0
 parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
@@ -57,9 +64,11 @@ pest//2.1.2 pest 2.1.2
 pest_derive//2.1.0 pest_derive 2.1.0
 pest_generator//2.1.1 pest_generator 2.1.1
 pest_meta//2.1.2 pest_meta 2.1.2
+pkg-config//0.3.16 pkg-config 0.3.16
 proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
+quote//0.3.15 quote 0.3.15
 quote//0.6.11 quote 0.6.11
 quote//0.6.13 quote 0.6.13
 quote//1.0.2 quote 1.0.2
@@ -160,6 +169,7 @@ ci_info//0.3.1 serde_derive//1.0.89 weak:feature:serde-1
 ci_info//0.3.1 serde_derive//1.0.89 weak:optional
 clicolors-control//1.0.1 lazy_static//1.4.0
 clicolors-control//1.0.1 libc//0.2.62
+cmake//0.1.42 cc//1.0.46
 console//0.7.7 atty//0.2.13
 console//0.7.7 clicolors-control//1.0.1
 console//0.7.7 lazy_static//1.4.0
@@ -201,6 +211,7 @@ failure_derive//0.1.6 syn//1.0.5
 failure_derive//0.1.6 synstructure//0.12.1
 generic-array//0.12.3 serde//1.0.101 weak:optional
 generic-array//0.12.3 typenum//1.11.2
+glob//0.2.11 tempdir//0.3.7 weak:test
 glob//0.3.0 tempdir//0.3.7 weak:test
 indexmap//1.3.0 autocfg//0.1.6
 indexmap//1.3.0 rayon//1.2.0 weak:optional
@@ -226,6 +237,14 @@ libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.50 rustc-std-workspace-core//1.0.0 weak:optional
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
 libc//0.2.62 rustc-std-workspace-core//1.0.0 weak:optional
+libnghttp2-sys//0.1.2 cc//1.0.46
+libnghttp2-sys//0.1.2 libc//0.2.62
+libz-sys//1.0.25 cc//1.0.46
+libz-sys//1.0.25 libc//0.2.62
+libz-sys//1.0.25 pkg-config//0.3.16
+lock_api//0.3.1 owning_ref//0.4.0 weak:optional
+lock_api//0.3.1 scopeguard//1.0.0 weak:optional
+lock_api//0.3.1 serde//1.0.101 weak:optional
 memchr//2.2.1 libc//0.2.62 weak:optional
 memoffset//0.5.1 rustc_version//0.2.3
 no-panic//0.1.11 proc-macro2//1.0.5
@@ -240,6 +259,13 @@ num-traits//0.1.43 num-traits//0.2.8
 num-traits//0.2.8 autocfg//0.1.6
 num_cpus//1.10.1 doc-comment//0.3.1 weak:test
 num_cpus//1.10.1 libc//0.2.62
+openssl-src//111.6.0 cc//1.0.46
+openssl-sys//0.9.52 autocfg//0.1.6
+openssl-sys//0.9.52 cc//1.0.46
+openssl-sys//0.9.52 libc//0.2.62
+openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
+openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.52 pkg-config//0.3.16
 owning_ref//0.4.0 stable_deref_trait//1.1.1
 parking_lot//0.9.0 lock_api//0.3.1
 parking_lot//0.9.0 parking_lot_core//0.6.2
@@ -263,6 +289,7 @@ pest_generator//2.1.1 syn//1.0.5
 pest_meta//2.1.2 maplit//1.0.2
 pest_meta//2.1.2 pest//2.1.2
 pest_meta//2.1.2 sha-1//0.8.1
+pkg-config//0.3.16 lazy_static//1.4.0 weak:test
 proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
