@@ -96,6 +96,7 @@ glob//0.2.11 glob 0.2.11
 glob//0.3.0 glob 0.3.0
 goblin//0.0.22 goblin 0.0.22
 goblin//0.0.24 goblin 0.0.24
+heapsize//0.3.9 heapsize 0.3.9
 heapsize//0.4.2 heapsize 0.4.2
 hex-literal-impl//0.1.2 hex-literal-impl 0.1.2
 hex-literal-impl//0.2.1 hex-literal-impl 0.2.1
@@ -112,6 +113,7 @@ insta//0.9.0 insta 0.9.0
 intervaltree//0.2.4 intervaltree 0.2.4
 iovec//0.1.4 iovec 0.1.4
 itertools//0.7.11 itertools 0.7.11
+itertools//0.8.2 itertools 0.8.2
 itoa//0.1.1 itoa 0.1.1
 itoa//0.4.4 itoa 0.4.4
 jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
@@ -136,6 +138,7 @@ lipsum//0.6.0 lipsum 0.6.0
 lock_api//0.3.1 lock_api 0.3.1
 log//0.3.9 log 0.3.9
 log//0.4.8 log 0.4.8
+mac//0.1.1 mac 0.1.1
 maplit//1.0.2 maplit 1.0.2
 matches//0.1.8 matches 0.1.8
 md5//0.6.1 md5 0.6.1
@@ -164,6 +167,7 @@ openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
 openssl-sys//0.9.53 openssl-sys 0.9.53
+openssl//0.10.26 openssl 0.10.26
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
@@ -172,6 +176,7 @@ parking_lot_core//0.6.2 parking_lot_core 0.6.2
 paste-impl//0.1.6 paste-impl 0.1.6
 paste//0.1.6 paste 0.1.6
 percent-encoding//1.0.1 percent-encoding 1.0.1
+permutohedron//0.2.4 permutohedron 0.2.4
 pest//2.1.2 pest 2.1.2
 pest_derive//2.1.0 pest_derive 2.1.0
 pest_generator//2.1.1 pest_generator 2.1.1
@@ -275,6 +280,7 @@ sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
+siphasher//0.2.3 siphasher 0.2.3
 slab//0.4.2 slab 0.4.2
 slog//2.5.2 slog 2.5.2
 smallvec//0.6.10 smallvec 0.6.10
@@ -331,6 +337,8 @@ typed-arena//1.7.0 typed-arena 1.7.0
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
 ucd-util//0.1.5 ucd-util 0.1.5
+unicase//1.4.2 unicase 1.4.2
+unicase//2.6.0 unicase 2.6.0
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
 unicode-normalization//0.1.8 unicode-normalization 0.1.8
 unicode-segmentation//1.6.0 unicode-segmentation 1.6.0
@@ -347,6 +355,7 @@ uuid//0.7.4 uuid 0.7.4
 vec_map//0.8.1 vec_map 0.8.1
 version-sync//0.6.0 version-sync 0.6.0
 version_check//0.1.5 version_check 0.1.5
+version_check//0.9.1 version_check 0.9.1
 walkdir//2.2.9 walkdir 2.2.9
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki//0.21.0 webpki 0.21.0
@@ -821,6 +830,10 @@ insta//0.9.0 uuid//0.7.4
 intervaltree//0.2.4 smallvec//0.6.10
 iovec//0.1.4 libc//0.2.65
 itertools//0.7.11 either//1.5.3
+itertools//0.8.2 either//1.5.3
+itertools//0.8.2 permutohedron//0.2.4 weak:test
+itertools//0.8.2 quickcheck//0.7.2 weak:test
+itertools//0.8.2 rand//0.6.5 weak:test
 jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
 jemalloc-ctl//0.3.3 jemallocator//0.3.2 weak:test
 jemalloc-ctl//0.3.3 libc//0.2.65
@@ -973,6 +986,14 @@ openssl-sys//0.9.53 libc//0.2.65
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.53 pkg-config//0.3.16
+openssl//0.10.26 bitflags//1.2.1
+openssl//0.10.26 cfg-if//0.1.10
+openssl//0.10.26 foreign-types//0.3.2
+openssl//0.10.26 hex//0.3.2 weak:test
+openssl//0.10.26 lazy_static//1.4.0
+openssl//0.10.26 libc//0.2.65
+openssl//0.10.26 openssl-sys//0.9.53
+openssl//0.10.26 tempdir//0.3.7 weak:test
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
@@ -1367,7 +1388,10 @@ sha-1//0.8.1 opaque-debug//0.2.3
 sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
 sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
 sha1-asm//0.4.3 cc//1.0.46
+sha1//0.6.0 openssl//0.10.26 weak:test
+sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.101 weak:optional
+sha1//0.6.0 serde_json//1.0.41 weak:test
 signal-hook-registry//1.2.0 arc-swap//0.4.4
 signal-hook-registry//1.2.0 libc//0.2.65
 signal-hook//0.1.12 futures//0.1.29 weak:feature:tokio-support
@@ -1633,6 +1657,8 @@ trybuild//1.0.17 serde_json//1.0.41
 trybuild//1.0.17 termcolor//1.0.5
 trybuild//1.0.17 toml//0.5.3
 ucd-trie//0.1.2 lazy_static//1.4.0 weak:test
+unicase//1.4.2 version_check//0.1.5
+unicase//2.6.0 version_check//0.9.1
 unicode-bidi//0.3.4 matches//0.1.8
 unicode-bidi//0.3.4 serde//1.0.101 weak:feature:with_serde
 unicode-bidi//0.3.4 serde//1.0.101 weak:optional
