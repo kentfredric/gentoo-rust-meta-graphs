@@ -21,6 +21,7 @@ base64//0.11.0 base64 0.11.0
 base64//0.9.3 base64 0.9.3
 bincode//0.8.0 bincode 0.8.0
 bincode//1.2.0 bincode 1.2.0
+bindgen//0.51.1 bindgen 0.51.1
 bit-set//0.5.1 bit-set 0.5.1
 bit-vec//0.5.1 bit-vec 0.5.1
 bitflags//0.9.1 bitflags 0.9.1
@@ -40,9 +41,11 @@ bzip2-sys//0.1.7 bzip2-sys 0.1.7
 bzip2//0.3.3 bzip2 0.3.3
 c2-chacha//0.2.3 c2-chacha 0.2.3
 cc//1.0.46 cc 1.0.46
+cexpr//0.3.6 cexpr 0.3.6
 cfg-if//0.1.10 cfg-if 0.1.10
 chrono//0.4.9 chrono 0.4.9
 ci_info//0.3.1 ci_info 0.3.1
+clang-sys//0.28.1 clang-sys 0.28.1
 clap//2.33.0 clap 2.33.0
 clicolors-control//1.0.1 clicolors-control 1.0.1
 cmake//0.1.42 cmake 0.1.42
@@ -201,6 +204,7 @@ net2//0.2.33 net2 0.2.33
 new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
 no-panic//0.1.11 no-panic 0.1.11
 nodrop//0.1.14 nodrop 0.1.14
+nom//4.2.3 nom 4.2.3
 ntest//0.3.3 ntest 0.3.3
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
@@ -226,6 +230,7 @@ parking_lot_core//0.6.2 parking_lot_core 0.6.2
 partial-io//0.2.5 partial-io 0.2.5
 paste-impl//0.1.6 paste-impl 0.1.6
 paste//0.1.6 paste 0.1.6
+peeking_take_while//0.1.2 peeking_take_while 0.1.2
 percent-encoding//1.0.1 percent-encoding 1.0.1
 permutohedron//0.2.4 permutohedron 0.2.4
 pest//2.1.2 pest 2.1.2
@@ -316,6 +321,7 @@ ring//0.16.9 ring 0.16.9
 ron//0.4.1 ron 0.4.1
 ron//0.5.1 ron 0.5.1
 rustc-demangle//0.1.16 rustc-demangle 0.1.16
+rustc-hash//1.0.1 rustc-hash 1.0.1
 rustc-serialize//0.3.24 rustc-serialize 0.3.24
 rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
 rustc-test//0.3.0 rustc-test 0.3.0
@@ -355,6 +361,7 @@ serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
 sha1-asm//0.4.3 sha1-asm 0.4.3
 sha1//0.6.0 sha1 0.6.0
+shlex//0.1.1 shlex 0.1.1
 signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
 signal-hook//0.1.12 signal-hook 0.1.12
 siphasher//0.2.3 siphasher 0.2.3
@@ -451,11 +458,14 @@ wait-timeout//0.2.0 wait-timeout 0.2.0
 walkdir//2.2.9 walkdir 2.2.9
 webpki-roots//0.17.0 webpki-roots 0.17.0
 webpki//0.21.0 webpki 0.21.0
+which//3.1.0 which 3.1.0
 winapi-build//0.1.1 winapi-build 0.1.1
 winapi//0.2.8 winapi 0.2.8
 xdg//2.2.0 xdg 2.2.0
 yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
+zstd-safe//2.0.3 zstd-safe 2.0.3
+zstd-sys//1.4.15 zstd-sys 1.4.15
 #
 addr2line//0.10.0 backtrace//0.3.38 weak:test
 addr2line//0.10.0 cpp_demangle//0.2.13 feature:default
@@ -561,6 +571,30 @@ bincode//1.2.0 byteorder//1.3.2
 bincode//1.2.0 serde//1.0.104
 bincode//1.2.0 serde_bytes//0.11.2 weak:test
 bincode//1.2.0 serde_derive//1.0.104 weak:test
+bindgen//0.51.1 bitflags//1.2.1
+bindgen//0.51.1 cexpr//0.3.6
+bindgen//0.51.1 cfg-if//0.1.10
+bindgen//0.51.1 clang-sys//0.28.1
+bindgen//0.51.1 clap//2.33.0 feature:default
+bindgen//0.51.1 clap//2.33.0 weak:optional
+bindgen//0.51.1 clap//2.33.0 weak:test
+bindgen//0.51.1 diff//0.1.11 weak:test
+bindgen//0.51.1 env_logger//0.6.2 feature:default
+bindgen//0.51.1 env_logger//0.6.2 weak:feature:logging
+bindgen//0.51.1 env_logger//0.6.2 weak:optional
+bindgen//0.51.1 lazy_static//1.4.0
+bindgen//0.51.1 log//0.4.8 feature:default
+bindgen//0.51.1 log//0.4.8 weak:feature:logging
+bindgen//0.51.1 log//0.4.8 weak:optional
+bindgen//0.51.1 peeking_take_while//0.1.2
+bindgen//0.51.1 proc-macro2//1.0.7
+bindgen//0.51.1 quote//1.0.2
+bindgen//0.51.1 regex//1.3.1
+bindgen//0.51.1 rustc-hash//1.0.1
+bindgen//0.51.1 shlex//0.1.1
+bindgen//0.51.1 which//3.1.0 feature:default
+bindgen//0.51.1 which//3.1.0 weak:feature:which-rustfmt
+bindgen//0.51.1 which//3.1.0 weak:optional
 bit-set//0.5.1 bit-vec//0.5.1
 bit-set//0.5.1 rand//0.3.23 weak:test
 bit-vec//0.5.1 rand//0.3.23 weak:test
@@ -615,6 +649,8 @@ cc//1.0.46 jobserver//0.1.17 weak:optional
 cc//1.0.46 num_cpus//1.10.1 weak:feature:parallel
 cc//1.0.46 num_cpus//1.10.1 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
+cexpr//0.3.6 clang-sys//0.28.1 weak:test
+cexpr//0.3.6 nom//4.2.3
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
@@ -632,6 +668,10 @@ ci_info//0.3.1 serde//1.0.104 weak:feature:serde-1
 ci_info//0.3.1 serde//1.0.104 weak:optional
 ci_info//0.3.1 serde_derive//1.0.104 weak:feature:serde-1
 ci_info//0.3.1 serde_derive//1.0.104 weak:optional
+clang-sys//0.28.1 glob//0.3.0
+clang-sys//0.28.1 libc//0.2.66
+clang-sys//0.28.1 libloading//0.5.2 weak:feature:runtime
+clang-sys//0.28.1 libloading//0.5.2 weak:optional
 clap//2.33.0 ansi_term//0.11.0 feature:default
 clap//2.33.0 ansi_term//0.11.0 weak:feature:color
 clap//2.33.0 ansi_term//0.11.0 weak:optional
@@ -1281,6 +1321,13 @@ net2//0.2.33 libc//0.2.66
 no-panic//0.1.11 proc-macro2//1.0.7
 no-panic//0.1.11 quote//1.0.2
 no-panic//0.1.11 syn//1.0.7
+nom//4.2.3 lazy_static//1.4.0 weak:feature:regexp_macros
+nom//4.2.3 lazy_static//1.4.0 weak:optional
+nom//4.2.3 memchr//2.2.1
+nom//4.2.3 regex//1.3.1 weak:feature:regexp
+nom//4.2.3 regex//1.3.1 weak:feature:regexp_macros
+nom//4.2.3 regex//1.3.1 weak:optional
+nom//4.2.3 version_check//0.1.5
 ntest//0.3.3 ntest_test_cases//0.3.4
 ntest//0.3.3 ntest_test_cases//0.3.4 weak:test
 ntest//0.3.3 ntest_timeout//0.3.3
@@ -1786,6 +1833,7 @@ ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.104
 ron//0.5.1 serde_bytes//0.10.4 weak:test
 ron//0.5.1 serde_json//1.0.41 weak:test
+rustc-hash//1.0.1 byteorder//1.3.2
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
 rustc-test//0.3.0 getopts//0.2.21
 rustc-test//0.3.0 libc//0.2.66
@@ -2313,7 +2361,18 @@ webpki-roots//0.17.0 webpki//0.21.0
 webpki//0.21.0 base64//0.9.3 weak:test
 webpki//0.21.0 ring//0.16.9
 webpki//0.21.0 untrusted//0.7.0
+which//3.1.0 failure//0.1.6 feature:default
+which//3.1.0 failure//0.1.6 weak:optional
+which//3.1.0 libc//0.2.66
+which//3.1.0 tempdir//0.3.7 weak:test
 yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:feature:preserve_order
 yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:optional
 yaml-rust//0.4.3 linked-hash-map//0.5.2
 yaml-rust//0.4.3 quickcheck//0.7.2 weak:test
+zstd-safe//2.0.3 libc//0.2.66
+zstd-safe//2.0.3 zstd-sys//1.4.15
+zstd-sys//1.4.15 bindgen//0.51.1
+zstd-sys//1.4.15 cc//1.0.46
+zstd-sys//1.4.15 glob//0.3.0
+zstd-sys//1.4.15 libc//0.2.66
+zstd-sys//1.4.15 pkg-config//0.3.16
