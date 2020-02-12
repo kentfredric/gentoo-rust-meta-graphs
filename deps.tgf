@@ -81,6 +81,8 @@ fixedbitset//0.1.9 fixedbitset 0.1.9
 flate2//1.0.13 flate2 1.0.13
 float-ord//0.2.0 float-ord 0.2.0
 fnv//1.0.6 fnv 1.0.6
+foreign-types-shared//0.1.1 foreign-types-shared 0.1.1
+foreign-types//0.3.2 foreign-types 0.3.2
 fs2//0.2.5 fs2 0.2.5
 fs_extra//1.1.0 fs_extra 1.1.0
 fst//0.1.38 fst 0.1.38
@@ -99,6 +101,7 @@ hex-literal-impl//0.1.2 hex-literal-impl 0.1.2
 hex-literal-impl//0.2.1 hex-literal-impl 0.2.1
 hex-literal//0.1.4 hex-literal 0.1.4
 hex-literal//0.2.1 hex-literal 0.2.1
+hex//0.3.2 hex 0.3.2
 humantime//1.3.0 humantime 1.3.0
 hyphenation//0.7.1 hyphenation 0.7.1
 hyphenation_commons//0.7.1 hyphenation_commons 0.7.1
@@ -160,6 +163,7 @@ opaque-debug//0.2.3 opaque-debug 0.2.3
 openssl-probe//0.1.2 openssl-probe 0.1.2
 openssl-src//111.6.0 openssl-src 111.6.0
 openssl-sys//0.9.52 openssl-sys 0.9.52
+openssl-sys//0.9.53 openssl-sys 0.9.53
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
@@ -184,10 +188,12 @@ proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
 pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
+quantiles//0.7.1 quantiles 0.7.1
 quick-error//1.2.2 quick-error 1.2.2
 quickcheck//0.2.24 quickcheck 0.2.24
 quickcheck//0.2.27 quickcheck 0.2.27
 quickcheck//0.4.1 quickcheck 0.4.1
+quickcheck//0.5.0 quickcheck 0.5.0
 quickcheck//0.6.2 quickcheck 0.6.2
 quickcheck//0.7.2 quickcheck 0.7.2
 quickcheck//0.8.5 quickcheck 0.8.5
@@ -252,6 +258,7 @@ sct//0.6.0 sct 0.6.0
 semver-parser//0.7.0 semver-parser 0.7.0
 semver-parser//0.9.0 semver-parser 0.9.0
 semver//0.9.0 semver 0.9.0
+serde-big-array//0.1.5 serde-big-array 0.1.5
 serde//0.8.23 serde 0.8.23
 serde//1.0.101 serde 1.0.101
 serde//1.0.89 serde 1.0.89
@@ -275,6 +282,7 @@ spin//0.4.10 spin 0.4.10
 spin//0.5.2 spin 0.5.2
 stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
 stream-cipher//0.3.2 stream-cipher 0.3.2
+streaming-stats//0.2.2 streaming-stats 0.2.2
 strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
@@ -393,6 +401,16 @@ average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
 average//0.9.4 num-integer//0.1.41
 average//0.9.4 num-traits//0.2.8
+average//0.9.4 quantiles//0.7.1 weak:test
+average//0.9.4 rand//0.6.5 weak:test
+average//0.9.4 serde-big-array//0.1.5 weak:feature:serde1
+average//0.9.4 serde-big-array//0.1.5 weak:optional
+average//0.9.4 serde//1.0.101 weak:feature:serde1
+average//0.9.4 serde//1.0.101 weak:optional
+average//0.9.4 serde_derive//1.0.89 weak:feature:serde1
+average//0.9.4 serde_derive//1.0.89 weak:optional
+average//0.9.4 serde_json//1.0.41 weak:test
+average//0.9.4 streaming-stats//0.2.2 weak:test
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.65
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
@@ -513,6 +531,7 @@ console//0.8.0 regex//1.3.1
 console//0.8.0 termios//0.3.1
 console//0.8.0 unicode-width//0.1.6
 conv//0.3.3 custom_derive//0.1.7
+conv//0.3.3 quickcheck//0.2.24 weak:test
 cpp_demangle//0.2.13 afl//0.4.4 weak:feature:fuzz
 cpp_demangle//0.2.13 afl//0.4.4 weak:optional
 cpp_demangle//0.2.13 cfg-if//0.1.10
@@ -583,10 +602,10 @@ curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:feature:http2
 curl-sys//0.4.23 libnghttp2-sys//0.1.2 weak:optional
 curl-sys//0.4.23 libz-sys//1.0.25
 curl-sys//0.4.23 mesalink//1.1.0 weak:optional
-curl-sys//0.4.23 openssl-sys//0.9.52 feature:default
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:ssl
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:feature:static-ssl
-curl-sys//0.4.23 openssl-sys//0.9.52 weak:optional
+curl-sys//0.4.23 openssl-sys//0.9.53 feature:default
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:ssl
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:feature:static-ssl
+curl-sys//0.4.23 openssl-sys//0.9.53 weak:optional
 curl-sys//0.4.23 pkg-config//0.3.16
 custom_derive//0.1.7 rustc-serialize//0.3.24 weak:test
 demo-hack-impl//0.0.4 proc-macro-hack-impl//0.4.2
@@ -661,6 +680,7 @@ flate2//1.0.13 tokio-io//0.1.11 weak:test
 flate2//1.0.13 tokio-tcp//0.1.3 weak:test
 flate2//1.0.13 tokio-threadpool//0.1.17 weak:test
 float-ord//0.2.0 rand//0.3.23 weak:test
+foreign-types//0.3.2 foreign-types-shared//0.1.1
 fs2//0.2.5 kernel32-sys//0.2.2
 fs2//0.2.5 libc//0.2.65
 fs2//0.2.5 tempdir//0.3.7 weak:test
@@ -706,9 +726,9 @@ git2//0.6.11 libgit2-sys//0.6.19
 git2//0.6.11 openssl-probe//0.1.2 feature:default
 git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
 git2//0.6.11 openssl-probe//0.1.2 weak:optional
-git2//0.6.11 openssl-sys//0.9.52 feature:default
-git2//0.6.11 openssl-sys//0.9.52 weak:feature:https
-git2//0.6.11 openssl-sys//0.9.52 weak:optional
+git2//0.6.11 openssl-sys//0.9.53 feature:default
+git2//0.6.11 openssl-sys//0.9.53 weak:feature:https
+git2//0.6.11 openssl-sys//0.9.53 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:optional
 git2//0.6.11 tempdir//0.3.7 weak:test
 git2//0.6.11 time//0.1.42 weak:test
@@ -840,15 +860,15 @@ libgit2-sys//0.6.19 libc//0.2.65
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:feature:ssh
 libgit2-sys//0.6.19 libssh2-sys//0.2.13 weak:optional
 libgit2-sys//0.6.19 libz-sys//1.0.25
-libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:feature:https
-libgit2-sys//0.6.19 openssl-sys//0.9.52 weak:optional
+libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:feature:https
+libgit2-sys//0.6.19 openssl-sys//0.9.53 weak:optional
 libgit2-sys//0.6.19 pkg-config//0.3.16
 libnghttp2-sys//0.1.2 cc//1.0.46
 libnghttp2-sys//0.1.2 libc//0.2.65
 libssh2-sys//0.2.13 cc//1.0.46
 libssh2-sys//0.2.13 libc//0.2.65
 libssh2-sys//0.2.13 libz-sys//1.0.25
-libssh2-sys//0.2.13 openssl-sys//0.9.52
+libssh2-sys//0.2.13 openssl-sys//0.9.53
 libssh2-sys//0.2.13 pkg-config//0.3.16
 libz-sys//1.0.25 cc//1.0.46
 libz-sys//1.0.25 libc//0.2.65
@@ -947,6 +967,12 @@ openssl-sys//0.9.52 libc//0.2.65
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:feature:vendored
 openssl-sys//0.9.52 openssl-src//111.6.0 weak:optional
 openssl-sys//0.9.52 pkg-config//0.3.16
+openssl-sys//0.9.53 autocfg//0.1.6
+openssl-sys//0.9.53 cc//1.0.46
+openssl-sys//0.9.53 libc//0.2.65
+openssl-sys//0.9.53 openssl-src//111.6.0 weak:feature:vendored
+openssl-sys//0.9.53 openssl-src//111.6.0 weak:optional
+openssl-sys//0.9.53 pkg-config//0.3.16
 ordermap//0.3.5 fnv//1.0.6 weak:test
 ordermap//0.3.5 itertools//0.7.11 weak:test
 ordermap//0.3.5 quickcheck//0.6.2 weak:test
@@ -1021,12 +1047,24 @@ proc-macro2//1.0.5 unicode-xid//0.2.0
 pulldown-cmark//0.1.2 bitflags//0.9.1
 pulldown-cmark//0.1.2 getopts//0.2.21 feature:default
 pulldown-cmark//0.1.2 getopts//0.2.21 weak:optional
+quantiles//0.7.1 quickcheck//0.5.0 weak:test
+quantiles//0.7.1 serde//1.0.101 weak:feature:serde_support
+quantiles//0.7.1 serde//1.0.101 weak:optional
+quantiles//0.7.1 serde_derive//1.0.89 weak:feature:serde_support
+quantiles//0.7.1 serde_derive//1.0.89 weak:optional
 quickcheck//0.2.24 log//0.3.9
 quickcheck//0.2.24 rand//0.3.23
 quickcheck//0.2.27 env_logger//0.3.5
 quickcheck//0.2.27 log//0.3.9
 quickcheck//0.2.27 rand//0.3.23
 quickcheck//0.4.1 rand//0.3.23
+quickcheck//0.5.0 env_logger//0.4.3 feature:default
+quickcheck//0.5.0 env_logger//0.4.3 weak:feature:use_logging
+quickcheck//0.5.0 env_logger//0.4.3 weak:optional
+quickcheck//0.5.0 log//0.3.9 feature:default
+quickcheck//0.5.0 log//0.3.9 weak:feature:use_logging
+quickcheck//0.5.0 log//0.3.9 weak:optional
+quickcheck//0.5.0 rand//0.3.23
 quickcheck//0.6.2 env_logger//0.5.13 feature:default
 quickcheck//0.6.2 env_logger//0.5.13 weak:feature:regex
 quickcheck//0.6.2 env_logger//0.5.13 weak:feature:use_logging
@@ -1281,6 +1319,9 @@ semver//0.9.0 serde//1.0.101 weak:optional
 semver//0.9.0 serde_derive//1.0.89 weak:test
 semver//0.9.0 serde_json//1.0.41 weak:test
 semver//0.9.0 tempdir//0.3.7 weak:test
+serde-big-array//0.1.5 serde//1.0.101
+serde-big-array//0.1.5 serde_derive//1.0.89
+serde-big-array//0.1.5 serde_json//1.0.41 weak:test
 serde//1.0.101 serde_derive//1.0.89 weak:feature:derive
 serde//1.0.101 serde_derive//1.0.89 weak:optional
 serde//1.0.101 serde_derive//1.0.89 weak:test
@@ -1343,6 +1384,7 @@ smallvec//0.6.10 serde//1.0.101 weak:optional
 stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
 stream-cipher//0.3.2 blobby//0.1.2 weak:optional
 stream-cipher//0.3.2 generic-array//0.12.3
+streaming-stats//0.2.2 num-traits//0.2.8
 sval//0.4.7 quickcheck//0.9.0 weak:test
 sval//0.4.7 serde//1.0.101 weak:feature:serde_no_std
 sval//0.4.7 serde//1.0.101 weak:feature:serde_std
