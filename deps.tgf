@@ -8,6 +8,7 @@ ansi_term//0.11.0 ansi_term 0.11.0
 anyhow//1.0.26 anyhow 1.0.26
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
+arrayvec//0.5.1 arrayvec 0.5.1
 assert_matches//1.3.0 assert_matches 1.3.0
 async-compression//0.2.0 async-compression 0.2.0
 atlatl//0.1.2 atlatl 0.1.2
@@ -254,6 +255,7 @@ openssl//0.10.26 openssl 0.10.26
 ordermap//0.3.5 ordermap 0.3.5
 owning_ref//0.4.0 owning_ref 0.4.0
 parity-wasm//0.38.0 parity-wasm 0.38.0
+parity-wasm//0.41.0 parity-wasm 0.41.0
 parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
 partial-io//0.2.5 partial-io 0.2.5
@@ -294,6 +296,7 @@ proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
 proc-macro2//1.0.5 proc-macro2 1.0.5
 proc-macro2//1.0.7 proc-macro2 1.0.7
+proc-macro2//1.0.8 proc-macro2 1.0.8
 proptest-derive//0.1.2 proptest-derive 0.1.2
 proptest//0.7.2 proptest 0.7.2
 proptest//0.8.7 proptest 0.8.7
@@ -355,6 +358,7 @@ regex//0.1.80 regex 0.1.80
 regex//0.2.11 regex 0.2.11
 regex//1.3.1 regex 1.3.1
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
+reqwest//0.10.0 reqwest 0.10.0
 ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 rle-decode-fast//1.0.1 rle-decode-fast 1.0.1
@@ -380,7 +384,9 @@ same-file//1.0.5 same-file 1.0.5
 scoped-tls//0.1.2 scoped-tls 0.1.2
 scoped-tls//1.0.0 scoped-tls 1.0.0
 scopeguard//1.0.0 scopeguard 1.0.0
+scroll//0.10.1 scroll 0.10.1
 scroll//0.9.2 scroll 0.9.2
+scroll_derive//0.10.1 scroll_derive 0.10.1
 scroll_derive//0.9.5 scroll_derive 0.9.5
 sct//0.6.0 sct 0.6.0
 seahash//3.0.6 seahash 3.0.6
@@ -428,12 +434,15 @@ sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
 syn//0.15.29 syn 0.15.29
 syn//0.15.44 syn 0.15.44
+syn//1.0.13 syn 1.0.13
+syn//1.0.14 syn 1.0.14
 syn//1.0.5 syn 1.0.5
 syn//1.0.7 syn 1.0.7
 synom//0.11.3 synom 0.11.3
 synstructure//0.12.1 synstructure 0.12.1
 synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
 take_mut//0.2.2 take_mut 0.2.2
+tar//0.4.26 tar 0.4.26
 tempdir//0.3.7 tempdir 0.3.7
 tempfile//3.1.0 tempfile 3.1.0
 tendril//0.4.1 tendril 0.4.1
@@ -527,6 +536,7 @@ webpki//0.21.0 webpki 0.21.0
 which//3.1.0 which 3.1.0
 winapi-build//0.1.1 winapi-build 0.1.1
 winapi//0.2.8 winapi 0.2.8
+xattr//0.2.2 xattr 0.2.2
 xdg//2.2.0 xdg 2.2.0
 yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
@@ -578,6 +588,9 @@ arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.104 weak:feature:serde-1
 arrayvec//0.4.12 serde//1.0.104 weak:optional
 arrayvec//0.4.12 serde_test//1.0.102 weak:test
+arrayvec//0.5.1 matches//0.1.8 weak:test
+arrayvec//0.5.1 serde//1.0.104 weak:optional
+arrayvec//0.5.1 serde_test//1.0.102 weak:test
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:all
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:all-algorithms
 async-compression//0.2.0 brotli2//0.3.2 weak:feature:brotli
@@ -692,7 +705,7 @@ bindgen//0.51.1 log//0.4.8 feature:default
 bindgen//0.51.1 log//0.4.8 weak:feature:logging
 bindgen//0.51.1 log//0.4.8 weak:optional
 bindgen//0.51.1 peeking_take_while//0.1.2
-bindgen//0.51.1 proc-macro2//1.0.7
+bindgen//0.51.1 proc-macro2//1.0.8
 bindgen//0.51.1 quote//1.0.2
 bindgen//0.51.1 regex//1.3.1
 bindgen//0.51.1 rustc-hash//1.0.1
@@ -1003,9 +1016,9 @@ failure//0.1.6 failure_derive//0.1.6 feature:default
 failure//0.1.6 failure_derive//0.1.6 weak:feature:derive
 failure//0.1.6 failure_derive//0.1.6 weak:optional
 failure_derive//0.1.6 failure//0.1.6 weak:test
-failure_derive//0.1.6 proc-macro2//1.0.7
+failure_derive//0.1.6 proc-macro2//1.0.8
 failure_derive//0.1.6 quote//1.0.2
-failure_derive//0.1.6 syn//1.0.7
+failure_derive//0.1.6 syn//1.0.14
 failure_derive//0.1.6 synstructure//0.12.1
 filetime//0.2.8 cfg-if//0.1.10
 filetime//0.2.8 libc//0.2.66
@@ -1060,17 +1073,17 @@ futures-executor//0.3.1 futures-util//0.3.1
 futures-executor//0.3.1 num_cpus//1.10.1 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.10.1 weak:optional
 futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
-futures-join-macro-preview//0.3.0.19 proc-macro2//1.0.7
+futures-join-macro-preview//0.3.0.19 proc-macro2//1.0.8
 futures-join-macro-preview//0.3.0.19 quote//1.0.2
-futures-join-macro-preview//0.3.0.19 syn//1.0.7
+futures-join-macro-preview//0.3.0.19 syn//1.0.14
 futures-macro//0.3.1 proc-macro-hack//0.5.11
-futures-macro//0.3.1 proc-macro2//1.0.7
+futures-macro//0.3.1 proc-macro2//1.0.8
 futures-macro//0.3.1 quote//1.0.2
-futures-macro//0.3.1 syn//1.0.7
+futures-macro//0.3.1 syn//1.0.14
 futures-select-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
-futures-select-macro-preview//0.3.0.19 proc-macro2//1.0.7
+futures-select-macro-preview//0.3.0.19 proc-macro2//1.0.8
 futures-select-macro-preview//0.3.0.19 quote//1.0.2
-futures-select-macro-preview//0.3.0.19 syn//1.0.7
+futures-select-macro-preview//0.3.0.19 syn//1.0.14
 futures-test//0.3.1 futures-core//0.3.1
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.1
@@ -1606,9 +1619,9 @@ native-tls//0.2.3 openssl-sys//0.9.53
 native-tls//0.2.3 openssl//0.10.26
 net2//0.2.33 cfg-if//0.1.10
 net2//0.2.33 libc//0.2.66
-no-panic//0.1.11 proc-macro2//1.0.7
+no-panic//0.1.11 proc-macro2//1.0.8
 no-panic//0.1.11 quote//1.0.2
-no-panic//0.1.11 syn//1.0.7
+no-panic//0.1.11 syn//1.0.14
 nom//4.2.3 lazy_static//1.4.0 weak:feature:regexp_macros
 nom//4.2.3 lazy_static//1.4.0 weak:optional
 nom//4.2.3 memchr//2.2.1
@@ -1622,12 +1635,12 @@ ntest//0.3.3 ntest_timeout//0.3.3
 ntest//0.3.3 ntest_timeout//0.3.3 weak:test
 ntest//0.3.3 timebomb//0.1.2
 ntest//0.3.3 timebomb//0.1.2 weak:test
-ntest_test_cases//0.3.4 proc-macro2//1.0.7
+ntest_test_cases//0.3.4 proc-macro2//1.0.8
 ntest_test_cases//0.3.4 quote//1.0.2
-ntest_test_cases//0.3.4 syn//1.0.7
-ntest_timeout//0.3.3 proc-macro2//1.0.7
+ntest_test_cases//0.3.4 syn//1.0.14
+ntest_timeout//0.3.3 proc-macro2//1.0.8
 ntest_timeout//0.3.3 quote//1.0.2
-ntest_timeout//0.3.3 syn//1.0.7
+ntest_timeout//0.3.3 syn//1.0.14
 ntest_timeout//0.3.3 timebomb//0.1.2
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.8
@@ -1711,9 +1724,9 @@ partial-io//0.3.1 tokio-core//0.1.17 weak:test
 partial-io//0.3.1 tokio-io//0.1.11 weak:feature:tokio
 partial-io//0.3.1 tokio-io//0.1.11 weak:optional
 paste-impl//0.1.6 proc-macro-hack//0.5.11
-paste-impl//0.1.6 proc-macro2//1.0.7
+paste-impl//0.1.6 proc-macro2//1.0.8
 paste-impl//0.1.6 quote//1.0.2
-paste-impl//0.1.6 syn//1.0.7
+paste-impl//0.1.6 syn//1.0.14
 paste//0.1.6 paste-impl//0.1.6
 paste//0.1.6 proc-macro-hack//0.5.11
 pest//2.1.2 serde//1.0.104 weak:feature:pretty-print
@@ -1725,9 +1738,9 @@ pest_derive//2.1.0 pest//2.1.2
 pest_derive//2.1.0 pest_generator//2.1.1
 pest_generator//2.1.1 pest//2.1.2
 pest_generator//2.1.1 pest_meta//2.1.2
-pest_generator//2.1.1 proc-macro2//1.0.7
+pest_generator//2.1.1 proc-macro2//1.0.8
 pest_generator//2.1.1 quote//1.0.2
-pest_generator//2.1.1 syn//1.0.7
+pest_generator//2.1.1 syn//1.0.14
 pest_meta//2.1.2 maplit//1.0.2
 pest_meta//2.1.2 pest//2.1.2
 pest_meta//2.1.2 sha-1//0.8.1
@@ -1763,9 +1776,9 @@ phf_shared//0.7.24 siphasher//0.2.3
 phf_shared//0.7.24 unicase//1.4.2 weak:optional
 pico-sys//0.0.1 gcc//0.3.55
 pico-sys//0.0.1 libc//0.2.66
-pin-project-internal//0.4.6 proc-macro2//1.0.7
+pin-project-internal//0.4.6 proc-macro2//1.0.8
 pin-project-internal//0.4.6 quote//1.0.2
-pin-project-internal//0.4.6 syn//1.0.7
+pin-project-internal//0.4.6 syn//1.0.14
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
@@ -1780,9 +1793,9 @@ proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
 proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
 proc-macro-hack//0.5.11 demo-hack-impl//0.0.5 weak:test
 proc-macro-hack//0.5.11 demo-hack//0.0.5 weak:test
-proc-macro-hack//0.5.11 proc-macro2//1.0.7
+proc-macro-hack//0.5.11 proc-macro2//1.0.8
 proc-macro-hack//0.5.11 quote//1.0.2
-proc-macro-hack//0.5.11 syn//1.0.7
+proc-macro-hack//0.5.11 syn//1.0.14
 proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
@@ -1790,6 +1803,8 @@ proc-macro2//1.0.5 quote//1.0.2 weak:test
 proc-macro2//1.0.5 unicode-xid//0.2.0
 proc-macro2//1.0.7 quote//1.0.2 weak:test
 proc-macro2//1.0.7 unicode-xid//0.2.0
+proc-macro2//1.0.8 quote//1.0.2 weak:test
+proc-macro2//1.0.8 unicode-xid//0.2.0
 proptest-derive//0.1.2 proc-macro2//0.4.30
 proptest-derive//0.1.2 proptest//0.9.4 weak:test
 proptest-derive//0.1.2 quote//0.6.13
@@ -1963,7 +1978,7 @@ quickcheck_macros//0.8.0 quote//0.6.13
 quickcheck_macros//0.8.0 syn//0.15.44
 quote//0.6.11 proc-macro2//0.4.30
 quote//0.6.13 proc-macro2//0.4.30
-quote//1.0.2 proc-macro2//1.0.7
+quote//1.0.2 proc-macro2//1.0.8
 quote//1.0.2 rustversion//0.1.4 weak:test
 quote//1.0.2 trybuild//1.0.17 weak:test
 rand//0.3.23 libc//0.2.66
@@ -2084,12 +2099,12 @@ rayon//1.2.0 lazy_static//1.4.0 weak:test
 rayon//1.2.0 rand//0.6.5 weak:test
 rayon//1.2.0 rand_xorshift//0.1.1 weak:test
 rayon//1.2.0 rayon-core//1.6.0
-ref-cast-impl//0.2.7 proc-macro2//1.0.7
+ref-cast-impl//0.2.7 proc-macro2//1.0.8
 ref-cast-impl//0.2.7 quote//1.0.2
-ref-cast-impl//0.2.7 syn//1.0.7
-ref-cast-impl//1.0.0 proc-macro2//1.0.7
+ref-cast-impl//0.2.7 syn//1.0.14
+ref-cast-impl//1.0.0 proc-macro2//1.0.8
 ref-cast-impl//1.0.0 quote//1.0.2
-ref-cast-impl//1.0.0 syn//1.0.7
+ref-cast-impl//1.0.0 syn//1.0.14
 ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.17 weak:test
@@ -2135,6 +2150,62 @@ regex//1.3.1 thread_local//0.3.6 weak:feature:perf
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
 regex//1.3.1 thread_local//0.3.6 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
+reqwest//0.10.0 async-compression//0.2.0 weak:feature:gzip
+reqwest//0.10.0 async-compression//0.2.0 weak:optional
+reqwest//0.10.0 base64//0.11.0
+reqwest//0.10.0 bytes//0.5.3
+reqwest//0.10.0 cookie//0.12.0 weak:feature:cookies
+reqwest//0.10.0 cookie//0.12.0 weak:optional
+reqwest//0.10.0 cookie_store//0.10.0 weak:feature:cookies
+reqwest//0.10.0 cookie_store//0.10.0 weak:optional
+reqwest//0.10.0 doc-comment//0.3.1 weak:test
+reqwest//0.10.0 encoding_rs//0.8.22
+reqwest//0.10.0 env_logger//0.6.2 weak:test
+reqwest//0.10.0 futures-core//0.3.1
+reqwest//0.10.0 futures-util//0.3.1
+reqwest//0.10.0 http-body//0.3.1
+reqwest//0.10.0 http//0.2.0
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:feature:rust-tls
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:optional
+reqwest//0.10.0 hyper-tls//0.4.1 feature:default
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:default-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:f_native-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:native-tls-vendored
+reqwest//0.10.0 hyper-tls//0.4.1 weak:optional
+reqwest//0.10.0 hyper//0.13.1
+reqwest//0.10.0 hyper//0.13.1 weak:test
+reqwest//0.10.0 lazy_static//1.4.0
+reqwest//0.10.0 libflate//0.1.27 weak:test
+reqwest//0.10.0 log//0.4.8
+reqwest//0.10.0 mime//0.3.16
+reqwest//0.10.0 mime_guess//2.0.1
+reqwest//0.10.0 native-tls//0.2.3 feature:default
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:default-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:f_native-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:native-tls-vendored
+reqwest//0.10.0 native-tls//0.2.3 weak:optional
+reqwest//0.10.0 percent-encoding//2.1.0
+reqwest//0.10.0 pin-project-lite//0.1.2
+reqwest//0.10.0 rustls//0.16.0 weak:feature:rust-tls
+reqwest//0.10.0 rustls//0.16.0 weak:optional
+reqwest//0.10.0 serde//1.0.104
+reqwest//0.10.0 serde//1.0.104 weak:test
+reqwest//0.10.0 serde_json//1.0.41 weak:feature:json
+reqwest//0.10.0 serde_json//1.0.41 weak:optional
+reqwest//0.10.0 serde_urlencoded//0.6.1
+reqwest//0.10.0 time//0.1.42
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:feature:rust-tls
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:optional
+reqwest//0.10.0 tokio-tls//0.3.0 feature:default
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:default-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:f_native-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:native-tls-vendored
+reqwest//0.10.0 tokio-tls//0.3.0 weak:optional
+reqwest//0.10.0 tokio//0.2.9
+reqwest//0.10.0 tokio//0.2.9 weak:test
+reqwest//0.10.0 url//2.1.1
+reqwest//0.10.0 webpki-roots//0.17.0 weak:feature:rust-tls
+reqwest//0.10.0 webpki-roots//0.17.0 weak:optional
 ring//0.14.6 cc//1.0.46
 ring//0.14.6 lazy_static//1.4.0
 ring//0.14.6 libc//0.2.66
@@ -2185,12 +2256,12 @@ rustls//0.16.0 sct//0.6.0
 rustls//0.16.0 tempfile//3.1.0 weak:test
 rustls//0.16.0 webpki-roots//0.17.0 weak:test
 rustls//0.16.0 webpki//0.21.0
-rustversion//0.1.4 proc-macro2//1.0.7
+rustversion//0.1.4 proc-macro2//1.0.8
 rustversion//0.1.4 quote//1.0.2
-rustversion//0.1.4 syn//1.0.7
-rustversion//1.0.1 proc-macro2//1.0.7
+rustversion//0.1.4 syn//1.0.14
+rustversion//1.0.1 proc-macro2//1.0.8
 rustversion//1.0.1 quote//1.0.2
-rustversion//1.0.1 syn//1.0.7
+rustversion//1.0.1 syn//1.0.14
 rusty-fork//0.2.2 fnv//1.0.6
 rusty-fork//0.2.2 quick-error//1.2.2
 rusty-fork//0.2.2 tempfile//3.1.0
@@ -2201,9 +2272,15 @@ ryu//1.0.1 no-panic//0.1.11 weak:optional
 ryu//1.0.1 num_cpus//1.10.1 weak:test
 ryu//1.0.1 rand//0.5.6 weak:test
 same-file//0.1.3 rand//0.3.23 weak:test
+scroll//0.10.1 rustc_version//0.2.3
+scroll//0.10.1 scroll_derive//0.10.1 weak:feature:derive
+scroll//0.10.1 scroll_derive//0.10.1 weak:optional
 scroll//0.9.2 rustc_version//0.2.3
 scroll//0.9.2 scroll_derive//0.9.5 weak:feature:derive
 scroll//0.9.2 scroll_derive//0.9.5 weak:optional
+scroll_derive//0.10.1 proc-macro2//1.0.8
+scroll_derive//0.10.1 quote//1.0.2
+scroll_derive//0.10.1 syn//1.0.14
 scroll_derive//0.9.5 proc-macro2//0.4.30
 scroll_derive//0.9.5 quote//0.6.13
 scroll_derive//0.9.5 scroll//0.9.2 weak:test
@@ -2242,10 +2319,10 @@ serde_cbor//0.9.0 half//1.4.0
 serde_cbor//0.9.0 serde//1.0.104
 serde_cbor//0.9.0 serde_bytes//0.10.4 weak:test
 serde_cbor//0.9.0 serde_derive//1.0.104 weak:test
-serde_derive//1.0.104 proc-macro2//1.0.7
+serde_derive//1.0.104 proc-macro2//1.0.8
 serde_derive//1.0.104 quote//1.0.2
 serde_derive//1.0.104 serde//1.0.104 weak:test
-serde_derive//1.0.104 syn//1.0.7
+serde_derive//1.0.104 syn//1.0.14
 serde_derive//1.0.89 proc-macro2//0.4.30
 serde_derive//1.0.89 quote//0.6.13
 serde_derive//1.0.89 serde//1.0.104 weak:test
@@ -2323,7 +2400,7 @@ string_cache//0.7.5 string_cache_codegen//0.4.4 weak:test
 string_cache//0.7.5 string_cache_shared//0.3.0
 string_cache_codegen//0.4.4 phf_generator//0.7.24
 string_cache_codegen//0.4.4 phf_shared//0.7.24
-string_cache_codegen//0.4.4 proc-macro2//1.0.7
+string_cache_codegen//0.4.4 proc-macro2//1.0.8
 string_cache_codegen//0.4.4 quote//1.0.2
 string_cache_codegen//0.4.4 string_cache_shared//0.3.0
 sval//0.4.7 quickcheck//0.9.0 weak:test
@@ -2334,9 +2411,9 @@ sval//0.4.7 smallvec//0.6.10 weak:feature:arbitrary-depth
 sval//0.4.7 smallvec//0.6.10 weak:optional
 sval//0.4.7 sval_derive//0.4.7 weak:feature:derive
 sval//0.4.7 sval_derive//0.4.7 weak:optional
-sval_derive//0.4.7 proc-macro2//1.0.7
+sval_derive//0.4.7 proc-macro2//1.0.8
 sval_derive//0.4.7 quote//1.0.2
-sval_derive//0.4.7 syn//1.0.7
+sval_derive//0.4.7 syn//1.0.14
 syn//0.11.11 quote//0.3.15 feature:default
 syn//0.11.11 quote//0.3.15 weak:feature:printing
 syn//0.11.11 quote//0.3.15 weak:optional
@@ -2361,8 +2438,40 @@ syn//0.15.44 ref-cast//0.2.7 weak:test
 syn//0.15.44 termcolor//1.0.5 weak:test
 syn//0.15.44 unicode-xid//0.1.0
 syn//0.15.44 walkdir//2.2.9 weak:test
+syn//1.0.13 anyhow//1.0.26 weak:test
+syn//1.0.13 flate2//1.0.13 weak:test
+syn//1.0.13 insta//0.12.0 weak:test
+syn//1.0.13 proc-macro2//1.0.8
+syn//1.0.13 quote//1.0.2 feature:default
+syn//1.0.13 quote//1.0.2 weak:feature:printing
+syn//1.0.13 quote//1.0.2 weak:feature:proc-macro
+syn//1.0.13 quote//1.0.2 weak:optional
+syn//1.0.13 rayon//1.2.0 weak:test
+syn//1.0.13 ref-cast//1.0.0 weak:test
+syn//1.0.13 regex//1.3.1 weak:test
+syn//1.0.13 reqwest//0.10.0 weak:test
+syn//1.0.13 tar//0.4.26 weak:test
+syn//1.0.13 termcolor//1.0.5 weak:test
+syn//1.0.13 unicode-xid//0.2.0
+syn//1.0.13 walkdir//2.2.9 weak:test
+syn//1.0.14 anyhow//1.0.26 weak:test
+syn//1.0.14 flate2//1.0.13 weak:test
+syn//1.0.14 insta//0.12.0 weak:test
+syn//1.0.14 proc-macro2//1.0.8
+syn//1.0.14 quote//1.0.2 feature:default
+syn//1.0.14 quote//1.0.2 weak:feature:printing
+syn//1.0.14 quote//1.0.2 weak:feature:proc-macro
+syn//1.0.14 quote//1.0.2 weak:optional
+syn//1.0.14 rayon//1.2.0 weak:test
+syn//1.0.14 ref-cast//1.0.0 weak:test
+syn//1.0.14 regex//1.3.1 weak:test
+syn//1.0.14 reqwest//0.10.0 weak:test
+syn//1.0.14 tar//0.4.26 weak:test
+syn//1.0.14 termcolor//1.0.5 weak:test
+syn//1.0.14 unicode-xid//0.2.0
+syn//1.0.14 walkdir//2.2.9 weak:test
 syn//1.0.5 insta//0.9.0 weak:test
-syn//1.0.5 proc-macro2//1.0.7
+syn//1.0.5 proc-macro2//1.0.8
 syn//1.0.5 quote//1.0.2 feature:default
 syn//1.0.5 quote//1.0.2 weak:feature:printing
 syn//1.0.5 quote//1.0.2 weak:feature:proc-macro
@@ -2374,7 +2483,7 @@ syn//1.0.5 termcolor//1.0.5 weak:test
 syn//1.0.5 unicode-xid//0.2.0
 syn//1.0.5 walkdir//2.2.9 weak:test
 syn//1.0.7 insta//0.11.0 weak:test
-syn//1.0.7 proc-macro2//1.0.7
+syn//1.0.7 proc-macro2//1.0.8
 syn//1.0.7 quote//1.0.2 feature:default
 syn//1.0.7 quote//1.0.2 weak:feature:printing
 syn//1.0.7 quote//1.0.2 weak:feature:proc-macro
@@ -2387,11 +2496,16 @@ syn//1.0.7 unicode-xid//0.2.0
 syn//1.0.7 walkdir//2.2.9 weak:test
 synom//0.11.3 syn//0.11.11 weak:test
 synom//0.11.3 unicode-xid//0.0.4
-synstructure//0.12.1 proc-macro2//1.0.7
+synstructure//0.12.1 proc-macro2//1.0.8
 synstructure//0.12.1 quote//1.0.2
-synstructure//0.12.1 syn//1.0.7
+synstructure//0.12.1 syn//1.0.14
 synstructure//0.12.1 synstructure_test_traits//0.1.0 weak:test
 synstructure//0.12.1 unicode-xid//0.2.0
+tar//0.4.26 filetime//0.2.8
+tar//0.4.26 libc//0.2.66
+tar//0.4.26 tempdir//0.3.7 weak:test
+tar//0.4.26 xattr//0.2.2 feature:default
+tar//0.4.26 xattr//0.2.2 weak:optional
 tempdir//0.3.7 rand//0.4.6
 tempdir//0.3.7 remove_dir_all//0.5.2
 tempfile//3.1.0 cfg-if//0.1.10
@@ -2417,9 +2531,9 @@ textwrap//0.11.0 hyphenation//0.7.1 weak:optional
 textwrap//0.11.0 term_size//0.3.1 weak:optional
 textwrap//0.11.0 unicode-width//0.1.6
 textwrap//0.11.0 version-sync//0.6.0 weak:test
-thiserror-impl//1.0.6 proc-macro2//1.0.7
+thiserror-impl//1.0.6 proc-macro2//1.0.8
 thiserror-impl//1.0.6 quote//1.0.2
-thiserror-impl//1.0.6 syn//1.0.7
+thiserror-impl//1.0.6 syn//1.0.14
 thiserror//1.0.6 anyhow//1.0.26 weak:test
 thiserror//1.0.6 ref-cast//1.0.0 weak:test
 thiserror//1.0.6 rustversion//1.0.1 weak:test
@@ -2490,7 +2604,7 @@ tokio-io//0.1.11 futures//0.1.29
 tokio-io//0.1.11 log//0.4.8
 tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
 tokio-macros//0.2.3 quote//1.0.2
-tokio-macros//0.2.3 syn//1.0.7
+tokio-macros//0.2.3 syn//1.0.14
 tokio-macros//0.2.3 tokio//0.2.9 weak:test
 tokio-mock-task//0.1.1 futures//0.1.29
 tokio-process//0.2.4 crossbeam-queue//0.1.2
@@ -2740,7 +2854,7 @@ toml//0.5.3 serde_derive//1.0.104 weak:test
 toml//0.5.3 serde_json//1.0.41 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
 tracing-attributes//0.1.6 quote//1.0.2
-tracing-attributes//0.1.6 syn//1.0.7
+tracing-attributes//0.1.6 syn//1.0.14
 tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
 tracing-attributes//0.1.6 tracing//0.1.12 weak:test
 tracing-core//0.1.7 lazy_static//1.4.0
@@ -2864,6 +2978,8 @@ which//3.1.0 failure//0.1.6 feature:default
 which//3.1.0 failure//0.1.6 weak:optional
 which//3.1.0 libc//0.2.66
 which//3.1.0 tempdir//0.3.7 weak:test
+xattr//0.2.2 libc//0.2.66
+xattr//0.2.2 tempfile//3.1.0 weak:test
 yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:feature:preserve_order
 yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:optional
 yaml-rust//0.4.3 linked-hash-map//0.5.2
