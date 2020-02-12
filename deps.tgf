@@ -9,6 +9,7 @@ anyhow//1.0.26 anyhow 1.0.26
 arc-swap//0.4.4 arc-swap 0.4.4
 arrayvec//0.4.12 arrayvec 0.4.12
 assert_matches//1.3.0 assert_matches 1.3.0
+async-compression//0.2.0 async-compression 0.2.0
 atlatl//0.1.2 atlatl 0.1.2
 atom//0.3.5 atom 0.3.5
 atty//0.2.13 atty 0.2.13
@@ -54,6 +55,7 @@ console//0.7.7 console 0.7.7
 console//0.8.0 console 0.8.0
 console//0.9.1 console 0.9.1
 conv//0.3.3 conv 0.3.3
+cookie//0.12.0 cookie 0.12.0
 cpp_demangle//0.2.13 cpp_demangle 0.2.13
 crates-index//0.5.1 crates-index 0.5.1
 crc32fast//1.2.0 crc32fast 1.2.0
@@ -95,6 +97,7 @@ env_logger//0.4.3 env_logger 0.4.3
 env_logger//0.5.13 env_logger 0.5.13
 env_logger//0.6.2 env_logger 0.6.2
 erased-serde//0.3.9 erased-serde 0.3.9
+error-chain//0.12.1 error-chain 0.12.1
 failure//0.1.6 failure 0.1.6
 failure_derive//0.1.6 failure_derive 0.1.6
 fake-simd//0.1.2 fake-simd 0.1.2
@@ -141,10 +144,12 @@ hex-literal//0.1.4 hex-literal 0.1.4
 hex-literal//0.2.1 hex-literal 0.2.1
 hex//0.3.2 hex 0.3.2
 html5ever//0.22.5 html5ever 0.22.5
+humansize//1.1.0 humansize 1.1.0
 humantime//1.3.0 humantime 1.3.0
 hyphenation//0.7.1 hyphenation 0.7.1
 hyphenation_commons//0.7.1 hyphenation_commons 0.7.1
 idna//0.1.5 idna 0.1.5
+idna//0.2.0 idna 0.2.0
 indexmap//1.3.0 indexmap 1.3.0
 insta//0.11.0 insta 0.11.0
 insta//0.12.0 insta 0.12.0
@@ -228,6 +233,7 @@ parity-wasm//0.38.0 parity-wasm 0.38.0
 parking_lot//0.9.0 parking_lot 0.9.0
 parking_lot_core//0.6.2 parking_lot_core 0.6.2
 partial-io//0.2.5 partial-io 0.2.5
+partial-io//0.3.1 partial-io 0.3.1
 paste-impl//0.1.6 paste-impl 0.1.6
 paste//0.1.6 paste 0.1.6
 peeking_take_while//0.1.2 peeking_take_while 0.1.2
@@ -250,6 +256,7 @@ plain//0.2.3 plain 0.2.3
 pocket-resources//0.3.2 pocket-resources 0.3.2
 ppv-lite86//0.2.6 ppv-lite86 0.2.6
 precomputed-hash//0.1.1 precomputed-hash 0.1.1
+pretty_assertions//0.6.1 pretty_assertions 0.6.1
 proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
 proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
@@ -317,6 +324,7 @@ regex//0.1.80 regex 0.1.80
 regex//0.2.11 regex 0.2.11
 regex//1.3.1 regex 1.3.1
 remove_dir_all//0.5.2 remove_dir_all 0.5.2
+ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 ron//0.4.1 ron 0.4.1
 ron//0.5.1 ron 0.5.1
@@ -442,6 +450,7 @@ unicode-xid//0.0.4 unicode-xid 0.0.4
 unicode-xid//0.1.0 unicode-xid 0.1.0
 unicode-xid//0.2.0 unicode-xid 0.2.0
 unindent//0.1.5 unindent 0.1.5
+untrusted//0.6.2 untrusted 0.6.2
 untrusted//0.7.0 untrusted 0.7.0
 url//1.7.2 url 1.7.2
 utf-8//0.7.5 utf-8 0.7.5
@@ -466,6 +475,7 @@ yaml-rust//0.3.5 yaml-rust 0.3.5
 yaml-rust//0.4.3 yaml-rust 0.4.3
 zstd-safe//2.0.3 zstd-safe 2.0.3
 zstd-sys//1.4.15 zstd-sys 1.4.15
+zstd//0.5.1 zstd 0.5.1
 #
 addr2line//0.10.0 backtrace//0.3.38 weak:test
 addr2line//0.10.0 cpp_demangle//0.2.13 feature:default
@@ -511,6 +521,44 @@ arrayvec//0.4.12 nodrop//0.1.14
 arrayvec//0.4.12 serde//1.0.104 weak:feature:serde-1
 arrayvec//0.4.12 serde//1.0.104 weak:optional
 arrayvec//0.4.12 serde_test//1.0.102 weak:test
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:all
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:all-algorithms
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:brotli
+async-compression//0.2.0 brotli2//0.3.2 weak:optional
+async-compression//0.2.0 bytes//0.5.3 weak:feature:all
+async-compression//0.2.0 bytes//0.5.3 weak:feature:all-implementations
+async-compression//0.2.0 bytes//0.5.3 weak:feature:stream
+async-compression//0.2.0 bytes//0.5.3 weak:optional
+async-compression//0.2.0 bzip2//0.3.3 weak:feature:all
+async-compression//0.2.0 bzip2//0.3.3 weak:feature:all-algorithms
+async-compression//0.2.0 bzip2//0.3.3 weak:optional
+async-compression//0.2.0 flate2//1.0.13 weak:feature:all
+async-compression//0.2.0 flate2//1.0.13 weak:feature:all-algorithms
+async-compression//0.2.0 flate2//1.0.13 weak:feature:deflate
+async-compression//0.2.0 flate2//1.0.13 weak:feature:gzip
+async-compression//0.2.0 flate2//1.0.13 weak:feature:zlib
+async-compression//0.2.0 flate2//1.0.13 weak:optional
+async-compression//0.2.0 futures-core//0.3.1
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:all
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:all-implementations
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-bufread
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-write
+async-compression//0.2.0 futures-io//0.3.1 weak:optional
+async-compression//0.2.0 futures-test//0.3.1 weak:test
+async-compression//0.2.0 futures//0.3.1 weak:test
+async-compression//0.2.0 memchr//2.2.1
+async-compression//0.2.0 ntest//0.3.3 weak:test
+async-compression//0.2.0 pin-project-lite//0.1.2
+async-compression//0.2.0 proptest-derive//0.1.2 weak:test
+async-compression//0.2.0 proptest//0.9.4 weak:test
+async-compression//0.2.0 rand//0.7.2 weak:test
+async-compression//0.2.0 timebomb//0.1.2 weak:test
+async-compression//0.2.0 zstd-safe//2.0.3 weak:feature:f_zstd
+async-compression//0.2.0 zstd-safe//2.0.3 weak:optional
+async-compression//0.2.0 zstd//0.5.1 weak:feature:all
+async-compression//0.2.0 zstd//0.5.1 weak:feature:all-algorithms
+async-compression//0.2.0 zstd//0.5.1 weak:feature:f_zstd
+async-compression//0.2.0 zstd//0.5.1 weak:optional
 atlatl//0.1.2 fnv//1.0.6
 atlatl//0.1.2 fst//0.1.38 weak:test
 atlatl//0.1.2 lazy_static//1.4.0 weak:test
@@ -731,6 +779,13 @@ console//0.9.1 unicode-width//0.1.6 feature:default
 console//0.9.1 unicode-width//0.1.6 weak:optional
 conv//0.3.3 custom_derive//0.1.7
 conv//0.3.3 quickcheck//0.2.24 weak:test
+cookie//0.12.0 base64//0.10.1 weak:feature:secure
+cookie//0.12.0 base64//0.10.1 weak:optional
+cookie//0.12.0 ring//0.14.6 weak:feature:secure
+cookie//0.12.0 ring//0.14.6 weak:optional
+cookie//0.12.0 time//0.1.42
+cookie//0.12.0 url//1.7.2 weak:feature:percent-encode
+cookie//0.12.0 url//1.7.2 weak:optional
 cpp_demangle//0.2.13 afl//0.4.4 weak:feature:fuzz
 cpp_demangle//0.2.13 afl//0.4.4 weak:optional
 cpp_demangle//0.2.13 cfg-if//0.1.10
@@ -864,6 +919,9 @@ erased-serde//0.3.9 serde//1.0.104
 erased-serde//0.3.9 serde_cbor//0.9.0 weak:test
 erased-serde//0.3.9 serde_derive//1.0.104 weak:test
 erased-serde//0.3.9 serde_json//1.0.41 weak:test
+error-chain//0.12.1 backtrace//0.3.38 feature:default
+error-chain//0.12.1 backtrace//0.3.38 weak:optional
+error-chain//0.12.1 version_check//0.1.5
 failure//0.1.6 backtrace//0.3.38 feature:default
 failure//0.1.6 backtrace//0.3.38 weak:feature:std
 failure//0.1.6 backtrace//0.3.38 weak:optional
@@ -1093,6 +1151,11 @@ idna//0.1.5 rustc-serialize//0.3.24 weak:test
 idna//0.1.5 rustc-test//0.3.0 weak:test
 idna//0.1.5 unicode-bidi//0.3.4
 idna//0.1.5 unicode-normalization//0.1.8
+idna//0.2.0 matches//0.1.8
+idna//0.2.0 rustc-test//0.3.0 weak:test
+idna//0.2.0 serde_json//1.0.41 weak:test
+idna//0.2.0 unicode-bidi//0.3.4
+idna//0.2.0 unicode-normalization//0.1.8
 indexmap//1.3.0 autocfg//0.1.6
 indexmap//1.3.0 fnv//1.0.6 weak:test
 indexmap//1.3.0 itertools//0.8.2 weak:test
@@ -1414,6 +1477,14 @@ partial-io//0.2.5 quickcheck//0.4.1 weak:test
 partial-io//0.2.5 tokio-core//0.1.17 weak:test
 partial-io//0.2.5 tokio-io//0.1.11 weak:feature:tokio
 partial-io//0.2.5 tokio-io//0.1.11 weak:optional
+partial-io//0.3.1 futures//0.1.29 weak:feature:tokio
+partial-io//0.3.1 futures//0.1.29 weak:optional
+partial-io//0.3.1 lazy_static//1.4.0 weak:test
+partial-io//0.3.1 quickcheck//0.6.2 weak:optional
+partial-io//0.3.1 quickcheck//0.6.2 weak:test
+partial-io//0.3.1 tokio-core//0.1.17 weak:test
+partial-io//0.3.1 tokio-io//0.1.11 weak:feature:tokio
+partial-io//0.3.1 tokio-io//0.1.11 weak:optional
 paste-impl//0.1.6 proc-macro-hack//0.5.11
 paste-impl//0.1.6 proc-macro2//1.0.7
 paste-impl//0.1.6 quote//1.0.2
@@ -1468,6 +1539,8 @@ phf_shared//0.7.24 unicase//1.4.2 weak:optional
 pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.17 weak:test
 pkg-config//0.3.16 lazy_static//1.4.0 weak:test
+pretty_assertions//0.6.1 ansi_term//0.11.0
+pretty_assertions//0.6.1 difference//2.0.0
 proc-macro-hack//0.4.2 demo-hack-impl//0.0.4 weak:test
 proc-macro-hack//0.4.2 demo-hack//0.0.4 weak:test
 proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
@@ -1818,6 +1891,11 @@ regex//1.3.1 thread_local//0.3.6 weak:feature:perf
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
 regex//1.3.1 thread_local//0.3.6 weak:optional
 remove_dir_all//0.5.2 doc-comment//0.3.1 weak:test
+ring//0.14.6 cc//1.0.46
+ring//0.14.6 lazy_static//1.4.0
+ring//0.14.6 libc//0.2.66
+ring//0.14.6 spin//0.5.2
+ring//0.14.6 untrusted//0.6.2
 ring//0.16.9 cc//1.0.46
 ring//0.16.9 lazy_static//1.4.0
 ring//0.16.9 libc//0.2.66
@@ -2376,3 +2454,13 @@ zstd-sys//1.4.15 cc//1.0.46
 zstd-sys//1.4.15 glob//0.3.0
 zstd-sys//1.4.15 libc//0.2.66
 zstd-sys//1.4.15 pkg-config//0.3.16
+zstd//0.5.1 clap//2.33.0 weak:test
+zstd//0.5.1 futures//0.1.29 weak:feature:tokio
+zstd//0.5.1 futures//0.1.29 weak:optional
+zstd//0.5.1 humansize//1.1.0 weak:test
+zstd//0.5.1 partial-io//0.3.1 weak:test
+zstd//0.5.1 quickcheck//0.6.2 weak:test
+zstd//0.5.1 tokio-io//0.1.11 weak:feature:tokio
+zstd//0.5.1 tokio-io//0.1.11 weak:optional
+zstd//0.5.1 walkdir//2.2.9 weak:test
+zstd//0.5.1 zstd-safe//2.0.3
