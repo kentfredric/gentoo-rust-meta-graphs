@@ -19,17 +19,23 @@ atom//0.3.5 atom 0.3.5
 atty//0.2.13 atty 0.2.13
 atty//0.2.14 atty 0.2.14
 autocfg//0.1.6 autocfg 0.1.6
+average//0.10.3 average 0.10.3
 average//0.9.4 average 0.9.4
 backtrace-sys//0.1.31 backtrace-sys 0.1.31
+backtrace-sys//0.1.32 backtrace-sys 0.1.32
 backtrace//0.3.38 backtrace 0.3.38
+backtrace//0.3.42 backtrace 0.3.42
 base64//0.10.1 base64 0.10.1
 base64//0.11.0 base64 0.11.0
 base64//0.9.3 base64 0.9.3
 bincode//0.8.0 bincode 0.8.0
 bincode//1.2.0 bincode 1.2.0
+bincode//1.2.1 bincode 1.2.1
 bindgen//0.51.1 bindgen 0.51.1
+bindgen//0.52.0 bindgen 0.52.0
 bit-set//0.5.1 bit-set 0.5.1
 bit-vec//0.5.1 bit-vec 0.5.1
+bit-vec//0.6.1 bit-vec 0.6.1
 bitflags//0.9.1 bitflags 0.9.1
 bitflags//1.2.1 bitflags 1.2.1
 blobby//0.1.2 blobby 0.1.2
@@ -104,6 +110,7 @@ env_logger//0.3.5 env_logger 0.3.5
 env_logger//0.4.3 env_logger 0.4.3
 env_logger//0.5.13 env_logger 0.5.13
 env_logger//0.6.2 env_logger 0.6.2
+env_logger//0.7.1 env_logger 0.7.1
 erased-serde//0.3.9 erased-serde 0.3.9
 error-chain//0.12.1 error-chain 0.12.1
 failure//0.1.6 failure 0.1.6
@@ -338,6 +345,7 @@ rand_core//0.2.2 rand_core 0.2.2
 rand_core//0.3.1 rand_core 0.3.1
 rand_core//0.4.2 rand_core 0.4.2
 rand_core//0.5.1 rand_core 0.5.1
+rand_distr//0.2.2 rand_distr 0.2.2
 rand_hc//0.1.0 rand_hc 0.1.0
 rand_hc//0.2.0 rand_hc 0.2.0
 rand_isaac//0.1.1 rand_isaac 0.1.1
@@ -349,6 +357,7 @@ rand_pcg//0.2.1 rand_pcg 0.2.1
 rand_xorshift//0.1.1 rand_xorshift 0.1.1
 rand_xorshift//0.2.0 rand_xorshift 0.2.0
 rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
+rand_xoshiro//0.3.1 rand_xoshiro 0.3.1
 rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
 rayon-core//1.6.0 rayon-core 1.6.0
 rayon//0.8.2 rayon 0.8.2
@@ -553,7 +562,7 @@ zstd-safe//2.0.3 zstd-safe 2.0.3
 zstd-sys//1.4.15 zstd-sys 1.4.15
 zstd//0.5.1 zstd 0.5.1
 #
-addr2line//0.10.0 backtrace//0.3.38 weak:test
+addr2line//0.10.0 backtrace//0.3.42 weak:test
 addr2line//0.10.0 cpp_demangle//0.2.13 feature:default
 addr2line//0.10.0 cpp_demangle//0.2.13 weak:optional
 addr2line//0.10.0 fallible-iterator//0.2.0
@@ -568,7 +577,7 @@ addr2line//0.10.0 object//0.12.0 weak:optional
 addr2line//0.10.0 rustc-demangle//0.1.16 feature:default
 addr2line//0.10.0 rustc-demangle//0.1.16 weak:optional
 addr2line//0.10.0 smallvec//0.6.10
-addr2line//0.11.0 backtrace//0.3.38 weak:test
+addr2line//0.11.0 backtrace//0.3.42 weak:test
 addr2line//0.11.0 clap//2.33.0 weak:test
 addr2line//0.11.0 cpp_demangle//0.2.13 feature:default
 addr2line//0.11.0 cpp_demangle//0.2.13 weak:optional
@@ -674,6 +683,22 @@ atlatl//0.1.2 rand//0.5.6 weak:test
 atlatl//0.1.2 serde//1.0.104 weak:optional
 atty//0.2.13 libc//0.2.66
 atty//0.2.14 libc//0.2.66
+average//0.10.3 conv//0.3.3
+average//0.10.3 float-ord//0.2.0
+average//0.10.3 num-traits//0.2.8
+average//0.10.3 proptest//0.9.4 weak:test
+average//0.10.3 quantiles//0.7.1 weak:test
+average//0.10.3 rand//0.7.2 weak:test
+average//0.10.3 rand_distr//0.2.2 weak:test
+average//0.10.3 rand_xoshiro//0.3.1 weak:test
+average//0.10.3 serde-big-array//0.1.5 weak:feature:serde1
+average//0.10.3 serde-big-array//0.1.5 weak:optional
+average//0.10.3 serde//1.0.104 weak:feature:serde1
+average//0.10.3 serde//1.0.104 weak:optional
+average//0.10.3 serde_derive//1.0.104 weak:feature:serde1
+average//0.10.3 serde_derive//1.0.104 weak:optional
+average//0.10.3 serde_json//1.0.41 weak:test
+average//0.10.3 streaming-stats//0.2.2 weak:test
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
 average//0.9.4 num-integer//0.1.41
@@ -690,11 +715,13 @@ average//0.9.4 serde_json//1.0.41 weak:test
 average//0.9.4 streaming-stats//0.2.2 weak:test
 backtrace-sys//0.1.31 cc//1.0.46
 backtrace-sys//0.1.31 libc//0.2.66
+backtrace-sys//0.1.32 cc//1.0.46
+backtrace-sys//0.1.32 libc//0.2.66
 backtrace//0.3.38 addr2line//0.10.0 weak:feature:gimli-symbolize
 backtrace//0.3.38 addr2line//0.10.0 weak:optional
-backtrace//0.3.38 backtrace-sys//0.1.31 feature:default
-backtrace//0.3.38 backtrace-sys//0.1.31 weak:feature:libbacktrace
-backtrace//0.3.38 backtrace-sys//0.1.31 weak:optional
+backtrace//0.3.38 backtrace-sys//0.1.32 feature:default
+backtrace//0.3.38 backtrace-sys//0.1.32 weak:feature:libbacktrace
+backtrace//0.3.38 backtrace-sys//0.1.32 weak:optional
 backtrace//0.3.38 cfg-if//0.1.10
 backtrace//0.3.38 cpp_demangle//0.2.13 weak:optional
 backtrace//0.3.38 findshlibs//0.5.0 weak:feature:gimli-symbolize
@@ -709,6 +736,25 @@ backtrace//0.3.38 rustc-serialize//0.3.24 weak:feature:serialize-rustc
 backtrace//0.3.38 rustc-serialize//0.3.24 weak:optional
 backtrace//0.3.38 serde//1.0.104 weak:feature:serialize-serde
 backtrace//0.3.38 serde//1.0.104 weak:optional
+backtrace//0.3.42 addr2line//0.11.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 addr2line//0.11.0 weak:optional
+backtrace//0.3.42 backtrace-sys//0.1.32 feature:default
+backtrace//0.3.42 backtrace-sys//0.1.32 weak:feature:libbacktrace
+backtrace//0.3.42 backtrace-sys//0.1.32 weak:optional
+backtrace//0.3.42 cfg-if//0.1.10
+backtrace//0.3.42 cpp_demangle//0.2.13 weak:optional
+backtrace//0.3.42 findshlibs//0.5.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 findshlibs//0.5.0 weak:optional
+backtrace//0.3.42 goblin//0.0.24 weak:feature:gimli-symbolize
+backtrace//0.3.42 goblin//0.0.24 weak:optional
+backtrace//0.3.42 libc//0.2.66
+backtrace//0.3.42 memmap//0.7.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 memmap//0.7.0 weak:optional
+backtrace//0.3.42 rustc-demangle//0.1.16
+backtrace//0.3.42 rustc-serialize//0.3.24 weak:feature:serialize-rustc
+backtrace//0.3.42 rustc-serialize//0.3.24 weak:optional
+backtrace//0.3.42 serde//1.0.104 weak:feature:serialize-serde
+backtrace//0.3.42 serde//1.0.104 weak:optional
 base64//0.10.1 byteorder//1.3.2
 base64//0.10.1 rand//0.6.5 weak:test
 base64//0.11.0 doc-comment//0.3.1 weak:test
@@ -726,6 +772,10 @@ bincode//1.2.0 byteorder//1.3.2
 bincode//1.2.0 serde//1.0.104
 bincode//1.2.0 serde_bytes//0.11.2 weak:test
 bincode//1.2.0 serde_derive//1.0.104 weak:test
+bincode//1.2.1 byteorder//1.3.2
+bincode//1.2.1 serde//1.0.104
+bincode//1.2.1 serde_bytes//0.11.2 weak:test
+bincode//1.2.1 serde_derive//1.0.104 weak:test
 bindgen//0.51.1 bitflags//1.2.1
 bindgen//0.51.1 cexpr//0.3.6
 bindgen//0.51.1 cfg-if//0.1.10
@@ -750,9 +800,38 @@ bindgen//0.51.1 shlex//0.1.1
 bindgen//0.51.1 which//3.1.0 feature:default
 bindgen//0.51.1 which//3.1.0 weak:feature:which-rustfmt
 bindgen//0.51.1 which//3.1.0 weak:optional
+bindgen//0.52.0 bitflags//1.2.1
+bindgen//0.52.0 cexpr//0.3.6
+bindgen//0.52.0 cfg-if//0.1.10
+bindgen//0.52.0 clang-sys//0.28.1
+bindgen//0.52.0 clap//2.33.0 feature:default
+bindgen//0.52.0 clap//2.33.0 weak:optional
+bindgen//0.52.0 clap//2.33.0 weak:test
+bindgen//0.52.0 diff//0.1.11 weak:test
+bindgen//0.52.0 env_logger//0.7.1 feature:default
+bindgen//0.52.0 env_logger//0.7.1 weak:feature:logging
+bindgen//0.52.0 env_logger//0.7.1 weak:optional
+bindgen//0.52.0 lazy_static//1.4.0
+bindgen//0.52.0 lazycell//1.2.1
+bindgen//0.52.0 log//0.4.8 feature:default
+bindgen//0.52.0 log//0.4.8 weak:feature:logging
+bindgen//0.52.0 log//0.4.8 weak:optional
+bindgen//0.52.0 peeking_take_while//0.1.2
+bindgen//0.52.0 proc-macro2//1.0.8
+bindgen//0.52.0 quote//1.0.2
+bindgen//0.52.0 regex//1.3.1
+bindgen//0.52.0 rustc-hash//1.0.1
+bindgen//0.52.0 shlex//0.1.1
+bindgen//0.52.0 which//3.1.0 feature:default
+bindgen//0.52.0 which//3.1.0 weak:feature:which-rustfmt
+bindgen//0.52.0 which//3.1.0 weak:optional
 bit-set//0.5.1 bit-vec//0.5.1
 bit-set//0.5.1 rand//0.3.23 weak:test
 bit-vec//0.5.1 rand//0.3.23 weak:test
+bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_no_std
+bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_std
+bit-vec//0.6.1 serde//1.0.104 weak:optional
+bit-vec//0.6.1 serde_json//1.0.41 weak:test
 blobby//0.1.2 byteorder//1.3.2
 block-buffer//0.7.3 block-padding//0.1.4
 block-buffer//0.7.3 byte-tools//0.3.1
@@ -1011,7 +1090,7 @@ encoding//0.2.33 encoding-index-korean//1.20141219.5
 encoding//0.2.33 encoding-index-simpchinese//1.20141219.5
 encoding//0.2.33 encoding-index-singlebyte//1.20141219.5
 encoding//0.2.33 encoding-index-tradchinese//1.20141219.5
-encoding_rs//0.8.22 bincode//1.2.0 weak:test
+encoding_rs//0.8.22 bincode//1.2.1 weak:test
 encoding_rs//0.8.22 cfg-if//0.1.10
 encoding_rs//0.8.22 serde//1.0.104 weak:optional
 encoding_rs//0.8.22 serde_derive//1.0.104 weak:test
@@ -1039,16 +1118,25 @@ env_logger//0.6.2 regex//1.3.1 feature:default
 env_logger//0.6.2 regex//1.3.1 weak:optional
 env_logger//0.6.2 termcolor//1.0.5 feature:default
 env_logger//0.6.2 termcolor//1.0.5 weak:optional
+env_logger//0.7.1 atty//0.2.14 feature:default
+env_logger//0.7.1 atty//0.2.14 weak:optional
+env_logger//0.7.1 humantime//1.3.0 feature:default
+env_logger//0.7.1 humantime//1.3.0 weak:optional
+env_logger//0.7.1 log//0.4.8
+env_logger//0.7.1 regex//1.3.1 feature:default
+env_logger//0.7.1 regex//1.3.1 weak:optional
+env_logger//0.7.1 termcolor//1.0.5 feature:default
+env_logger//0.7.1 termcolor//1.0.5 weak:optional
 erased-serde//0.3.9 serde//1.0.104
 erased-serde//0.3.9 serde_cbor//0.9.0 weak:test
 erased-serde//0.3.9 serde_derive//1.0.104 weak:test
 erased-serde//0.3.9 serde_json//1.0.41 weak:test
-error-chain//0.12.1 backtrace//0.3.38 feature:default
-error-chain//0.12.1 backtrace//0.3.38 weak:optional
+error-chain//0.12.1 backtrace//0.3.42 feature:default
+error-chain//0.12.1 backtrace//0.3.42 weak:optional
 error-chain//0.12.1 version_check//0.1.5
-failure//0.1.6 backtrace//0.3.38 feature:default
-failure//0.1.6 backtrace//0.3.38 weak:feature:std
-failure//0.1.6 backtrace//0.3.38 weak:optional
+failure//0.1.6 backtrace//0.3.42 feature:default
+failure//0.1.6 backtrace//0.3.42 weak:feature:std
+failure//0.1.6 backtrace//0.3.42 weak:optional
 failure//0.1.6 failure_derive//0.1.6 feature:default
 failure//0.1.6 failure_derive//0.1.6 weak:feature:derive
 failure//0.1.6 failure_derive//0.1.6 weak:optional
@@ -1218,7 +1306,7 @@ generator//0.6.19 cc//1.0.46
 generator//0.6.19 libc//0.2.66
 generator//0.6.19 log//0.4.8
 generator//0.6.19 rustc_version//0.2.3
-generic-array//0.12.3 bincode//1.2.0 weak:test
+generic-array//0.12.3 bincode//1.2.1 weak:test
 generic-array//0.12.3 serde//1.0.104 weak:optional
 generic-array//0.12.3 serde_json//1.0.41 weak:test
 generic-array//0.12.3 typenum//1.11.2
@@ -1424,7 +1512,7 @@ hyper//0.13.1 tower-service//0.3.0
 hyper//0.13.1 url//1.7.2 weak:test
 hyper//0.13.1 want//0.3.0
 hyphenation//0.7.1 atlatl//0.1.2
-hyphenation//0.7.1 bincode//1.2.0
+hyphenation//0.7.1 bincode//1.2.1
 hyphenation//0.7.1 hyphenation_commons//0.7.1
 hyphenation//0.7.1 lazy_static//1.4.0 weak:test
 hyphenation//0.7.1 pocket-resources//0.3.2 weak:feature:embed_all
@@ -1772,14 +1860,14 @@ ordermap//0.3.5 serde//1.0.104 weak:feature:serde-1
 ordermap//0.3.5 serde//1.0.104 weak:optional
 ordermap//0.3.5 serde_test//1.0.102 weak:test
 owning_ref//0.4.0 stable_deref_trait//1.1.1
-parking_lot//0.9.0 bincode//1.2.0 weak:test
+parking_lot//0.9.0 bincode//1.2.1 weak:test
 parking_lot//0.9.0 lazy_static//1.4.0 weak:test
 parking_lot//0.9.0 lock_api//0.3.1
 parking_lot//0.9.0 parking_lot_core//0.6.2
 parking_lot//0.9.0 rand//0.7.2 weak:test
 parking_lot//0.9.0 rustc_version//0.2.3
-parking_lot_core//0.6.2 backtrace//0.3.38 weak:feature:deadlock_detection
-parking_lot_core//0.6.2 backtrace//0.3.38 weak:optional
+parking_lot_core//0.6.2 backtrace//0.3.42 weak:feature:deadlock_detection
+parking_lot_core//0.6.2 backtrace//0.3.42 weak:optional
 parking_lot_core//0.6.2 cfg-if//0.1.10
 parking_lot_core//0.6.2 libc//0.2.66
 parking_lot_core//0.6.2 petgraph//0.4.13 weak:feature:deadlock_detection
@@ -2066,7 +2154,7 @@ rand//0.3.23 rand//0.4.6
 rand//0.4.6 libc//0.2.66 feature:default
 rand//0.4.6 libc//0.2.66 weak:feature:std
 rand//0.4.6 libc//0.2.66 weak:optional
-rand//0.5.6 bincode//1.2.0 weak:test
+rand//0.5.6 bincode//1.2.1 weak:test
 rand//0.5.6 libc//0.2.66 feature:default
 rand//0.5.6 libc//0.2.66 weak:feature:std
 rand//0.5.6 libc//0.2.66 weak:optional
@@ -2115,15 +2203,18 @@ rand_core//0.5.1 getrandom//0.1.13 weak:feature:std
 rand_core//0.5.1 getrandom//0.1.13 weak:optional
 rand_core//0.5.1 serde//1.0.104 weak:feature:serde1
 rand_core//0.5.1 serde//1.0.104 weak:optional
+rand_distr//0.2.2 average//0.10.3 weak:test
+rand_distr//0.2.2 rand//0.7.2
+rand_distr//0.2.2 rand_pcg//0.2.1 weak:test
 rand_hc//0.1.0 rand_core//0.3.1
 rand_hc//0.2.0 rand_core//0.5.1
-rand_isaac//0.1.1 bincode//1.2.0 weak:test
+rand_isaac//0.1.1 bincode//1.2.1 weak:test
 rand_isaac//0.1.1 rand_core//0.3.1
 rand_isaac//0.1.1 serde//1.0.104 weak:feature:serde1
 rand_isaac//0.1.1 serde//1.0.104 weak:optional
 rand_isaac//0.1.1 serde_derive//1.0.104 weak:feature:serde1
 rand_isaac//0.1.1 serde_derive//1.0.104 weak:optional
-rand_isaac//0.2.0 bincode//1.2.0 weak:test
+rand_isaac//0.2.0 bincode//1.2.1 weak:test
 rand_isaac//0.2.0 rand_core//0.5.1
 rand_isaac//0.2.0 serde//1.0.104 weak:feature:serde1
 rand_isaac//0.2.0 serde//1.0.104 weak:optional
@@ -2135,30 +2226,34 @@ rand_os//0.1.3 libc//0.2.66
 rand_os//0.1.3 log//0.4.8 weak:optional
 rand_os//0.1.3 rand_core//0.4.2
 rand_pcg//0.1.2 autocfg//0.1.6
-rand_pcg//0.1.2 bincode//1.2.0 weak:test
+rand_pcg//0.1.2 bincode//1.2.1 weak:test
 rand_pcg//0.1.2 rand_core//0.4.2
 rand_pcg//0.1.2 serde//1.0.104 weak:feature:serde1
 rand_pcg//0.1.2 serde//1.0.104 weak:optional
 rand_pcg//0.1.2 serde_derive//1.0.104 weak:feature:serde1
 rand_pcg//0.1.2 serde_derive//1.0.104 weak:optional
-rand_pcg//0.2.1 bincode//1.2.0 weak:test
+rand_pcg//0.2.1 bincode//1.2.1 weak:test
 rand_pcg//0.2.1 rand_core//0.5.1
 rand_pcg//0.2.1 serde//1.0.104 weak:feature:serde1
 rand_pcg//0.2.1 serde//1.0.104 weak:optional
-rand_xorshift//0.1.1 bincode//1.2.0 weak:test
+rand_xorshift//0.1.1 bincode//1.2.1 weak:test
 rand_xorshift//0.1.1 rand_core//0.3.1
 rand_xorshift//0.1.1 serde//1.0.104 weak:feature:serde1
 rand_xorshift//0.1.1 serde//1.0.104 weak:optional
 rand_xorshift//0.1.1 serde_derive//1.0.104 weak:feature:serde1
 rand_xorshift//0.1.1 serde_derive//1.0.104 weak:optional
-rand_xorshift//0.2.0 bincode//1.2.0 weak:test
+rand_xorshift//0.2.0 bincode//1.2.1 weak:test
 rand_xorshift//0.2.0 rand_core//0.5.1
 rand_xorshift//0.2.0 serde//1.0.104 weak:feature:serde1
 rand_xorshift//0.2.0 serde//1.0.104 weak:optional
 rand_xoshiro//0.1.0 byteorder//1.3.2
 rand_xoshiro//0.1.0 rand//0.6.5 weak:test
 rand_xoshiro//0.1.0 rand_core//0.3.1
-rand_xoshiro//0.4.0 bincode//1.2.0 weak:test
+rand_xoshiro//0.3.1 bincode//1.2.1 weak:test
+rand_xoshiro//0.3.1 rand_core//0.5.1
+rand_xoshiro//0.3.1 serde//1.0.104 weak:feature:serde1
+rand_xoshiro//0.3.1 serde//1.0.104 weak:optional
+rand_xoshiro//0.4.0 bincode//1.2.1 weak:test
 rand_xoshiro//0.4.0 rand_core//0.5.1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:feature:serde1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:optional
@@ -2391,7 +2486,7 @@ serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.104
 serde_bytes//0.10.4 serde_derive//1.0.104 weak:test
 serde_bytes//0.10.4 serde_test//1.0.102 weak:test
-serde_bytes//0.11.2 bincode//1.2.0 weak:test
+serde_bytes//0.11.2 bincode//1.2.1 weak:test
 serde_bytes//0.11.2 serde//1.0.104
 serde_bytes//0.11.2 serde_derive//1.0.104 weak:test
 serde_bytes//0.11.2 serde_test//1.0.102 weak:test
@@ -2463,9 +2558,9 @@ signal-hook//0.1.12 tokio//0.1.22 weak:test
 signal-hook//0.1.12 version-sync//0.8.1 weak:test
 slog//2.5.2 erased-serde//0.3.9 weak:feature:nested-values
 slog//2.5.2 erased-serde//0.3.9 weak:optional
-smallvec//0.6.10 bincode//1.2.0 weak:test
+smallvec//0.6.10 bincode//1.2.1 weak:test
 smallvec//0.6.10 serde//1.0.104 weak:optional
-smallvec//1.1.0 bincode//1.2.0 weak:test
+smallvec//1.1.0 bincode//1.2.1 weak:test
 smallvec//1.1.0 serde//1.0.104 weak:optional
 spmc//0.3.0 loom//0.2.14 weak:test
 stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
@@ -2999,7 +3094,7 @@ url//2.1.1 serde_json//1.0.41 weak:test
 utf8-ranges//0.1.3 quickcheck//0.2.27 weak:test
 utf8-ranges//1.0.4 doc-comment//0.3.1 weak:test
 utf8-ranges//1.0.4 quickcheck//0.8.5 weak:test
-uuid//0.7.4 bincode//1.2.0 weak:test
+uuid//0.7.4 bincode//1.2.1 weak:test
 uuid//0.7.4 byteorder//1.3.2 weak:feature:u128
 uuid//0.7.4 byteorder//1.3.2 weak:optional
 uuid//0.7.4 md5//0.6.1 weak:feature:v3
@@ -3013,7 +3108,7 @@ uuid//0.7.4 serde_test//1.0.102 weak:test
 uuid//0.7.4 sha1//0.6.0 weak:feature:v5
 uuid//0.7.4 sha1//0.6.0 weak:optional
 uuid//0.7.4 slog//2.5.2 weak:optional
-uuid//0.8.1 bincode//1.2.0 weak:test
+uuid//0.8.1 bincode//1.2.1 weak:test
 uuid//0.8.1 md5//0.6.1 weak:feature:v3
 uuid//0.8.1 md5//0.6.1 weak:optional
 uuid//0.8.1 rand//0.7.2 weak:feature:v4
