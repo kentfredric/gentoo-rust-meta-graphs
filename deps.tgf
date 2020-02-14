@@ -292,15 +292,21 @@ nodrop//0.1.14 nodrop 0.1.14
 nom//4.2.3 nom 4.2.3
 nom//5.1.0 nom 5.1.0
 ntest//0.3.3 ntest 0.3.3
+ntest//0.5.1 ntest 0.5.1
 ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
+ntest_test_cases//0.5.1 ntest_test_cases 0.5.1
 ntest_timeout//0.3.3 ntest_timeout 0.3.3
+ntest_timeout//0.5.1 ntest_timeout 0.5.1
 num-complex//0.2.4 num-complex 0.2.4
 num-integer//0.1.41 num-integer 0.1.41
+num-integer//0.1.42 num-integer 0.1.42
 num-iter//0.1.39 num-iter 0.1.39
+num-iter//0.1.40 num-iter 0.1.40
 num-traits//0.1.43 num-traits 0.1.43
 num-traits//0.2.11 num-traits 0.2.11
 num-traits//0.2.8 num-traits 0.2.8
 num_cpus//1.10.1 num_cpus 1.10.1
+num_cpus//1.12.0 num_cpus 1.12.0
 object//0.12.0 object 0.12.0
 object//0.17.0 object 0.17.0
 odds//0.2.26 odds 0.2.26
@@ -410,6 +416,8 @@ rand_xorshift//0.2.0 rand_xorshift 0.2.0
 rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
 rand_xoshiro//0.3.1 rand_xoshiro 0.3.1
 rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
+rawpointer//0.1.0 rawpointer 0.1.0
+rawslice//0.1.0 rawslice 0.1.0
 rayon-core//1.6.0 rayon-core 1.6.0
 rayon//0.8.2 rayon 0.8.2
 rayon//1.2.0 rayon 1.2.0
@@ -580,6 +588,7 @@ typed-arena//1.7.0 typed-arena 1.7.0
 typenum//1.11.2 typenum 1.11.2
 ucd-trie//0.1.2 ucd-trie 0.1.2
 ucd-util//0.1.5 ucd-util 0.1.5
+unchecked-index//0.2.2 unchecked-index 0.2.2
 unicase//1.4.2 unicase 1.4.2
 unicase//2.6.0 unicase 2.6.0
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
@@ -686,7 +695,7 @@ approx//0.3.2 num-traits//0.2.11
 arc-swap//0.4.4 crossbeam-utils//0.6.6 weak:test
 arc-swap//0.4.4 itertools//0.8.2 weak:test
 arc-swap//0.4.4 model//0.1.2 weak:test
-arc-swap//0.4.4 num_cpus//1.10.1 weak:test
+arc-swap//0.4.4 num_cpus//1.12.0 weak:test
 arc-swap//0.4.4 once_cell//1.2.0 weak:test
 arc-swap//0.4.4 proptest//0.8.7 weak:test
 arc-swap//0.4.4 version-sync//0.8.1 weak:test
@@ -763,7 +772,7 @@ average//0.10.3 serde_json//1.0.41 weak:test
 average//0.10.3 streaming-stats//0.2.2 weak:test
 average//0.9.4 conv//0.3.3
 average//0.9.4 float-ord//0.2.0
-average//0.9.4 num-integer//0.1.41
+average//0.9.4 num-integer//0.1.42
 average//0.9.4 num-traits//0.2.11
 average//0.9.4 quantiles//0.7.1 weak:test
 average//0.9.4 rand//0.6.5 weak:test
@@ -946,16 +955,16 @@ c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
 c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
 cc//1.0.46 jobserver//0.1.21 weak:feature:parallel
 cc//1.0.46 jobserver//0.1.21 weak:optional
-cc//1.0.46 num_cpus//1.10.1 weak:feature:parallel
-cc//1.0.46 num_cpus//1.10.1 weak:optional
+cc//1.0.46 num_cpus//1.12.0 weak:feature:parallel
+cc//1.0.46 num_cpus//1.12.0 weak:optional
 cc//1.0.46 tempdir//0.3.7 weak:test
 cexpr//0.3.6 clang-sys//0.28.1 weak:test
 cexpr//0.3.6 nom//4.2.3
 chrono//0.4.9 bincode//0.8.0 weak:test
 chrono//0.4.9 doc-comment//0.3.1 weak:test
 chrono//0.4.9 libc//0.2.66
-chrono//0.4.9 num-integer//0.1.41
-chrono//0.4.9 num-iter//0.1.39 weak:test
+chrono//0.4.9 num-integer//0.1.42
+chrono//0.4.9 num-iter//0.1.40 weak:test
 chrono//0.4.9 num-traits//0.2.11
 chrono//0.4.9 rustc-serialize//0.3.24 weak:optional
 chrono//0.4.9 serde//1.0.104 weak:optional
@@ -1062,11 +1071,11 @@ crc32fast//1.2.0 cfg-if//0.1.10
 crc32fast//1.2.0 quickcheck//0.6.2 weak:test
 crc32fast//1.2.0 rand//0.4.6 weak:test
 crossbeam-channel//0.3.9 crossbeam-utils//0.6.6
-crossbeam-channel//0.3.9 num_cpus//1.10.1 weak:test
+crossbeam-channel//0.3.9 num_cpus//1.12.0 weak:test
 crossbeam-channel//0.3.9 rand//0.6.5 weak:test
 crossbeam-channel//0.3.9 signal-hook//0.1.12 weak:test
 crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
-crossbeam-channel//0.4.0 num_cpus//1.10.1 weak:test
+crossbeam-channel//0.4.0 num_cpus//1.12.0 weak:test
 crossbeam-channel//0.4.0 rand//0.6.5 weak:test
 crossbeam-channel//0.4.0 signal-hook//0.1.12 weak:test
 crossbeam-deque//0.7.1 crossbeam-epoch//0.7.2
@@ -1297,8 +1306,8 @@ futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
 futures-executor//0.3.1 futures-core//0.3.1
 futures-executor//0.3.1 futures-task//0.3.1
 futures-executor//0.3.1 futures-util//0.3.1
-futures-executor//0.3.1 num_cpus//1.10.1 weak:feature:thread-pool
-futures-executor//0.3.1 num_cpus//1.10.1 weak:optional
+futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
+futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
 futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
 futures-join-macro-preview//0.3.0.19 proc-macro2//1.0.8
 futures-join-macro-preview//0.3.0.19 quote//1.0.2
@@ -1437,7 +1446,7 @@ gimli//0.19.0 indexmap//1.3.1 feature:default
 gimli//0.19.0 indexmap//1.3.1 weak:feature:write
 gimli//0.19.0 indexmap//1.3.1 weak:optional
 gimli//0.19.0 memmap//0.7.0 weak:test
-gimli//0.19.0 num_cpus//1.10.1 weak:test
+gimli//0.19.0 num_cpus//1.12.0 weak:test
 gimli//0.19.0 object//0.12.0 weak:test
 gimli//0.19.0 rayon//1.2.0 weak:test
 gimli//0.19.0 regex//1.3.1 weak:test
@@ -1812,13 +1821,13 @@ jemallocator//0.3.2 libc//0.2.66
 jobserver//0.1.17 futures//0.1.29 weak:test
 jobserver//0.1.17 libc//0.2.66
 jobserver//0.1.17 log//0.4.8
-jobserver//0.1.17 num_cpus//1.10.1 weak:test
+jobserver//0.1.17 num_cpus//1.12.0 weak:test
 jobserver//0.1.17 tempdir//0.3.7 weak:test
 jobserver//0.1.17 tokio-core//0.1.17 weak:test
 jobserver//0.1.17 tokio-process//0.2.4 weak:test
 jobserver//0.1.21 futures//0.1.29 weak:test
 jobserver//0.1.21 libc//0.2.66
-jobserver//0.1.21 num_cpus//1.10.1 weak:test
+jobserver//0.1.21 num_cpus//1.12.0 weak:test
 jobserver//0.1.21 tempdir//0.3.7 weak:test
 jobserver//0.1.21 tokio-core//0.1.17 weak:test
 jobserver//0.1.21 tokio-process//0.2.4 weak:test
@@ -2046,28 +2055,45 @@ ntest//0.3.3 ntest_timeout//0.3.3
 ntest//0.3.3 ntest_timeout//0.3.3 weak:test
 ntest//0.3.3 timebomb//0.1.2
 ntest//0.3.3 timebomb//0.1.2 weak:test
+ntest//0.5.1 ntest_test_cases//0.5.1
+ntest//0.5.1 ntest_test_cases//0.5.1 weak:test
+ntest//0.5.1 ntest_timeout//0.5.1
+ntest//0.5.1 ntest_timeout//0.5.1 weak:test
 ntest_test_cases//0.3.4 proc-macro2//1.0.8
 ntest_test_cases//0.3.4 quote//1.0.2
 ntest_test_cases//0.3.4 syn//1.0.14
+ntest_test_cases//0.5.1 proc-macro2//1.0.8
+ntest_test_cases//0.5.1 quote//1.0.2
+ntest_test_cases//0.5.1 syn//1.0.14
 ntest_timeout//0.3.3 proc-macro2//1.0.8
 ntest_timeout//0.3.3 quote//1.0.2
 ntest_timeout//0.3.3 syn//1.0.14
 ntest_timeout//0.3.3 timebomb//0.1.2
+ntest_timeout//0.5.1 proc-macro2//1.0.8
+ntest_timeout//0.5.1 quote//1.0.2
+ntest_timeout//0.5.1 syn//1.0.14
 num-complex//0.2.4 autocfg//1.0.0
 num-complex//0.2.4 num-traits//0.2.11
 num-complex//0.2.4 rand//0.5.6 weak:optional
 num-complex//0.2.4 serde//1.0.104 weak:optional
 num-integer//0.1.41 autocfg//0.1.6
 num-integer//0.1.41 num-traits//0.2.11
+num-integer//0.1.42 autocfg//1.0.0
+num-integer//0.1.42 num-traits//0.2.11
 num-iter//0.1.39 autocfg//0.1.6
-num-iter//0.1.39 num-integer//0.1.41
+num-iter//0.1.39 num-integer//0.1.42
 num-iter//0.1.39 num-traits//0.2.11
+num-iter//0.1.40 autocfg//1.0.0
+num-iter//0.1.40 num-integer//0.1.42
+num-iter//0.1.40 num-traits//0.2.11
 num-traits//0.1.43 num-traits//0.2.11
 num-traits//0.2.11 autocfg//1.0.0
 num-traits//0.2.11 libm//0.2.1
 num-traits//0.2.8 autocfg//0.1.6
 num_cpus//1.10.1 doc-comment//0.3.1 weak:test
 num_cpus//1.10.1 libc//0.2.66
+num_cpus//1.12.0 doc-comment//0.3.1 weak:test
+num_cpus//1.12.0 libc//0.2.66
 object//0.12.0 flate2//1.0.13 feature:default
 object//0.12.0 flate2//1.0.13 weak:feature:compression
 object//0.12.0 flate2//1.0.13 weak:optional
@@ -2542,12 +2568,14 @@ rand_xoshiro//0.4.0 bincode//1.2.1 weak:test
 rand_xoshiro//0.4.0 rand_core//0.5.1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:feature:serde1
 rand_xoshiro//0.4.0 serde//1.0.104 weak:optional
+rawslice//0.1.0 quickcheck//0.4.1 weak:test
+rawslice//0.1.0 rawpointer//0.1.0
 rayon-core//1.6.0 crossbeam-deque//0.7.2
 rayon-core//1.6.0 crossbeam-queue//0.1.2
 rayon-core//1.6.0 crossbeam-utils//0.6.6
 rayon-core//1.6.0 lazy_static//1.4.0
 rayon-core//1.6.0 libc//0.2.66 weak:test
-rayon-core//1.6.0 num_cpus//1.10.1
+rayon-core//1.6.0 num_cpus//1.12.0
 rayon-core//1.6.0 rand//0.6.5 weak:test
 rayon-core//1.6.0 rand_xorshift//0.1.1 weak:test
 rayon-core//1.6.0 scoped-tls//1.0.0 weak:test
@@ -2729,7 +2757,7 @@ rusty-fork//0.2.2 wait-timeout//0.2.0 feature:default
 rusty-fork//0.2.2 wait-timeout//0.2.0 weak:feature:timeout
 rusty-fork//0.2.2 wait-timeout//0.2.0 weak:optional
 ryu//1.0.1 no-panic//0.1.12 weak:optional
-ryu//1.0.1 num_cpus//1.10.1 weak:test
+ryu//1.0.1 num_cpus//1.12.0 weak:test
 ryu//1.0.1 rand//0.5.6 weak:test
 same-file//0.1.3 rand//0.3.23 weak:test
 scroll//0.10.1 rustc_version//0.2.3
@@ -3065,8 +3093,8 @@ tokio-executor//0.2.0.6 futures-util-preview//0.3.0.19
 tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:blocking
 tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:threadpool
 tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:optional
-tokio-executor//0.2.0.6 num_cpus//1.10.1 weak:feature:threadpool
-tokio-executor//0.2.0.6 num_cpus//1.10.1 weak:optional
+tokio-executor//0.2.0.6 num_cpus//1.12.0 weak:feature:threadpool
+tokio-executor//0.2.0.6 num_cpus//1.12.0 weak:optional
 tokio-executor//0.2.0.6 slab//0.4.2 weak:feature:threadpool
 tokio-executor//0.2.0.6 slab//0.4.2 weak:optional
 tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:feature:blocking
@@ -3106,8 +3134,8 @@ tokio-reactor//0.1.11 futures//0.1.29
 tokio-reactor//0.1.11 lazy_static//1.4.0
 tokio-reactor//0.1.11 log//0.4.8
 tokio-reactor//0.1.11 mio//0.6.21
-tokio-reactor//0.1.11 num_cpus//1.10.1
-tokio-reactor//0.1.11 num_cpus//1.10.1 weak:test
+tokio-reactor//0.1.11 num_cpus//1.12.0
+tokio-reactor//0.1.11 num_cpus//1.12.0 weak:test
 tokio-reactor//0.1.11 parking_lot//0.9.0
 tokio-reactor//0.1.11 slab//0.4.2
 tokio-reactor//0.1.11 tokio-executor//0.1.9
@@ -3162,7 +3190,7 @@ tokio-threadpool//0.1.17 env_logger//0.6.2 weak:test
 tokio-threadpool//0.1.17 futures//0.1.29
 tokio-threadpool//0.1.17 lazy_static//1.4.0
 tokio-threadpool//0.1.17 log//0.4.8
-tokio-threadpool//0.1.17 num_cpus//1.10.1
+tokio-threadpool//0.1.17 num_cpus//1.12.0
 tokio-threadpool//0.1.17 rand//0.7.2 weak:test
 tokio-threadpool//0.1.17 slab//0.4.2
 tokio-threadpool//0.1.17 tokio-executor//0.1.9
@@ -3217,10 +3245,10 @@ tokio//0.1.22 mio//0.6.21 feature:default
 tokio//0.1.22 mio//0.6.21 weak:feature:reactor
 tokio//0.1.22 mio//0.6.21 weak:feature:rt-full
 tokio//0.1.22 mio//0.6.21 weak:optional
-tokio//0.1.22 num_cpus//1.10.1 feature:default
-tokio//0.1.22 num_cpus//1.10.1 weak:feature:rt-full
-tokio//0.1.22 num_cpus//1.10.1 weak:optional
-tokio//0.1.22 num_cpus//1.10.1 weak:test
+tokio//0.1.22 num_cpus//1.12.0 feature:default
+tokio//0.1.22 num_cpus//1.12.0 weak:feature:rt-full
+tokio//0.1.22 num_cpus//1.12.0 weak:optional
+tokio//0.1.22 num_cpus//1.12.0 weak:test
 tokio//0.1.22 tokio-codec//0.1.1 feature:default
 tokio//0.1.22 tokio-codec//0.1.1 weak:feature:codec
 tokio//0.1.22 tokio-codec//0.1.1 weak:optional
@@ -3310,9 +3338,9 @@ tokio//0.2.9 mio//0.6.21 weak:feature:tcp
 tokio//0.2.9 mio//0.6.21 weak:feature:udp
 tokio//0.2.9 mio//0.6.21 weak:feature:uds
 tokio//0.2.9 mio//0.6.21 weak:optional
-tokio//0.2.9 num_cpus//1.10.1 weak:feature:full
-tokio//0.2.9 num_cpus//1.10.1 weak:feature:rt-threaded
-tokio//0.2.9 num_cpus//1.10.1 weak:optional
+tokio//0.2.9 num_cpus//1.12.0 weak:feature:full
+tokio//0.2.9 num_cpus//1.12.0 weak:feature:rt-threaded
+tokio//0.2.9 num_cpus//1.12.0 weak:optional
 tokio//0.2.9 pin-project-lite//0.1.2
 tokio//0.2.9 proptest//0.9.4 weak:test
 tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:full
