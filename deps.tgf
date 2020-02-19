@@ -361,10 +361,7 @@ proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
 proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
 proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
 proc-macro-nested//0.1.3 proc-macro-nested 0.1.3
-proc-macro2//0.4.27 proc-macro2 0.4.27
 proc-macro2//0.4.30 proc-macro2 0.4.30
-proc-macro2//1.0.5 proc-macro2 1.0.5
-proc-macro2//1.0.7 proc-macro2 1.0.7
 proc-macro2//1.0.8 proc-macro2 1.0.8
 proptest-derive//0.1.2 proptest-derive 0.1.2
 proptest//0.7.2 proptest 0.7.2
@@ -387,7 +384,6 @@ quickcheck//0.8.5 quickcheck 0.8.5
 quickcheck//0.9.0 quickcheck 0.9.0
 quickcheck_macros//0.8.0 quickcheck_macros 0.8.0
 quote//0.3.15 quote 0.3.15
-quote//0.6.11 quote 0.6.11
 quote//0.6.13 quote 0.6.13
 quote//1.0.2 quote 1.0.2
 rand//0.3.23 rand 0.3.23
@@ -469,14 +465,11 @@ semver-parser//0.9.0 semver-parser 0.9.0
 semver//0.9.0 semver 0.9.0
 serde-big-array//0.1.5 serde-big-array 0.1.5
 serde//0.8.23 serde 0.8.23
-serde//1.0.101 serde 1.0.101
 serde//1.0.104 serde 1.0.104
-serde//1.0.89 serde 1.0.89
 serde_bytes//0.10.4 serde_bytes 0.10.4
 serde_bytes//0.11.2 serde_bytes 0.11.2
 serde_cbor//0.9.0 serde_cbor 0.9.0
 serde_derive//1.0.104 serde_derive 1.0.104
-serde_derive//1.0.89 serde_derive 1.0.89
 serde_json//0.8.6 serde_json 0.8.6
 serde_json//1.0.41 serde_json 1.0.41
 serde_test//0.8.23 serde_test 0.8.23
@@ -514,10 +507,7 @@ sval_derive//0.4.7 sval_derive 0.4.7
 syn//0.11.11 syn 0.11.11
 syn//0.14.9 syn 0.14.9
 syn//0.15.44 syn 0.15.44
-syn//1.0.13 syn 1.0.13
 syn//1.0.14 syn 1.0.14
-syn//1.0.5 syn 1.0.5
-syn//1.0.7 syn 1.0.7
 synom//0.11.3 synom 0.11.3
 synstructure//0.12.1 synstructure 0.12.1
 synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
@@ -2258,13 +2248,8 @@ proc-macro-hack//0.5.11 demo-hack//0.0.5 weak:test
 proc-macro-hack//0.5.11 proc-macro2//1.0.8
 proc-macro-hack//0.5.11 quote//1.0.2
 proc-macro-hack//0.5.11 syn//1.0.14
-proc-macro2//0.4.27 unicode-xid//0.1.0
 proc-macro2//0.4.30 quote//0.6.13 weak:test
 proc-macro2//0.4.30 unicode-xid//0.1.0
-proc-macro2//1.0.5 quote//1.0.2 weak:test
-proc-macro2//1.0.5 unicode-xid//0.2.0
-proc-macro2//1.0.7 quote//1.0.2 weak:test
-proc-macro2//1.0.7 unicode-xid//0.2.0
 proc-macro2//1.0.8 quote//1.0.2 weak:test
 proc-macro2//1.0.8 unicode-xid//0.2.0
 proptest-derive//0.1.2 proc-macro2//0.4.30
@@ -2476,7 +2461,6 @@ quickcheck_macros//0.8.0 proc-macro2//0.4.30
 quickcheck_macros//0.8.0 quickcheck//0.8.5 weak:test
 quickcheck_macros//0.8.0 quote//0.6.13
 quickcheck_macros//0.8.0 syn//0.15.44
-quote//0.6.11 proc-macro2//0.4.30
 quote//0.6.13 proc-macro2//0.4.30
 quote//1.0.2 proc-macro2//1.0.8
 quote//1.0.2 rustversion//0.1.4 weak:test
@@ -2807,15 +2791,9 @@ semver//0.9.0 tempdir//0.3.7 weak:test
 serde-big-array//0.1.5 serde//1.0.104
 serde-big-array//0.1.5 serde_derive//1.0.104
 serde-big-array//0.1.5 serde_json//1.0.41 weak:test
-serde//1.0.101 serde_derive//1.0.104 weak:feature:derive
-serde//1.0.101 serde_derive//1.0.104 weak:optional
-serde//1.0.101 serde_derive//1.0.104 weak:test
 serde//1.0.104 serde_derive//1.0.104 weak:feature:derive
 serde//1.0.104 serde_derive//1.0.104 weak:optional
 serde//1.0.104 serde_derive//1.0.104 weak:test
-serde//1.0.89 serde_derive//1.0.104 weak:feature:derive
-serde//1.0.89 serde_derive//1.0.104 weak:optional
-serde//1.0.89 serde_derive//1.0.104 weak:test
 serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.104
 serde_bytes//0.10.4 serde_derive//1.0.104 weak:test
@@ -2833,10 +2811,6 @@ serde_derive//1.0.104 proc-macro2//1.0.8
 serde_derive//1.0.104 quote//1.0.2
 serde_derive//1.0.104 serde//1.0.104 weak:test
 serde_derive//1.0.104 syn//1.0.14
-serde_derive//1.0.89 proc-macro2//0.4.30
-serde_derive//1.0.89 quote//0.6.13
-serde_derive//1.0.89 serde//1.0.104 weak:test
-serde_derive//1.0.89 syn//0.15.44
 serde_json//0.8.6 dtoa//0.2.2
 serde_json//0.8.6 itoa//0.1.1
 serde_json//0.8.6 linked-hash-map//0.3.0 weak:feature:perserve_order
@@ -2964,22 +2938,6 @@ syn//0.15.44 ref-cast//0.2.7 weak:test
 syn//0.15.44 termcolor//1.0.5 weak:test
 syn//0.15.44 unicode-xid//0.1.0
 syn//0.15.44 walkdir//2.2.9 weak:test
-syn//1.0.13 anyhow//1.0.26 weak:test
-syn//1.0.13 flate2//1.0.13 weak:test
-syn//1.0.13 insta//0.12.0 weak:test
-syn//1.0.13 proc-macro2//1.0.8
-syn//1.0.13 quote//1.0.2 feature:default
-syn//1.0.13 quote//1.0.2 weak:feature:printing
-syn//1.0.13 quote//1.0.2 weak:feature:proc-macro
-syn//1.0.13 quote//1.0.2 weak:optional
-syn//1.0.13 rayon//1.2.0 weak:test
-syn//1.0.13 ref-cast//1.0.0 weak:test
-syn//1.0.13 regex//1.3.1 weak:test
-syn//1.0.13 reqwest//0.10.0 weak:test
-syn//1.0.13 tar//0.4.26 weak:test
-syn//1.0.13 termcolor//1.0.5 weak:test
-syn//1.0.13 unicode-xid//0.2.0
-syn//1.0.13 walkdir//2.2.9 weak:test
 syn//1.0.14 anyhow//1.0.26 weak:test
 syn//1.0.14 flate2//1.0.13 weak:test
 syn//1.0.14 insta//0.12.0 weak:test
@@ -2996,30 +2954,6 @@ syn//1.0.14 tar//0.4.26 weak:test
 syn//1.0.14 termcolor//1.0.5 weak:test
 syn//1.0.14 unicode-xid//0.2.0
 syn//1.0.14 walkdir//2.2.9 weak:test
-syn//1.0.5 insta//0.9.0 weak:test
-syn//1.0.5 proc-macro2//1.0.8
-syn//1.0.5 quote//1.0.2 feature:default
-syn//1.0.5 quote//1.0.2 weak:feature:printing
-syn//1.0.5 quote//1.0.2 weak:feature:proc-macro
-syn//1.0.5 quote//1.0.2 weak:optional
-syn//1.0.5 rayon//1.2.0 weak:test
-syn//1.0.5 ref-cast//0.2.7 weak:test
-syn//1.0.5 regex//1.3.1 weak:test
-syn//1.0.5 termcolor//1.0.5 weak:test
-syn//1.0.5 unicode-xid//0.2.0
-syn//1.0.5 walkdir//2.2.9 weak:test
-syn//1.0.7 insta//0.11.0 weak:test
-syn//1.0.7 proc-macro2//1.0.8
-syn//1.0.7 quote//1.0.2 feature:default
-syn//1.0.7 quote//1.0.2 weak:feature:printing
-syn//1.0.7 quote//1.0.2 weak:feature:proc-macro
-syn//1.0.7 quote//1.0.2 weak:optional
-syn//1.0.7 rayon//1.2.0 weak:test
-syn//1.0.7 ref-cast//0.2.7 weak:test
-syn//1.0.7 regex//1.3.1 weak:test
-syn//1.0.7 termcolor//1.0.5 weak:test
-syn//1.0.7 unicode-xid//0.2.0
-syn//1.0.7 walkdir//2.2.9 weak:test
 synom//0.11.3 syn//0.11.11 weak:test
 synom//0.11.3 unicode-xid//0.0.4
 synstructure//0.12.1 proc-macro2//1.0.8
