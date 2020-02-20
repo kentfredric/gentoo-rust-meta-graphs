@@ -1,0 +1,2906 @@
+addr2line//0.11.0 addr2line 0.11.0
+adler32//1.0.4 adler32 1.0.4
+afl//0.4.4 afl 0.4.4
+afl//0.5.2 afl 0.5.2
+aho-corasick//0.5.3 aho-corasick 0.5.3
+aho-corasick//0.6.10 aho-corasick 0.6.10
+aho-corasick//0.7.6 aho-corasick 0.7.6
+ansi_term//0.11.0 ansi_term 0.11.0
+ansi_term//0.12.1 ansi_term 0.12.1
+anyhow//1.0.26 anyhow 1.0.26
+approx//0.3.2 approx 0.3.2
+arc-swap//0.4.4 arc-swap 0.4.4
+arrayvec//0.4.12 arrayvec 0.4.12
+arrayvec//0.5.1 arrayvec 0.5.1
+assert_matches//1.3.0 assert_matches 1.3.0
+async-compression//0.2.0 async-compression 0.2.0
+atlatl//0.1.2 atlatl 0.1.2
+atom//0.3.5 atom 0.3.5
+atty//0.2.14 atty 0.2.14
+autocfg//0.1.6 autocfg 0.1.6
+autocfg//1.0.0 autocfg 1.0.0
+average//0.10.3 average 0.10.3
+average//0.9.4 average 0.9.4
+backtrace-sys//0.1.32 backtrace-sys 0.1.32
+backtrace//0.3.42 backtrace 0.3.42
+base64//0.10.1 base64 0.10.1
+base64//0.11.0 base64 0.11.0
+base64//0.9.3 base64 0.9.3
+bincode//0.8.0 bincode 0.8.0
+bincode//1.2.1 bincode 1.2.1
+bindgen//0.51.1 bindgen 0.51.1
+bindgen//0.52.0 bindgen 0.52.0
+bit-set//0.5.1 bit-set 0.5.1
+bit-vec//0.5.1 bit-vec 0.5.1
+bit-vec//0.6.1 bit-vec 0.6.1
+bitflags//0.9.1 bitflags 0.9.1
+bitflags//1.2.1 bitflags 1.2.1
+blobby//0.1.2 blobby 0.1.2
+block-buffer//0.7.3 block-buffer 0.7.3
+block-padding//0.1.5 block-padding 0.1.5
+brotli-sys//0.3.2 brotli-sys 0.3.2
+brotli2//0.3.2 brotli2 0.3.2
+byte-tools//0.3.1 byte-tools 0.3.1
+byteorder//0.5.3 byteorder 0.5.3
+byteorder//1.3.2 byteorder 1.3.2
+bytes//0.3.0 bytes 0.3.0
+bytes//0.4.12 bytes 0.4.12
+bytes//0.5.4 bytes 0.5.4
+bzip2-sys//0.1.7 bzip2-sys 0.1.7
+bzip2//0.3.3 bzip2 0.3.3
+c2-chacha//0.2.3 c2-chacha 0.2.3
+cc//1.0.46 cc 1.0.46
+cexpr//0.3.6 cexpr 0.3.6
+cfg-if//0.1.10 cfg-if 0.1.10
+chrono//0.4.9 chrono 0.4.9
+ci_info//0.3.1 ci_info 0.3.1
+clang-sys//0.28.1 clang-sys 0.28.1
+clap//2.33.0 clap 2.33.0
+clicolors-control//1.0.1 clicolors-control 1.0.1
+cmake//0.1.42 cmake 0.1.42
+compiletest_rs//0.3.26 compiletest_rs 0.3.26
+console//0.7.7 console 0.7.7
+console//0.8.0 console 0.8.0
+console//0.9.1 console 0.9.1
+conv//0.3.3 conv 0.3.3
+cookie//0.12.0 cookie 0.12.0
+cookie_store//0.10.0 cookie_store 0.10.0
+cpp_demangle//0.2.13 cpp_demangle 0.2.13
+crates-index//0.5.1 crates-index 0.5.1
+crc32fast//1.2.0 crc32fast 1.2.0
+crossbeam-channel//0.3.9 crossbeam-channel 0.3.9
+crossbeam-channel//0.4.0 crossbeam-channel 0.4.0
+crossbeam-deque//0.7.2 crossbeam-deque 0.7.2
+crossbeam-epoch//0.8.0 crossbeam-epoch 0.8.0
+crossbeam-queue//0.1.2 crossbeam-queue 0.1.2
+crossbeam-queue//0.2.1 crossbeam-queue 0.2.1
+crossbeam-utils//0.6.6 crossbeam-utils 0.6.6
+crossbeam-utils//0.7.0 crossbeam-utils 0.7.0
+crossbeam//0.7.3 crossbeam 0.7.3
+ct-logs//0.6.0 ct-logs 0.6.0
+curl-sys//0.4.25 curl-sys 0.4.25
+custom_derive//0.1.7 custom_derive 0.1.7
+defmac//0.1.3 defmac 0.1.3
+defmac//0.2.1 defmac 0.2.1
+demo-hack-impl//0.0.4 demo-hack-impl 0.0.4
+demo-hack-impl//0.0.5 demo-hack-impl 0.0.5
+demo-hack//0.0.4 demo-hack 0.0.4
+demo-hack//0.0.5 demo-hack 0.0.5
+diff//0.1.12 diff 0.1.12
+difference//2.0.0 difference 2.0.0
+digest//0.8.1 digest 0.8.1
+dirs-sys//0.3.4 dirs-sys 0.3.4
+dirs//2.0.2 dirs 2.0.2
+doc-comment//0.3.1 doc-comment 0.3.1
+dtoa//0.2.2 dtoa 0.2.2
+dtoa//0.4.4 dtoa 0.4.4
+dtoa//0.4.5 dtoa 0.4.5
+either//1.5.3 either 1.5.3
+encoding-index-japanese//1.20141219.5 encoding-index-japanese 1.20141219.5
+encoding-index-korean//1.20141219.5 encoding-index-korean 1.20141219.5
+encoding-index-simpchinese//1.20141219.5 encoding-index-simpchinese 1.20141219.5
+encoding-index-singlebyte//1.20141219.5 encoding-index-singlebyte 1.20141219.5
+encoding-index-tradchinese//1.20141219.5 encoding-index-tradchinese 1.20141219.5
+encoding//0.2.33 encoding 0.2.33
+encoding_rs//0.8.22 encoding_rs 0.8.22
+enum_to_u8_slice_derive//0.1.1 enum_to_u8_slice_derive 0.1.1
+env_logger//0.3.5 env_logger 0.3.5
+env_logger//0.4.3 env_logger 0.4.3
+env_logger//0.5.13 env_logger 0.5.13
+env_logger//0.6.2 env_logger 0.6.2
+env_logger//0.7.1 env_logger 0.7.1
+erased-serde//0.3.10 erased-serde 0.3.10
+erased-serde//0.3.9 erased-serde 0.3.9
+error-chain//0.12.1 error-chain 0.12.1
+failure//0.1.6 failure 0.1.6
+failure_derive//0.1.6 failure_derive 0.1.6
+fake-simd//0.1.2 fake-simd 0.1.2
+fallible-iterator//0.2.0 fallible-iterator 0.2.0
+filetime//0.2.8 filetime 0.2.8
+findshlibs//0.5.0 findshlibs 0.5.0
+fixedbitset//0.1.9 fixedbitset 0.1.9
+fixedbitset//0.2.0 fixedbitset 0.2.0
+flate2//1.0.13 flate2 1.0.13
+float-ord//0.2.0 float-ord 0.2.0
+fnv//1.0.6 fnv 1.0.6
+foreign-types-macros//0.2.0 foreign-types-macros 0.2.0
+foreign-types-shared//0.1.1 foreign-types-shared 0.1.1
+foreign-types-shared//0.3.0 foreign-types-shared 0.3.0
+foreign-types//0.3.2 foreign-types 0.3.2
+foreign-types//0.5.0 foreign-types 0.5.0
+fs2//0.2.5 fs2 0.2.5
+fs2//0.4.3 fs2 0.4.3
+fs_extra//1.1.0 fs_extra 1.1.0
+fst//0.1.38 fst 0.1.38
+fst//0.3.5 fst 0.3.5
+futf//0.1.4 futf 0.1.4
+futures-channel-preview//0.3.0.19 futures-channel-preview 0.3.0.19
+futures-channel//0.3.1 futures-channel 0.3.1
+futures-core-preview//0.3.0.19 futures-core-preview 0.3.0.19
+futures-core//0.3.1 futures-core 0.3.1
+futures-executor//0.3.1 futures-executor 0.3.1
+futures-io-preview//0.3.0.19 futures-io-preview 0.3.0.19
+futures-io//0.3.1 futures-io 0.3.1
+futures-join-macro-preview//0.3.0.19 futures-join-macro-preview 0.3.0.19
+futures-macro//0.3.1 futures-macro 0.3.1
+futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
+futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
+futures-sink//0.3.1 futures-sink 0.3.1
+futures-task//0.3.1 futures-task 0.3.1
+futures-test//0.3.1 futures-test 0.3.1
+futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
+futures-util//0.3.1 futures-util 0.3.1
+futures//0.1.29 futures 0.1.29
+futures//0.3.1 futures 0.3.1
+gcc//0.3.55 gcc 0.3.55
+generator//0.6.19 generator 0.6.19
+generator//0.6.20 generator 0.6.20
+generic-array//0.12.3 generic-array 0.12.3
+generic-array//0.13.2 generic-array 0.13.2
+getopts//0.2.21 getopts 0.2.21
+getrandom//0.1.13 getrandom 0.1.13
+getrandom//0.1.14 getrandom 0.1.14
+gimli//0.19.0 gimli 0.19.0
+gimli//0.20.0 gimli 0.20.0
+git2//0.11.0 git2 0.11.0
+git2//0.6.11 git2 0.6.11
+glob//0.2.11 glob 0.2.11
+glob//0.3.0 glob 0.3.0
+goblin//0.0.22 goblin 0.0.22
+goblin//0.0.24 goblin 0.0.24
+goblin//0.1.3 goblin 0.1.3
+goblin//0.2.0 goblin 0.2.0
+h2//0.2.1 h2 0.2.1
+half//1.4.0 half 1.4.0
+heapsize//0.3.9 heapsize 0.3.9
+heapsize//0.4.2 heapsize 0.4.2
+hex-literal-impl//0.1.2 hex-literal-impl 0.1.2
+hex-literal-impl//0.2.1 hex-literal-impl 0.2.1
+hex-literal//0.1.4 hex-literal 0.1.4
+hex-literal//0.2.1 hex-literal 0.2.1
+hex//0.2.0 hex 0.2.0
+hex//0.3.2 hex 0.3.2
+html5ever//0.22.5 html5ever 0.22.5
+http-body//0.3.1 http-body 0.3.1
+http//0.1.21 http 0.1.21
+http//0.2.0 http 0.2.0
+httparse//1.3.4 httparse 1.3.4
+humansize//1.1.0 humansize 1.1.0
+humantime//1.3.0 humantime 1.3.0
+humantime//2.0.0 humantime 2.0.0
+hyper-rustls//0.19.1 hyper-rustls 0.19.1
+hyper-tls//0.4.1 hyper-tls 0.4.1
+hyper//0.13.1 hyper 0.13.1
+hyper//0.13.2 hyper 0.13.2
+hyphenation//0.7.1 hyphenation 0.7.1
+hyphenation_commons//0.7.1 hyphenation_commons 0.7.1
+idna//0.1.5 idna 0.1.5
+idna//0.2.0 idna 0.2.0
+indexmap//1.3.0 indexmap 1.3.0
+indexmap//1.3.1 indexmap 1.3.1
+insta//0.11.0 insta 0.11.0
+insta//0.12.0 insta 0.12.0
+insta//0.13.1 insta 0.13.1
+insta//0.8.2 insta 0.8.2
+insta//0.9.0 insta 0.9.0
+intervaltree//0.2.4 intervaltree 0.2.4
+intervaltree//0.2.5 intervaltree 0.2.5
+iovec//0.1.4 iovec 0.1.4
+itertools//0.5.10 itertools 0.5.10
+itertools//0.7.11 itertools 0.7.11
+itertools//0.8.2 itertools 0.8.2
+itoa//0.1.1 itoa 0.1.1
+itoa//0.4.4 itoa 0.4.4
+itoa//0.4.5 itoa 0.4.5
+jemalloc-ctl//0.3.3 jemalloc-ctl 0.3.3
+jemalloc-sys//0.3.2 jemalloc-sys 0.3.2
+jemallocator//0.3.2 jemallocator 0.3.2
+jobserver//0.1.17 jobserver 0.1.17
+jobserver//0.1.21 jobserver 0.1.21
+kernel32-sys//0.2.2 kernel32-sys 0.2.2
+lazy_static//0.1.16 lazy_static 0.1.16
+lazy_static//0.2.11 lazy_static 0.2.11
+lazy_static//1.1.0 lazy_static 1.1.0
+lazy_static//1.4.0 lazy_static 1.4.0
+lazycell//1.2.1 lazycell 1.2.1
+lexical-core//0.4.6 lexical-core 0.4.6
+libc//0.2.66 libc 0.2.66
+libflate//0.1.27 libflate 0.1.27
+libgit2-sys//0.10.0 libgit2-sys 0.10.0
+libgit2-sys//0.6.19 libgit2-sys 0.6.19
+libloading//0.5.2 libloading 0.5.2
+libm//0.2.1 libm 0.2.1
+libnghttp2-sys//0.1.2 libnghttp2-sys 0.1.2
+libssh2-sys//0.2.13 libssh2-sys 0.2.13
+libssh2-sys//0.2.14 libssh2-sys 0.2.14
+libz-sys//1.0.25 libz-sys 1.0.25
+linked-hash-map//0.3.0 linked-hash-map 0.3.0
+linked-hash-map//0.5.2 linked-hash-map 0.5.2
+lipsum//0.6.0 lipsum 0.6.0
+lock_api//0.3.1 lock_api 0.3.1
+lock_api//0.3.3 lock_api 0.3.3
+log//0.3.9 log 0.3.9
+log//0.4.8 log 0.4.8
+loom//0.1.1 loom 0.1.1
+loom//0.2.14 loom 0.2.14
+mac//0.1.1 mac 0.1.1
+maplit//1.0.2 maplit 1.0.2
+markup5ever//0.10.0 markup5ever 0.10.0
+markup5ever//0.7.5 markup5ever 0.7.5
+matches//0.1.8 matches 0.1.8
+md5//0.6.1 md5 0.6.1
+md5//0.7.0 md5 0.7.0
+memchr//0.1.11 memchr 0.1.11
+memchr//2.2.1 memchr 2.2.1
+memchr//2.3.0 memchr 2.3.0
+memmap//0.4.0 memmap 0.4.0
+memmap//0.6.2 memmap 0.6.2
+memmap//0.7.0 memmap 0.7.0
+memoffset//0.5.1 memoffset 0.5.1
+memoffset//0.5.3 memoffset 0.5.3
+mesalink//1.1.0 mesalink 1.1.0
+mime//0.3.16 mime 0.3.16
+mime_guess//2.0.1 mime_guess 2.0.1
+miniz-sys//0.1.12 miniz-sys 0.1.12
+miniz_oxide//0.3.5 miniz_oxide 0.3.5
+miniz_oxide//0.3.6 miniz_oxide 0.3.6
+mio-uds//0.6.7 mio-uds 0.6.7
+mio//0.6.21 mio 0.6.21
+model//0.1.2 model 0.1.2
+native-tls//0.2.3 native-tls 0.2.3
+net2//0.2.33 net2 0.2.33
+new_debug_unreachable//1.0.3 new_debug_unreachable 1.0.3
+new_debug_unreachable//1.0.4 new_debug_unreachable 1.0.4
+no-panic//0.1.11 no-panic 0.1.11
+no-panic//0.1.12 no-panic 0.1.12
+nodrop//0.1.14 nodrop 0.1.14
+nom//4.2.3 nom 4.2.3
+nom//5.1.0 nom 5.1.0
+ntest//0.3.3 ntest 0.3.3
+ntest//0.5.1 ntest 0.5.1
+ntest_test_cases//0.3.4 ntest_test_cases 0.3.4
+ntest_test_cases//0.5.1 ntest_test_cases 0.5.1
+ntest_timeout//0.3.3 ntest_timeout 0.3.3
+ntest_timeout//0.5.1 ntest_timeout 0.5.1
+num-complex//0.2.4 num-complex 0.2.4
+num-integer//0.1.41 num-integer 0.1.41
+num-integer//0.1.42 num-integer 0.1.42
+num-iter//0.1.39 num-iter 0.1.39
+num-iter//0.1.40 num-iter 0.1.40
+num-traits//0.1.43 num-traits 0.1.43
+num-traits//0.2.11 num-traits 0.2.11
+num-traits//0.2.8 num-traits 0.2.8
+num_cpus//1.10.1 num_cpus 1.10.1
+num_cpus//1.12.0 num_cpus 1.12.0
+object//0.12.0 object 0.12.0
+object//0.17.0 object 0.17.0
+odds//0.2.26 odds 0.2.26
+odds//0.3.1 odds 0.3.1
+once_cell//1.2.0 once_cell 1.2.0
+once_cell//1.3.1 once_cell 1.3.1
+opaque-debug//0.2.3 opaque-debug 0.2.3
+openssl-probe//0.1.2 openssl-probe 0.1.2
+openssl-src//111.6.0 openssl-src 111.6.0
+openssl-src//111.6.1 openssl-src 111.6.1
+openssl-sys//0.9.52 openssl-sys 0.9.52
+openssl-sys//0.9.53 openssl-sys 0.9.53
+openssl-sys//0.9.54 openssl-sys 0.9.54
+openssl//0.10.26 openssl 0.10.26
+openssl//0.10.28 openssl 0.10.28
+ordermap//0.3.5 ordermap 0.3.5
+ordermap//0.4.2 ordermap 0.4.2
+owning_ref//0.4.0 owning_ref 0.4.0
+parity-wasm//0.38.0 parity-wasm 0.38.0
+parity-wasm//0.41.0 parity-wasm 0.41.0
+parking_lot//0.10.0 parking_lot 0.10.0
+parking_lot//0.9.0 parking_lot 0.9.0
+parking_lot_core//0.6.2 parking_lot_core 0.6.2
+parking_lot_core//0.7.0 parking_lot_core 0.7.0
+partial-io//0.2.5 partial-io 0.2.5
+partial-io//0.3.1 partial-io 0.3.1
+paste-impl//0.1.6 paste-impl 0.1.6
+paste//0.1.6 paste 0.1.6
+peeking_take_while//0.1.2 peeking_take_while 0.1.2
+percent-encoding//1.0.1 percent-encoding 1.0.1
+percent-encoding//2.1.0 percent-encoding 2.1.0
+permutohedron//0.2.4 permutohedron 0.2.4
+pest//2.1.2 pest 2.1.2
+pest_derive//2.1.0 pest_derive 2.1.0
+pest_generator//2.1.1 pest_generator 2.1.1
+pest_meta//2.1.2 pest_meta 2.1.2
+petgraph//0.4.13 petgraph 0.4.13
+petgraph//0.5.0 petgraph 0.5.0
+phf//0.7.24 phf 0.7.24
+phf//0.8.0 phf 0.8.0
+phf_codegen//0.7.24 phf_codegen 0.7.24
+phf_codegen//0.8.0 phf_codegen 0.8.0
+phf_generator//0.7.24 phf_generator 0.7.24
+phf_generator//0.8.0 phf_generator 0.8.0
+phf_macros//0.7.24 phf_macros 0.7.24
+phf_macros//0.8.0 phf_macros 0.8.0
+phf_shared//0.7.24 phf_shared 0.7.24
+phf_shared//0.8.0 phf_shared 0.8.0
+pico-sys//0.0.1 pico-sys 0.0.1
+pin-project-internal//0.4.6 pin-project-internal 0.4.6
+pin-project-internal//0.4.8 pin-project-internal 0.4.8
+pin-project-lite//0.1.2 pin-project-lite 0.1.2
+pin-project-lite//0.1.4 pin-project-lite 0.1.4
+pin-project//0.4.6 pin-project 0.4.6
+pin-project//0.4.8 pin-project 0.4.8
+pin-utils//0.1.0.4 pin-utils 0.1.0.4
+pkg-config//0.3.16 pkg-config 0.3.16
+pkg-config//0.3.17 pkg-config 0.3.17
+plain//0.2.3 plain 0.2.3
+pocket-resources//0.3.2 pocket-resources 0.3.2
+ppv-lite86//0.2.6 ppv-lite86 0.2.6
+precomputed-hash//0.1.1 precomputed-hash 0.1.1
+pretty_assertions//0.6.1 pretty_assertions 0.6.1
+pretty_env_logger//0.3.1 pretty_env_logger 0.3.1
+pretty_env_logger//0.4.0 pretty_env_logger 0.4.0
+proc-macro-hack-impl//0.4.2 proc-macro-hack-impl 0.4.2
+proc-macro-hack//0.4.2 proc-macro-hack 0.4.2
+proc-macro-hack//0.5.11 proc-macro-hack 0.5.11
+proc-macro-nested//0.1.3 proc-macro-nested 0.1.3
+proc-macro2//0.4.30 proc-macro2 0.4.30
+proc-macro2//1.0.8 proc-macro2 1.0.8
+proptest-derive//0.1.2 proptest-derive 0.1.2
+proptest//0.7.2 proptest 0.7.2
+proptest//0.8.7 proptest 0.8.7
+proptest//0.9.4 proptest 0.9.4
+proptest//0.9.5 proptest 0.9.5
+publicsuffix//1.5.4 publicsuffix 1.5.4
+pulldown-cmark//0.1.2 pulldown-cmark 0.1.2
+pulldown-cmark//0.4.1 pulldown-cmark 0.4.1
+pulse//0.5.3 pulse 0.5.3
+quantiles//0.7.1 quantiles 0.7.1
+quick-error//1.2.2 quick-error 1.2.2
+quickcheck//0.2.24 quickcheck 0.2.24
+quickcheck//0.2.27 quickcheck 0.2.27
+quickcheck//0.4.1 quickcheck 0.4.1
+quickcheck//0.5.0 quickcheck 0.5.0
+quickcheck//0.6.2 quickcheck 0.6.2
+quickcheck//0.7.2 quickcheck 0.7.2
+quickcheck//0.8.5 quickcheck 0.8.5
+quickcheck//0.9.0 quickcheck 0.9.0
+quickcheck_macros//0.8.0 quickcheck_macros 0.8.0
+quote//0.3.15 quote 0.3.15
+quote//0.6.13 quote 0.6.13
+quote//1.0.2 quote 1.0.2
+rand//0.3.23 rand 0.3.23
+rand//0.4.6 rand 0.4.6
+rand//0.5.6 rand 0.5.6
+rand//0.6.5 rand 0.6.5
+rand//0.7.2 rand 0.7.2
+rand_chacha//0.1.1 rand_chacha 0.1.1
+rand_chacha//0.2.1 rand_chacha 0.2.1
+rand_core//0.2.2 rand_core 0.2.2
+rand_core//0.3.1 rand_core 0.3.1
+rand_core//0.4.2 rand_core 0.4.2
+rand_core//0.5.1 rand_core 0.5.1
+rand_distr//0.2.2 rand_distr 0.2.2
+rand_hc//0.1.0 rand_hc 0.1.0
+rand_hc//0.2.0 rand_hc 0.2.0
+rand_isaac//0.1.1 rand_isaac 0.1.1
+rand_isaac//0.2.0 rand_isaac 0.2.0
+rand_jitter//0.1.4 rand_jitter 0.1.4
+rand_os//0.1.3 rand_os 0.1.3
+rand_pcg//0.1.2 rand_pcg 0.1.2
+rand_pcg//0.2.1 rand_pcg 0.2.1
+rand_xorshift//0.1.1 rand_xorshift 0.1.1
+rand_xorshift//0.2.0 rand_xorshift 0.2.0
+rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
+rand_xoshiro//0.3.1 rand_xoshiro 0.3.1
+rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
+rawpointer//0.1.0 rawpointer 0.1.0
+rawslice//0.1.0 rawslice 0.1.0
+rayon-core//1.6.0 rayon-core 1.6.0
+rayon//0.8.2 rayon 0.8.2
+rayon//1.2.0 rayon 1.2.0
+ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
+ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
+ref-cast//0.2.7 ref-cast 0.2.7
+ref-cast//1.0.0 ref-cast 1.0.0
+regex-syntax//0.3.9 regex-syntax 0.3.9
+regex-syntax//0.4.2 regex-syntax 0.4.2
+regex-syntax//0.5.6 regex-syntax 0.5.6
+regex-syntax//0.6.12 regex-syntax 0.6.12
+regex//0.1.80 regex 0.1.80
+regex//0.2.11 regex 0.2.11
+regex//1.3.1 regex 1.3.1
+remove_dir_all//0.5.2 remove_dir_all 0.5.2
+reqwest//0.10.0 reqwest 0.10.0
+ring//0.14.6 ring 0.14.6
+ring//0.16.9 ring 0.16.9
+rle-decode-fast//1.0.1 rle-decode-fast 1.0.1
+ron//0.4.1 ron 0.4.1
+ron//0.5.1 ron 0.5.1
+rspec//1.0.0.3 rspec 1.0.0.3
+rustc-demangle//0.1.16 rustc-demangle 0.1.16
+rustc-hash//1.0.1 rustc-hash 1.0.1
+rustc-serialize//0.3.24 rustc-serialize 0.3.24
+rustc-std-workspace-core//1.0.0 rustc-std-workspace-core 1.0.0
+rustc-test//0.3.0 rustc-test 0.3.0
+rustc_version//0.2.3 rustc_version 0.2.3
+rustfix//0.4.6 rustfix 0.4.6
+rustls-native-certs//0.1.0 rustls-native-certs 0.1.0
+rustls//0.16.0 rustls 0.16.0
+rustversion//0.1.4 rustversion 0.1.4
+rustversion//1.0.1 rustversion 1.0.1
+rusty-fork//0.2.2 rusty-fork 0.2.2
+ryu//1.0.1 ryu 1.0.1
+safemem//0.3.3 safemem 0.3.3
+same-file//0.1.3 same-file 0.1.3
+same-file//1.0.5 same-file 1.0.5
+scoped-tls//0.1.2 scoped-tls 0.1.2
+scoped-tls//1.0.0 scoped-tls 1.0.0
+scopeguard//1.0.0 scopeguard 1.0.0
+scroll//0.10.1 scroll 0.10.1
+scroll//0.9.2 scroll 0.9.2
+scroll_derive//0.10.1 scroll_derive 0.10.1
+scroll_derive//0.9.5 scroll_derive 0.9.5
+sct//0.6.0 sct 0.6.0
+seahash//3.0.6 seahash 3.0.6
+semver-parser//0.7.0 semver-parser 0.7.0
+semver-parser//0.9.0 semver-parser 0.9.0
+semver//0.9.0 semver 0.9.0
+serde-big-array//0.1.5 serde-big-array 0.1.5
+serde//0.8.23 serde 0.8.23
+serde//1.0.104 serde 1.0.104
+serde_bytes//0.10.4 serde_bytes 0.10.4
+serde_bytes//0.11.2 serde_bytes 0.11.2
+serde_cbor//0.9.0 serde_cbor 0.9.0
+serde_derive//1.0.104 serde_derive 1.0.104
+serde_json//0.8.6 serde_json 0.8.6
+serde_json//1.0.41 serde_json 1.0.41
+serde_test//0.8.23 serde_test 0.8.23
+serde_test//1.0.102 serde_test 1.0.102
+serde_urlencoded//0.6.1 serde_urlencoded 0.6.1
+serde_yaml//0.8.11 serde_yaml 0.8.11
+sha-1//0.8.1 sha-1 0.8.1
+sha1-asm//0.4.3 sha1-asm 0.4.3
+sha1//0.6.0 sha1 0.6.0
+shlex//0.1.1 shlex 0.1.1
+signal-hook-registry//1.2.0 signal-hook-registry 1.2.0
+signal-hook//0.1.12 signal-hook 0.1.12
+siphasher//0.2.3 siphasher 0.2.3
+siphasher//0.3.1 siphasher 0.3.1
+slab//0.4.2 slab 0.4.2
+slog//2.5.2 slog 2.5.2
+smallvec//0.6.10 smallvec 0.6.10
+smallvec//1.1.0 smallvec 1.1.0
+speculate//0.1.2 speculate 0.1.2
+spin//0.4.10 spin 0.4.10
+spin//0.5.2 spin 0.5.2
+spmc//0.3.0 spmc 0.3.0
+stable_deref_trait//1.1.1 stable_deref_trait 1.1.1
+static_assertions//0.3.4 static_assertions 0.3.4
+stream-cipher//0.3.2 stream-cipher 0.3.2
+streaming-stats//0.2.2 streaming-stats 0.2.2
+string_cache//0.7.5 string_cache 0.7.5
+string_cache//0.8.0 string_cache 0.8.0
+string_cache_codegen//0.4.4 string_cache_codegen 0.4.4
+string_cache_codegen//0.5.1 string_cache_codegen 0.5.1
+string_cache_shared//0.3.0 string_cache_shared 0.3.0
+strsim//0.8.0 strsim 0.8.0
+sval//0.4.7 sval 0.4.7
+sval_derive//0.4.7 sval_derive 0.4.7
+syn//0.11.11 syn 0.11.11
+syn//0.14.9 syn 0.14.9
+syn//0.15.44 syn 0.15.44
+syn//1.0.14 syn 1.0.14
+synom//0.11.3 synom 0.11.3
+synstructure//0.12.1 synstructure 0.12.1
+synstructure_test_traits//0.1.0 synstructure_test_traits 0.1.0
+take_mut//0.2.2 take_mut 0.2.2
+tar//0.4.26 tar 0.4.26
+target-lexicon//0.10.0 target-lexicon 0.10.0
+tempdir//0.3.7 tempdir 0.3.7
+tempfile//3.1.0 tempfile 3.1.0
+tendril//0.4.1 tendril 0.4.1
+term//0.2.14 term 0.2.14
+term//0.4.6 term 0.4.6
+term//0.6.1 term 0.6.1
+term_size//0.3.1 term_size 0.3.1
+termcolor//1.0.5 termcolor 1.0.5
+termios//0.3.1 termios 0.3.1
+test-assembler//0.1.5 test-assembler 0.1.5
+tester//0.6.0 tester 0.6.0
+textwrap//0.11.0 textwrap 0.11.0
+thiserror-impl//1.0.6 thiserror-impl 1.0.6
+thiserror//1.0.6 thiserror 1.0.6
+thread-id//2.0.0 thread-id 2.0.0
+thread-id//3.3.0 thread-id 3.3.0
+thread_local//0.2.7 thread_local 0.2.7
+thread_local//0.3.6 thread_local 0.3.6
+time//0.1.42 time 0.1.42
+timebomb//0.1.2 timebomb 0.1.2
+tokio-codec//0.1.1 tokio-codec 0.1.1
+tokio-core//0.1.17 tokio-core 0.1.17
+tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
+tokio-executor//0.1.9 tokio-executor 0.1.9
+tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
+tokio-fs//0.1.6 tokio-fs 0.1.6
+tokio-io//0.1.11 tokio-io 0.1.11
+tokio-macros//0.2.3 tokio-macros 0.2.3
+tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
+tokio-process//0.2.4 tokio-process 0.2.4
+tokio-reactor//0.1.11 tokio-reactor 0.1.11
+tokio-rustls//0.12.2 tokio-rustls 0.12.2
+tokio-signal//0.2.7 tokio-signal 0.2.7
+tokio-sync//0.1.7 tokio-sync 0.1.7
+tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
+tokio-tcp//0.1.3 tokio-tcp 0.1.3
+tokio-test//0.2.0 tokio-test 0.2.0
+tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
+tokio-timer//0.2.12 tokio-timer 0.2.12
+tokio-tls//0.3.0 tokio-tls 0.3.0
+tokio-udp//0.1.5 tokio-udp 0.1.5
+tokio-uds//0.2.5 tokio-uds 0.2.5
+tokio-util//0.2.0 tokio-util 0.2.0
+tokio//0.1.22 tokio 0.1.22
+tokio//0.2.9 tokio 0.2.9
+toml//0.4.10 toml 0.4.10
+toml//0.5.3 toml 0.5.3
+tower-layer//0.3.0 tower-layer 0.3.0
+tower-service//0.3.0 tower-service 0.3.0
+tower-test//0.3.0 tower-test 0.3.0
+tower-util//0.3.0 tower-util 0.3.0
+tracing-attributes//0.1.6 tracing-attributes 0.1.6
+tracing-core//0.1.7 tracing-core 0.1.7
+tracing-core//0.1.9 tracing-core 0.1.9
+tracing-futures//0.2.1 tracing-futures 0.2.1
+tracing//0.1.12 tracing 0.1.12
+try-lock//0.2.2 try-lock 0.2.2
+trybuild//1.0.17 trybuild 1.0.17
+typed-arena//1.7.0 typed-arena 1.7.0
+typenum//1.11.2 typenum 1.11.2
+ucd-trie//0.1.2 ucd-trie 0.1.2
+ucd-util//0.1.5 ucd-util 0.1.5
+unchecked-index//0.2.2 unchecked-index 0.2.2
+unicase//1.4.2 unicase 1.4.2
+unicase//2.6.0 unicase 2.6.0
+unicode-bidi//0.3.4 unicode-bidi 0.3.4
+unicode-normalization//0.1.8 unicode-normalization 0.1.8
+unicode-segmentation//1.6.0 unicode-segmentation 1.6.0
+unicode-width//0.1.6 unicode-width 0.1.6
+unicode-xid//0.0.4 unicode-xid 0.0.4
+unicode-xid//0.1.0 unicode-xid 0.1.0
+unicode-xid//0.2.0 unicode-xid 0.2.0
+unindent//0.1.5 unindent 0.1.5
+untrusted//0.6.2 untrusted 0.6.2
+untrusted//0.7.0 untrusted 0.7.0
+url//1.7.2 url 1.7.2
+url//2.1.1 url 2.1.1
+utf-8//0.7.5 utf-8 0.7.5
+utf8-ranges//0.1.3 utf8-ranges 0.1.3
+utf8-ranges//1.0.4 utf8-ranges 1.0.4
+uuid//0.7.4 uuid 0.7.4
+uuid//0.8.1 uuid 0.8.1
+vec_map//0.8.1 vec_map 0.8.1
+version-sync//0.6.0 version-sync 0.6.0
+version-sync//0.8.1 version-sync 0.8.1
+version_check//0.1.5 version_check 0.1.5
+version_check//0.9.1 version_check 0.9.1
+wait-timeout//0.2.0 wait-timeout 0.2.0
+walkdir//1.0.7 walkdir 1.0.7
+walkdir//2.2.9 walkdir 2.2.9
+want//0.3.0 want 0.3.0
+webpki-roots//0.17.0 webpki-roots 0.17.0
+webpki-roots//0.18.0 webpki-roots 0.18.0
+webpki//0.21.0 webpki 0.21.0
+which//3.1.0 which 3.1.0
+winapi-build//0.1.1 winapi-build 0.1.1
+winapi//0.2.8 winapi 0.2.8
+xattr//0.2.2 xattr 0.2.2
+xdg//2.2.0 xdg 2.2.0
+yaml-rust//0.3.5 yaml-rust 0.3.5
+yaml-rust//0.4.3 yaml-rust 0.4.3
+zstd-safe//2.0.3 zstd-safe 2.0.3
+zstd-sys//1.4.15 zstd-sys 1.4.15
+zstd//0.5.1 zstd 0.5.1
+#
+addr2line//0.11.0 cpp_demangle//0.2.13 feature:default
+addr2line//0.11.0 cpp_demangle//0.2.13 weak:optional
+addr2line//0.11.0 fallible-iterator//0.2.0
+addr2line//0.11.0 gimli//0.20.0
+addr2line//0.11.0 lazycell//1.2.1
+addr2line//0.11.0 object//0.17.0 feature:default
+addr2line//0.11.0 object//0.17.0 weak:feature:std-object
+addr2line//0.11.0 object//0.17.0 weak:optional
+addr2line//0.11.0 rustc-demangle//0.1.16 feature:default
+addr2line//0.11.0 rustc-demangle//0.1.16 weak:optional
+addr2line//0.11.0 smallvec//1.1.0
+afl//0.4.4 cc//1.0.46
+afl//0.4.4 clap//2.33.0
+afl//0.4.4 rustc_version//0.2.3
+afl//0.4.4 xdg//2.2.0
+afl//0.5.2 cc//1.0.46 weak:feature:f_cargo-afl
+afl//0.5.2 cc//1.0.46 weak:optional
+afl//0.5.2 clap//2.33.0 weak:feature:f_cargo-afl
+afl//0.5.2 clap//2.33.0 weak:optional
+afl//0.5.2 rustc_version//0.2.3
+afl//0.5.2 xdg//2.2.0
+aho-corasick//0.5.3 memchr//0.1.11
+aho-corasick//0.6.10 memchr//2.3.0
+aho-corasick//0.7.6 memchr//2.3.0
+ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
+ansi_term//0.12.1 serde//1.0.104 weak:optional
+approx//0.3.2 num-complex//0.2.4 weak:optional
+approx//0.3.2 num-traits//0.2.11
+arrayvec//0.4.12 nodrop//0.1.14
+arrayvec//0.4.12 serde//1.0.104 weak:feature:serde-1
+arrayvec//0.4.12 serde//1.0.104 weak:optional
+arrayvec//0.5.1 serde//1.0.104 weak:optional
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:all
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:all-algorithms
+async-compression//0.2.0 brotli2//0.3.2 weak:feature:brotli
+async-compression//0.2.0 brotli2//0.3.2 weak:optional
+async-compression//0.2.0 bytes//0.5.4 weak:feature:all
+async-compression//0.2.0 bytes//0.5.4 weak:feature:all-implementations
+async-compression//0.2.0 bytes//0.5.4 weak:feature:stream
+async-compression//0.2.0 bytes//0.5.4 weak:optional
+async-compression//0.2.0 bzip2//0.3.3 weak:feature:all
+async-compression//0.2.0 bzip2//0.3.3 weak:feature:all-algorithms
+async-compression//0.2.0 bzip2//0.3.3 weak:optional
+async-compression//0.2.0 flate2//1.0.13 weak:feature:all
+async-compression//0.2.0 flate2//1.0.13 weak:feature:all-algorithms
+async-compression//0.2.0 flate2//1.0.13 weak:feature:deflate
+async-compression//0.2.0 flate2//1.0.13 weak:feature:gzip
+async-compression//0.2.0 flate2//1.0.13 weak:feature:zlib
+async-compression//0.2.0 flate2//1.0.13 weak:optional
+async-compression//0.2.0 futures-core//0.3.1
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:all
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:all-implementations
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-bufread
+async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-write
+async-compression//0.2.0 futures-io//0.3.1 weak:optional
+async-compression//0.2.0 memchr//2.3.0
+async-compression//0.2.0 pin-project-lite//0.1.4
+async-compression//0.2.0 zstd-safe//2.0.3 weak:feature:f_zstd
+async-compression//0.2.0 zstd-safe//2.0.3 weak:optional
+async-compression//0.2.0 zstd//0.5.1 weak:feature:all
+async-compression//0.2.0 zstd//0.5.1 weak:feature:all-algorithms
+async-compression//0.2.0 zstd//0.5.1 weak:feature:f_zstd
+async-compression//0.2.0 zstd//0.5.1 weak:optional
+atlatl//0.1.2 fnv//1.0.6
+atlatl//0.1.2 num-traits//0.2.11
+atlatl//0.1.2 serde//1.0.104 weak:optional
+atty//0.2.14 libc//0.2.66
+average//0.10.3 conv//0.3.3
+average//0.10.3 float-ord//0.2.0
+average//0.10.3 num-traits//0.2.11
+average//0.10.3 serde-big-array//0.1.5 weak:feature:serde1
+average//0.10.3 serde-big-array//0.1.5 weak:optional
+average//0.10.3 serde//1.0.104 weak:feature:serde1
+average//0.10.3 serde//1.0.104 weak:optional
+average//0.10.3 serde_derive//1.0.104 weak:feature:serde1
+average//0.10.3 serde_derive//1.0.104 weak:optional
+average//0.9.4 conv//0.3.3
+average//0.9.4 float-ord//0.2.0
+average//0.9.4 num-integer//0.1.42
+average//0.9.4 num-traits//0.2.11
+average//0.9.4 serde-big-array//0.1.5 weak:feature:serde1
+average//0.9.4 serde-big-array//0.1.5 weak:optional
+average//0.9.4 serde//1.0.104 weak:feature:serde1
+average//0.9.4 serde//1.0.104 weak:optional
+average//0.9.4 serde_derive//1.0.104 weak:feature:serde1
+average//0.9.4 serde_derive//1.0.104 weak:optional
+backtrace-sys//0.1.32 cc//1.0.46
+backtrace-sys//0.1.32 libc//0.2.66
+backtrace//0.3.42 addr2line//0.11.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 addr2line//0.11.0 weak:optional
+backtrace//0.3.42 backtrace-sys//0.1.32 feature:default
+backtrace//0.3.42 backtrace-sys//0.1.32 weak:feature:libbacktrace
+backtrace//0.3.42 backtrace-sys//0.1.32 weak:optional
+backtrace//0.3.42 cfg-if//0.1.10
+backtrace//0.3.42 cpp_demangle//0.2.13 weak:optional
+backtrace//0.3.42 findshlibs//0.5.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 findshlibs//0.5.0 weak:optional
+backtrace//0.3.42 goblin//0.0.24 weak:feature:gimli-symbolize
+backtrace//0.3.42 goblin//0.0.24 weak:optional
+backtrace//0.3.42 libc//0.2.66
+backtrace//0.3.42 memmap//0.7.0 weak:feature:gimli-symbolize
+backtrace//0.3.42 memmap//0.7.0 weak:optional
+backtrace//0.3.42 rustc-demangle//0.1.16
+backtrace//0.3.42 rustc-serialize//0.3.24 weak:feature:serialize-rustc
+backtrace//0.3.42 rustc-serialize//0.3.24 weak:optional
+backtrace//0.3.42 serde//1.0.104 weak:feature:serialize-serde
+backtrace//0.3.42 serde//1.0.104 weak:optional
+base64//0.10.1 byteorder//1.3.2
+base64//0.9.3 byteorder//1.3.2
+base64//0.9.3 safemem//0.3.3
+bincode//0.8.0 byteorder//1.3.2
+bincode//0.8.0 num-traits//0.1.43
+bincode//0.8.0 serde//1.0.104
+bincode//1.2.1 byteorder//1.3.2
+bincode//1.2.1 serde//1.0.104
+bindgen//0.51.1 bitflags//1.2.1
+bindgen//0.51.1 cexpr//0.3.6
+bindgen//0.51.1 cfg-if//0.1.10
+bindgen//0.51.1 clang-sys//0.28.1
+bindgen//0.51.1 clap//2.33.0 feature:default
+bindgen//0.51.1 clap//2.33.0 weak:optional
+bindgen//0.51.1 env_logger//0.6.2 feature:default
+bindgen//0.51.1 env_logger//0.6.2 weak:feature:logging
+bindgen//0.51.1 env_logger//0.6.2 weak:optional
+bindgen//0.51.1 lazy_static//1.4.0
+bindgen//0.51.1 log//0.4.8 feature:default
+bindgen//0.51.1 log//0.4.8 weak:feature:logging
+bindgen//0.51.1 log//0.4.8 weak:optional
+bindgen//0.51.1 peeking_take_while//0.1.2
+bindgen//0.51.1 proc-macro2//1.0.8
+bindgen//0.51.1 quote//1.0.2
+bindgen//0.51.1 regex//1.3.1
+bindgen//0.51.1 rustc-hash//1.0.1
+bindgen//0.51.1 shlex//0.1.1
+bindgen//0.51.1 which//3.1.0 feature:default
+bindgen//0.51.1 which//3.1.0 weak:feature:which-rustfmt
+bindgen//0.51.1 which//3.1.0 weak:optional
+bindgen//0.52.0 bitflags//1.2.1
+bindgen//0.52.0 cexpr//0.3.6
+bindgen//0.52.0 cfg-if//0.1.10
+bindgen//0.52.0 clang-sys//0.28.1
+bindgen//0.52.0 clap//2.33.0 feature:default
+bindgen//0.52.0 clap//2.33.0 weak:optional
+bindgen//0.52.0 env_logger//0.7.1 feature:default
+bindgen//0.52.0 env_logger//0.7.1 weak:feature:logging
+bindgen//0.52.0 env_logger//0.7.1 weak:optional
+bindgen//0.52.0 lazy_static//1.4.0
+bindgen//0.52.0 lazycell//1.2.1
+bindgen//0.52.0 log//0.4.8 feature:default
+bindgen//0.52.0 log//0.4.8 weak:feature:logging
+bindgen//0.52.0 log//0.4.8 weak:optional
+bindgen//0.52.0 peeking_take_while//0.1.2
+bindgen//0.52.0 proc-macro2//1.0.8
+bindgen//0.52.0 quote//1.0.2
+bindgen//0.52.0 regex//1.3.1
+bindgen//0.52.0 rustc-hash//1.0.1
+bindgen//0.52.0 shlex//0.1.1
+bindgen//0.52.0 which//3.1.0 feature:default
+bindgen//0.52.0 which//3.1.0 weak:feature:which-rustfmt
+bindgen//0.52.0 which//3.1.0 weak:optional
+bit-set//0.5.1 bit-vec//0.5.1
+bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_no_std
+bit-vec//0.6.1 serde//1.0.104 weak:feature:serde_std
+bit-vec//0.6.1 serde//1.0.104 weak:optional
+blobby//0.1.2 byteorder//1.3.2
+block-buffer//0.7.3 block-padding//0.1.5
+block-buffer//0.7.3 byte-tools//0.3.1
+block-buffer//0.7.3 byteorder//1.3.2
+block-buffer//0.7.3 generic-array//0.12.3
+block-padding//0.1.5 byte-tools//0.3.1
+brotli-sys//0.3.2 cc//1.0.46
+brotli-sys//0.3.2 libc//0.2.66
+brotli2//0.3.2 brotli-sys//0.3.2
+brotli2//0.3.2 libc//0.2.66
+bytes//0.4.12 byteorder//1.3.2
+bytes//0.4.12 either//1.5.3 weak:optional
+bytes//0.4.12 iovec//0.1.4
+bytes//0.4.12 serde//1.0.104 weak:optional
+bytes//0.5.4 serde//1.0.104 weak:optional
+bzip2-sys//0.1.7 cc//1.0.46
+bzip2-sys//0.1.7 libc//0.2.66
+bzip2//0.3.3 bzip2-sys//0.1.7
+bzip2//0.3.3 futures//0.1.29 weak:feature:tokio
+bzip2//0.3.3 futures//0.1.29 weak:optional
+bzip2//0.3.3 libc//0.2.66
+bzip2//0.3.3 tokio-io//0.1.11 weak:feature:tokio
+bzip2//0.3.3 tokio-io//0.1.11 weak:optional
+c2-chacha//0.2.3 byteorder//1.3.2 feature:default
+c2-chacha//0.2.3 byteorder//1.3.2 weak:feature:rustcrypto_api
+c2-chacha//0.2.3 byteorder//1.3.2 weak:optional
+c2-chacha//0.2.3 ppv-lite86//0.2.6
+c2-chacha//0.2.3 stream-cipher//0.3.2 feature:default
+c2-chacha//0.2.3 stream-cipher//0.3.2 weak:feature:rustcrypto_api
+c2-chacha//0.2.3 stream-cipher//0.3.2 weak:optional
+cc//1.0.46 jobserver//0.1.21 weak:feature:parallel
+cc//1.0.46 jobserver//0.1.21 weak:optional
+cc//1.0.46 num_cpus//1.12.0 weak:feature:parallel
+cc//1.0.46 num_cpus//1.12.0 weak:optional
+cexpr//0.3.6 nom//4.2.3
+chrono//0.4.9 libc//0.2.66
+chrono//0.4.9 num-integer//0.1.42
+chrono//0.4.9 num-traits//0.2.11
+chrono//0.4.9 rustc-serialize//0.3.24 weak:optional
+chrono//0.4.9 serde//1.0.104 weak:optional
+chrono//0.4.9 time//0.1.42 feature:default
+chrono//0.4.9 time//0.1.42 weak:feature:clock
+chrono//0.4.9 time//0.1.42 weak:optional
+ci_info//0.3.1 serde//1.0.104 weak:feature:serde-1
+ci_info//0.3.1 serde//1.0.104 weak:optional
+ci_info//0.3.1 serde_derive//1.0.104 weak:feature:serde-1
+ci_info//0.3.1 serde_derive//1.0.104 weak:optional
+clang-sys//0.28.1 glob//0.3.0
+clang-sys//0.28.1 libc//0.2.66
+clang-sys//0.28.1 libloading//0.5.2 weak:feature:runtime
+clang-sys//0.28.1 libloading//0.5.2 weak:optional
+clap//2.33.0 ansi_term//0.11.0 feature:default
+clap//2.33.0 ansi_term//0.11.0 weak:feature:color
+clap//2.33.0 ansi_term//0.11.0 weak:optional
+clap//2.33.0 atty//0.2.14 feature:default
+clap//2.33.0 atty//0.2.14 weak:feature:color
+clap//2.33.0 atty//0.2.14 weak:optional
+clap//2.33.0 bitflags//1.2.1
+clap//2.33.0 strsim//0.8.0 feature:default
+clap//2.33.0 strsim//0.8.0 weak:feature:suggestions
+clap//2.33.0 strsim//0.8.0 weak:optional
+clap//2.33.0 term_size//0.3.1 weak:feature:wrap_help
+clap//2.33.0 term_size//0.3.1 weak:optional
+clap//2.33.0 textwrap//0.11.0
+clap//2.33.0 unicode-width//0.1.6
+clap//2.33.0 vec_map//0.8.1 feature:default
+clap//2.33.0 vec_map//0.8.1 weak:optional
+clap//2.33.0 yaml-rust//0.3.5 weak:feature:doc
+clap//2.33.0 yaml-rust//0.3.5 weak:feature:yaml
+clap//2.33.0 yaml-rust//0.3.5 weak:optional
+clicolors-control//1.0.1 lazy_static//1.4.0
+clicolors-control//1.0.1 libc//0.2.66
+cmake//0.1.42 cc//1.0.46
+compiletest_rs//0.3.26 diff//0.1.12
+compiletest_rs//0.3.26 filetime//0.2.8
+compiletest_rs//0.3.26 getopts//0.2.21
+compiletest_rs//0.3.26 libc//0.2.66
+compiletest_rs//0.3.26 log//0.4.8
+compiletest_rs//0.3.26 regex//1.3.1
+compiletest_rs//0.3.26 rustfix//0.4.6
+compiletest_rs//0.3.26 serde//1.0.104
+compiletest_rs//0.3.26 serde_derive//1.0.104
+compiletest_rs//0.3.26 serde_json//1.0.41
+compiletest_rs//0.3.26 tempfile//3.1.0 weak:feature:tmp
+compiletest_rs//0.3.26 tempfile//3.1.0 weak:optional
+compiletest_rs//0.3.26 tester//0.6.0
+console//0.7.7 atty//0.2.14
+console//0.7.7 clicolors-control//1.0.1
+console//0.7.7 lazy_static//1.4.0
+console//0.7.7 libc//0.2.66
+console//0.7.7 parking_lot//0.10.0
+console//0.7.7 regex//1.3.1
+console//0.7.7 termios//0.3.1
+console//0.7.7 unicode-width//0.1.6
+console//0.8.0 clicolors-control//1.0.1
+console//0.8.0 lazy_static//1.4.0
+console//0.8.0 libc//0.2.66
+console//0.8.0 regex//1.3.1
+console//0.8.0 termios//0.3.1
+console//0.8.0 unicode-width//0.1.6
+console//0.9.1 clicolors-control//1.0.1
+console//0.9.1 lazy_static//1.4.0
+console//0.9.1 libc//0.2.66
+console//0.9.1 regex//1.3.1
+console//0.9.1 termios//0.3.1
+console//0.9.1 unicode-width//0.1.6 feature:default
+console//0.9.1 unicode-width//0.1.6 weak:optional
+conv//0.3.3 custom_derive//0.1.7
+cookie//0.12.0 base64//0.10.1 weak:feature:secure
+cookie//0.12.0 base64//0.10.1 weak:optional
+cookie//0.12.0 ring//0.14.6 weak:feature:secure
+cookie//0.12.0 ring//0.14.6 weak:optional
+cookie//0.12.0 time//0.1.42
+cookie//0.12.0 url//1.7.2 weak:feature:percent-encode
+cookie//0.12.0 url//1.7.2 weak:optional
+cookie_store//0.10.0 cookie//0.12.0
+cookie_store//0.10.0 idna//0.2.0
+cookie_store//0.10.0 indexmap//1.3.1 weak:feature:preserve_order
+cookie_store//0.10.0 indexmap//1.3.1 weak:optional
+cookie_store//0.10.0 log//0.4.8
+cookie_store//0.10.0 publicsuffix//1.5.4
+cookie_store//0.10.0 serde//1.0.104
+cookie_store//0.10.0 serde_json//1.0.41
+cookie_store//0.10.0 time//0.1.42
+cookie_store//0.10.0 url//2.1.1
+cpp_demangle//0.2.13 afl//0.4.4 weak:feature:fuzz
+cpp_demangle//0.2.13 afl//0.4.4 weak:optional
+cpp_demangle//0.2.13 cfg-if//0.1.10
+cpp_demangle//0.2.13 glob//0.3.0
+crates-index//0.5.1 git2//0.6.11
+crates-index//0.5.1 glob//0.2.11
+crates-index//0.5.1 rustc-serialize//0.3.24
+crc32fast//1.2.0 cfg-if//0.1.10
+crossbeam-channel//0.3.9 crossbeam-utils//0.6.6
+crossbeam-channel//0.4.0 crossbeam-utils//0.7.0
+crossbeam-deque//0.7.2 crossbeam-epoch//0.8.0
+crossbeam-deque//0.7.2 crossbeam-utils//0.7.0
+crossbeam-epoch//0.8.0 autocfg//0.1.6
+crossbeam-epoch//0.8.0 cfg-if//0.1.10
+crossbeam-epoch//0.8.0 crossbeam-utils//0.7.0
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 feature:default
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 weak:feature:std
+crossbeam-epoch//0.8.0 lazy_static//1.4.0 weak:optional
+crossbeam-epoch//0.8.0 memoffset//0.5.3
+crossbeam-epoch//0.8.0 scopeguard//1.0.0
+crossbeam-queue//0.1.2 crossbeam-utils//0.6.6
+crossbeam-queue//0.2.1 cfg-if//0.1.10
+crossbeam-queue//0.2.1 crossbeam-utils//0.7.0
+crossbeam-utils//0.6.6 cfg-if//0.1.10
+crossbeam-utils//0.6.6 lazy_static//1.4.0 feature:default
+crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:feature:std
+crossbeam-utils//0.6.6 lazy_static//1.4.0 weak:optional
+crossbeam-utils//0.7.0 cfg-if//0.1.10
+crossbeam-utils//0.7.0 lazy_static//1.4.0 feature:default
+crossbeam-utils//0.7.0 lazy_static//1.4.0 weak:feature:std
+crossbeam-utils//0.7.0 lazy_static//1.4.0 weak:optional
+crossbeam//0.7.3 cfg-if//0.1.10
+crossbeam//0.7.3 crossbeam-channel//0.4.0 feature:default
+crossbeam//0.7.3 crossbeam-channel//0.4.0 weak:feature:std
+crossbeam//0.7.3 crossbeam-channel//0.4.0 weak:optional
+crossbeam//0.7.3 crossbeam-deque//0.7.2 feature:default
+crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:feature:std
+crossbeam//0.7.3 crossbeam-deque//0.7.2 weak:optional
+crossbeam//0.7.3 crossbeam-epoch//0.8.0
+crossbeam//0.7.3 crossbeam-queue//0.2.1 feature:default
+crossbeam//0.7.3 crossbeam-queue//0.2.1 weak:feature:std
+crossbeam//0.7.3 crossbeam-queue//0.2.1 weak:optional
+crossbeam//0.7.3 crossbeam-utils//0.7.0
+ct-logs//0.6.0 sct//0.6.0
+curl-sys//0.4.25 cc//1.0.46
+curl-sys//0.4.25 libc//0.2.66
+curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:feature:http2
+curl-sys//0.4.25 libnghttp2-sys//0.1.2 weak:optional
+curl-sys//0.4.25 libz-sys//1.0.25
+curl-sys//0.4.25 mesalink//1.1.0 weak:optional
+curl-sys//0.4.25 openssl-sys//0.9.54 feature:default
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:feature:ssl
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:feature:static-ssl
+curl-sys//0.4.25 openssl-sys//0.9.54 weak:optional
+curl-sys//0.4.25 pkg-config//0.3.17
+demo-hack-impl//0.0.4 proc-macro-hack-impl//0.4.2
+demo-hack-impl//0.0.5 proc-macro-hack//0.5.11
+demo-hack-impl//0.0.5 quote//0.6.13
+demo-hack-impl//0.0.5 syn//0.15.44
+demo-hack//0.0.4 demo-hack-impl//0.0.4
+demo-hack//0.0.4 proc-macro-hack//0.4.2
+demo-hack//0.0.5 demo-hack-impl//0.0.5
+demo-hack//0.0.5 proc-macro-hack//0.5.11
+difference//2.0.0 getopts//0.2.21 weak:feature:bin
+difference//2.0.0 getopts//0.2.21 weak:optional
+digest//0.8.1 blobby//0.1.2 weak:feature:dev
+digest//0.8.1 blobby//0.1.2 weak:optional
+digest//0.8.1 generic-array//0.12.3
+dirs-sys//0.3.4 cfg-if//0.1.10
+dirs-sys//0.3.4 libc//0.2.66
+dirs//2.0.2 cfg-if//0.1.10
+dirs//2.0.2 dirs-sys//0.3.4
+either//1.5.3 serde//1.0.104 weak:optional
+encoding//0.2.33 encoding-index-japanese//1.20141219.5
+encoding//0.2.33 encoding-index-korean//1.20141219.5
+encoding//0.2.33 encoding-index-simpchinese//1.20141219.5
+encoding//0.2.33 encoding-index-singlebyte//1.20141219.5
+encoding//0.2.33 encoding-index-tradchinese//1.20141219.5
+encoding_rs//0.8.22 cfg-if//0.1.10
+encoding_rs//0.8.22 serde//1.0.104 weak:optional
+enum_to_u8_slice_derive//0.1.1 quote//0.3.15
+enum_to_u8_slice_derive//0.1.1 syn//0.11.11
+env_logger//0.3.5 log//0.3.9
+env_logger//0.3.5 regex//0.1.80 feature:default
+env_logger//0.3.5 regex//0.1.80 weak:optional
+env_logger//0.4.3 log//0.3.9
+env_logger//0.4.3 regex//0.2.11 feature:default
+env_logger//0.4.3 regex//0.2.11 weak:optional
+env_logger//0.5.13 atty//0.2.14
+env_logger//0.5.13 humantime//1.3.0
+env_logger//0.5.13 log//0.4.8
+env_logger//0.5.13 regex//1.3.1 feature:default
+env_logger//0.5.13 regex//1.3.1 weak:optional
+env_logger//0.5.13 termcolor//1.0.5
+env_logger//0.6.2 atty//0.2.14 feature:default
+env_logger//0.6.2 atty//0.2.14 weak:optional
+env_logger//0.6.2 humantime//1.3.0 feature:default
+env_logger//0.6.2 humantime//1.3.0 weak:optional
+env_logger//0.6.2 log//0.4.8
+env_logger//0.6.2 regex//1.3.1 feature:default
+env_logger//0.6.2 regex//1.3.1 weak:optional
+env_logger//0.6.2 termcolor//1.0.5 feature:default
+env_logger//0.6.2 termcolor//1.0.5 weak:optional
+env_logger//0.7.1 atty//0.2.14 feature:default
+env_logger//0.7.1 atty//0.2.14 weak:optional
+env_logger//0.7.1 humantime//1.3.0 feature:default
+env_logger//0.7.1 humantime//1.3.0 weak:optional
+env_logger//0.7.1 log//0.4.8
+env_logger//0.7.1 regex//1.3.1 feature:default
+env_logger//0.7.1 regex//1.3.1 weak:optional
+env_logger//0.7.1 termcolor//1.0.5 feature:default
+env_logger//0.7.1 termcolor//1.0.5 weak:optional
+erased-serde//0.3.10 serde//1.0.104
+erased-serde//0.3.9 serde//1.0.104
+error-chain//0.12.1 backtrace//0.3.42 feature:default
+error-chain//0.12.1 backtrace//0.3.42 weak:optional
+error-chain//0.12.1 version_check//0.1.5
+failure//0.1.6 backtrace//0.3.42 feature:default
+failure//0.1.6 backtrace//0.3.42 weak:feature:std
+failure//0.1.6 backtrace//0.3.42 weak:optional
+failure//0.1.6 failure_derive//0.1.6 feature:default
+failure//0.1.6 failure_derive//0.1.6 weak:feature:derive
+failure//0.1.6 failure_derive//0.1.6 weak:optional
+failure_derive//0.1.6 proc-macro2//1.0.8
+failure_derive//0.1.6 quote//1.0.2
+failure_derive//0.1.6 syn//1.0.14
+failure_derive//0.1.6 synstructure//0.12.1
+filetime//0.2.8 cfg-if//0.1.10
+filetime//0.2.8 libc//0.2.66
+findshlibs//0.5.0 lazy_static//1.4.0
+findshlibs//0.5.0 libc//0.2.66
+flate2//1.0.13 cfg-if//0.1.10
+flate2//1.0.13 crc32fast//1.2.0
+flate2//1.0.13 futures//0.1.29 weak:feature:tokio
+flate2//1.0.13 futures//0.1.29 weak:optional
+flate2//1.0.13 libc//0.2.66
+flate2//1.0.13 libz-sys//1.0.25 weak:feature:zlib
+flate2//1.0.13 libz-sys//1.0.25 weak:optional
+flate2//1.0.13 miniz-sys//0.1.12 weak:optional
+flate2//1.0.13 miniz_oxide//0.3.6 feature:default
+flate2//1.0.13 miniz_oxide//0.3.6 weak:feature:rust_backend
+flate2//1.0.13 miniz_oxide//0.3.6 weak:optional
+flate2//1.0.13 tokio-io//0.1.11 weak:feature:tokio
+flate2//1.0.13 tokio-io//0.1.11 weak:optional
+foreign-types-macros//0.2.0 proc-macro2//1.0.8
+foreign-types-macros//0.2.0 quote//1.0.2
+foreign-types-macros//0.2.0 syn//1.0.14
+foreign-types//0.3.2 foreign-types-shared//0.1.1
+foreign-types//0.5.0 foreign-types-macros//0.2.0
+foreign-types//0.5.0 foreign-types-shared//0.3.0
+fs2//0.2.5 kernel32-sys//0.2.2
+fs2//0.2.5 libc//0.2.66
+fs2//0.2.5 winapi//0.2.8
+fs2//0.4.3 libc//0.2.66
+fst//0.1.38 byteorder//0.5.3
+fst//0.1.38 memmap//0.4.0 feature:default
+fst//0.1.38 memmap//0.4.0 weak:feature:mmap
+fst//0.1.38 memmap//0.4.0 weak:optional
+fst//0.1.38 regex-syntax//0.3.9
+fst//0.1.38 utf8-ranges//0.1.3
+fst//0.3.5 byteorder//1.3.2
+fst//0.3.5 memmap//0.6.2 feature:default
+fst//0.3.5 memmap//0.6.2 weak:feature:mmap
+fst//0.3.5 memmap//0.6.2 weak:optional
+futf//0.1.4 mac//0.1.1
+futf//0.1.4 new_debug_unreachable//1.0.4
+futures-channel-preview//0.3.0.19 futures-core-preview//0.3.0.19
+futures-channel-preview//0.3.0.19 futures-sink-preview//0.3.0.19
+futures-channel//0.3.1 futures-core//0.3.1
+futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
+futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
+futures-executor//0.3.1 futures-core//0.3.1
+futures-executor//0.3.1 futures-task//0.3.1
+futures-executor//0.3.1 futures-util//0.3.1
+futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
+futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
+futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
+futures-join-macro-preview//0.3.0.19 proc-macro2//1.0.8
+futures-join-macro-preview//0.3.0.19 quote//1.0.2
+futures-join-macro-preview//0.3.0.19 syn//1.0.14
+futures-macro//0.3.1 proc-macro-hack//0.5.11
+futures-macro//0.3.1 proc-macro2//1.0.8
+futures-macro//0.3.1 quote//1.0.2
+futures-macro//0.3.1 syn//1.0.14
+futures-select-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
+futures-select-macro-preview//0.3.0.19 proc-macro2//1.0.8
+futures-select-macro-preview//0.3.0.19 quote//1.0.2
+futures-select-macro-preview//0.3.0.19 syn//1.0.14
+futures-test//0.3.1 futures-core//0.3.1
+futures-test//0.3.1 futures-executor//0.3.1
+futures-test//0.3.1 futures-io//0.3.1
+futures-test//0.3.1 futures-task//0.3.1
+futures-test//0.3.1 futures-util//0.3.1
+futures-test//0.3.1 pin-utils//0.1.0.4
+futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
+futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-core-preview//0.3.0.19
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:io
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:io-compat
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 futures-io-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-join-macro-preview//0.3.0.19 weak:feature:join-macro
+futures-util-preview//0.3.0.19 futures-join-macro-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-select-macro-preview//0.3.0.19 weak:feature:select-macro
+futures-util-preview//0.3.0.19 futures-select-macro-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures-sink-preview//0.3.0.19 weak:feature:sink
+futures-util-preview//0.3.0.19 futures-sink-preview//0.3.0.19 weak:optional
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:feature:compat
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:feature:io-compat
+futures-util-preview//0.3.0.19 futures//0.1.29 weak:optional
+futures-util-preview//0.3.0.19 memchr//2.3.0 weak:feature:io
+futures-util-preview//0.3.0.19 memchr//2.3.0 weak:feature:io-compat
+futures-util-preview//0.3.0.19 memchr//2.3.0 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 memchr//2.3.0 weak:optional
+futures-util-preview//0.3.0.19 pin-utils//0.1.0.4 weak:optional
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:feature:join-macro
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:feature:select-macro
+futures-util-preview//0.3.0.19 proc-macro-hack//0.5.11 weak:optional
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:feature:join-macro
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:feature:select-macro
+futures-util-preview//0.3.0.19 proc-macro-nested//0.1.3 weak:optional
+futures-util-preview//0.3.0.19 slab//0.4.2 feature:default
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:channel
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:compat
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:io
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:io-compat
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:read_initializer
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:feature:std
+futures-util-preview//0.3.0.19 slab//0.4.2 weak:optional
+futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:feature:io-compat
+futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:optional
+futures-util//0.3.1 futures-channel//0.3.1 weak:feature:channel
+futures-util//0.3.1 futures-channel//0.3.1 weak:optional
+futures-util//0.3.1 futures-core//0.3.1
+futures-util//0.3.1 futures-io//0.3.1 weak:feature:io
+futures-util//0.3.1 futures-io//0.3.1 weak:feature:io-compat
+futures-util//0.3.1 futures-io//0.3.1 weak:feature:read-initializer
+futures-util//0.3.1 futures-io//0.3.1 weak:optional
+futures-util//0.3.1 futures-macro//0.3.1 feature:default
+futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
+futures-util//0.3.1 futures-macro//0.3.1 weak:optional
+futures-util//0.3.1 futures-sink//0.3.1 weak:feature:sink
+futures-util//0.3.1 futures-sink//0.3.1 weak:optional
+futures-util//0.3.1 futures-task//0.3.1
+futures-util//0.3.1 futures//0.1.29 weak:feature:compat
+futures-util//0.3.1 futures//0.1.29 weak:feature:io-compat
+futures-util//0.3.1 futures//0.1.29 weak:optional
+futures-util//0.3.1 memchr//2.3.0 weak:feature:io
+futures-util//0.3.1 memchr//2.3.0 weak:feature:io-compat
+futures-util//0.3.1 memchr//2.3.0 weak:feature:read-initializer
+futures-util//0.3.1 memchr//2.3.0 weak:optional
+futures-util//0.3.1 pin-utils//0.1.0.4
+futures-util//0.3.1 proc-macro-hack//0.5.11 feature:default
+futures-util//0.3.1 proc-macro-hack//0.5.11 weak:feature:async-await-macro
+futures-util//0.3.1 proc-macro-hack//0.5.11 weak:optional
+futures-util//0.3.1 proc-macro-nested//0.1.3 feature:default
+futures-util//0.3.1 proc-macro-nested//0.1.3 weak:feature:async-await-macro
+futures-util//0.3.1 proc-macro-nested//0.1.3 weak:optional
+futures-util//0.3.1 slab//0.4.2 feature:default
+futures-util//0.3.1 slab//0.4.2 weak:feature:channel
+futures-util//0.3.1 slab//0.4.2 weak:feature:compat
+futures-util//0.3.1 slab//0.4.2 weak:feature:io
+futures-util//0.3.1 slab//0.4.2 weak:feature:io-compat
+futures-util//0.3.1 slab//0.4.2 weak:feature:read-initializer
+futures-util//0.3.1 slab//0.4.2 weak:feature:std
+futures-util//0.3.1 slab//0.4.2 weak:optional
+futures-util//0.3.1 tokio-io//0.1.11 weak:feature:io-compat
+futures-util//0.3.1 tokio-io//0.1.11 weak:optional
+futures//0.3.1 futures-channel//0.3.1
+futures//0.3.1 futures-core//0.3.1
+futures//0.3.1 futures-executor//0.3.1
+futures//0.3.1 futures-io//0.3.1
+futures//0.3.1 futures-sink//0.3.1
+futures//0.3.1 futures-task//0.3.1
+futures//0.3.1 futures-util//0.3.1
+gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
+gcc//0.3.55 rayon//0.8.2 weak:optional
+generator//0.6.19 cc//1.0.46
+generator//0.6.19 libc//0.2.66
+generator//0.6.19 log//0.4.8
+generator//0.6.19 rustc_version//0.2.3
+generator//0.6.20 cc//1.0.46
+generator//0.6.20 libc//0.2.66
+generator//0.6.20 log//0.4.8
+generator//0.6.20 rustc_version//0.2.3
+generic-array//0.12.3 serde//1.0.104 weak:optional
+generic-array//0.12.3 typenum//1.11.2
+generic-array//0.13.2 serde//1.0.104 weak:optional
+generic-array//0.13.2 typenum//1.11.2
+getopts//0.2.21 unicode-width//0.1.6
+getrandom//0.1.13 cfg-if//0.1.10
+getrandom//0.1.13 libc//0.2.66
+getrandom//0.1.13 log//0.4.8 weak:optional
+getrandom//0.1.14 cfg-if//0.1.10
+getrandom//0.1.14 libc//0.2.66
+getrandom//0.1.14 log//0.4.8 weak:optional
+gimli//0.19.0 arrayvec//0.4.12
+gimli//0.19.0 byteorder//1.3.2
+gimli//0.19.0 fallible-iterator//0.2.0
+gimli//0.19.0 indexmap//1.3.1 feature:default
+gimli//0.19.0 indexmap//1.3.1 weak:feature:write
+gimli//0.19.0 indexmap//1.3.1 weak:optional
+gimli//0.19.0 stable_deref_trait//1.1.1
+gimli//0.20.0 arrayvec//0.5.1 weak:optional
+gimli//0.20.0 byteorder//1.3.2
+gimli//0.20.0 fallible-iterator//0.2.0 feature:default
+gimli//0.20.0 fallible-iterator//0.2.0 weak:feature:alloc
+gimli//0.20.0 fallible-iterator//0.2.0 weak:feature:std
+gimli//0.20.0 fallible-iterator//0.2.0 weak:feature:write
+gimli//0.20.0 fallible-iterator//0.2.0 weak:optional
+gimli//0.20.0 indexmap//1.3.1 feature:default
+gimli//0.20.0 indexmap//1.3.1 weak:feature:write
+gimli//0.20.0 indexmap//1.3.1 weak:optional
+gimli//0.20.0 smallvec//1.1.0 weak:optional
+gimli//0.20.0 stable_deref_trait//1.1.1 feature:default
+gimli//0.20.0 stable_deref_trait//1.1.1 weak:feature:alloc
+gimli//0.20.0 stable_deref_trait//1.1.1 weak:feature:std
+gimli//0.20.0 stable_deref_trait//1.1.1 weak:feature:write
+gimli//0.20.0 stable_deref_trait//1.1.1 weak:optional
+git2//0.11.0 bitflags//1.2.1
+git2//0.11.0 libc//0.2.66
+git2//0.11.0 libgit2-sys//0.10.0
+git2//0.11.0 log//0.4.8
+git2//0.11.0 openssl-probe//0.1.2 feature:default
+git2//0.11.0 openssl-probe//0.1.2 weak:feature:https
+git2//0.11.0 openssl-probe//0.1.2 weak:optional
+git2//0.11.0 openssl-sys//0.9.54 feature:default
+git2//0.11.0 openssl-sys//0.9.54 weak:feature:https
+git2//0.11.0 openssl-sys//0.9.54 weak:feature:vendored-openssl
+git2//0.11.0 openssl-sys//0.9.54 weak:optional
+git2//0.11.0 url//2.1.1
+git2//0.6.11 bitflags//0.9.1
+git2//0.6.11 libc//0.2.66
+git2//0.6.11 libgit2-sys//0.6.19
+git2//0.6.11 openssl-probe//0.1.2 feature:default
+git2//0.6.11 openssl-probe//0.1.2 weak:feature:https
+git2//0.6.11 openssl-probe//0.1.2 weak:optional
+git2//0.6.11 openssl-sys//0.9.54 feature:default
+git2//0.6.11 openssl-sys//0.9.54 weak:feature:https
+git2//0.6.11 openssl-sys//0.9.54 weak:optional
+git2//0.6.11 tempdir//0.3.7 weak:optional
+git2//0.6.11 url//1.7.2
+goblin//0.0.22 log//0.4.8 feature:default
+goblin//0.0.22 log//0.4.8 weak:feature:alloc
+goblin//0.0.22 log//0.4.8 weak:feature:archive
+goblin//0.0.22 log//0.4.8 weak:feature:endian_fd
+goblin//0.0.22 log//0.4.8 weak:feature:mach32
+goblin//0.0.22 log//0.4.8 weak:feature:mach64
+goblin//0.0.22 log//0.4.8 weak:feature:pe32
+goblin//0.0.22 log//0.4.8 weak:feature:pe64
+goblin//0.0.22 log//0.4.8 weak:feature:std
+goblin//0.0.22 log//0.4.8 weak:optional
+goblin//0.0.22 plain//0.2.3
+goblin//0.0.22 scroll//0.9.2
+goblin//0.0.24 log//0.4.8 feature:default
+goblin//0.0.24 log//0.4.8 weak:feature:alloc
+goblin//0.0.24 log//0.4.8 weak:feature:archive
+goblin//0.0.24 log//0.4.8 weak:feature:endian_fd
+goblin//0.0.24 log//0.4.8 weak:feature:mach32
+goblin//0.0.24 log//0.4.8 weak:feature:mach64
+goblin//0.0.24 log//0.4.8 weak:feature:pe32
+goblin//0.0.24 log//0.4.8 weak:feature:pe64
+goblin//0.0.24 log//0.4.8 weak:feature:std
+goblin//0.0.24 log//0.4.8 weak:optional
+goblin//0.0.24 plain//0.2.3
+goblin//0.0.24 scroll//0.9.2
+goblin//0.1.3 log//0.4.8 feature:default
+goblin//0.1.3 log//0.4.8 weak:feature:alloc
+goblin//0.1.3 log//0.4.8 weak:feature:archive
+goblin//0.1.3 log//0.4.8 weak:feature:endian_fd
+goblin//0.1.3 log//0.4.8 weak:feature:mach32
+goblin//0.1.3 log//0.4.8 weak:feature:mach64
+goblin//0.1.3 log//0.4.8 weak:feature:pe32
+goblin//0.1.3 log//0.4.8 weak:feature:pe64
+goblin//0.1.3 log//0.4.8 weak:feature:std
+goblin//0.1.3 log//0.4.8 weak:optional
+goblin//0.1.3 plain//0.2.3
+goblin//0.1.3 scroll//0.10.1
+goblin//0.2.0 log//0.4.8 feature:default
+goblin//0.2.0 log//0.4.8 weak:feature:alloc
+goblin//0.2.0 log//0.4.8 weak:feature:archive
+goblin//0.2.0 log//0.4.8 weak:feature:endian_fd
+goblin//0.2.0 log//0.4.8 weak:feature:mach32
+goblin//0.2.0 log//0.4.8 weak:feature:mach64
+goblin//0.2.0 log//0.4.8 weak:feature:pe32
+goblin//0.2.0 log//0.4.8 weak:feature:pe64
+goblin//0.2.0 log//0.4.8 weak:feature:std
+goblin//0.2.0 log//0.4.8 weak:optional
+goblin//0.2.0 plain//0.2.3
+goblin//0.2.0 scroll//0.10.1
+h2//0.2.1 bytes//0.5.4
+h2//0.2.1 fnv//1.0.6
+h2//0.2.1 futures-core//0.3.1
+h2//0.2.1 futures-sink//0.3.1
+h2//0.2.1 futures-util//0.3.1
+h2//0.2.1 http//0.2.0
+h2//0.2.1 indexmap//1.3.1
+h2//0.2.1 log//0.4.8
+h2//0.2.1 slab//0.4.2
+h2//0.2.1 tokio-util//0.2.0
+h2//0.2.1 tokio//0.2.9
+half//1.4.0 serde//1.0.104 weak:feature:serialize
+half//1.4.0 serde//1.0.104 weak:optional
+hex-literal-impl//0.1.2 proc-macro-hack//0.4.2
+hex-literal-impl//0.2.1 proc-macro-hack//0.5.11
+hex-literal//0.1.4 hex-literal-impl//0.1.2
+hex-literal//0.1.4 proc-macro-hack//0.4.2
+hex-literal//0.2.1 hex-literal-impl//0.2.1
+hex-literal//0.2.1 proc-macro-hack//0.5.11
+html5ever//0.22.5 log//0.4.8
+html5ever//0.22.5 mac//0.1.1
+html5ever//0.22.5 markup5ever//0.7.5
+html5ever//0.22.5 proc-macro2//0.4.30
+html5ever//0.22.5 quote//0.6.13
+http-body//0.3.1 bytes//0.5.4
+http-body//0.3.1 http//0.2.0
+http//0.1.21 bytes//0.4.12
+http//0.1.21 fnv//1.0.6
+http//0.1.21 itoa//0.4.5
+http//0.2.0 bytes//0.5.4
+http//0.2.0 fnv//1.0.6
+http//0.2.0 itoa//0.4.5
+humantime//1.3.0 quick-error//1.2.2
+hyper-rustls//0.19.1 bytes//0.5.4
+hyper-rustls//0.19.1 ct-logs//0.6.0 feature:default
+hyper-rustls//0.19.1 ct-logs//0.6.0 weak:feature:tokio-runtime
+hyper-rustls//0.19.1 ct-logs//0.6.0 weak:optional
+hyper-rustls//0.19.1 futures-util//0.3.1
+hyper-rustls//0.19.1 hyper//0.13.2
+hyper-rustls//0.19.1 rustls-native-certs//0.1.0 feature:default
+hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:feature:tokio-runtime
+hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:optional
+hyper-rustls//0.19.1 rustls//0.16.0
+hyper-rustls//0.19.1 tokio-rustls//0.12.2
+hyper-rustls//0.19.1 tokio//0.2.9
+hyper-rustls//0.19.1 webpki//0.21.0
+hyper-tls//0.4.1 bytes//0.5.4
+hyper-tls//0.4.1 hyper//0.13.2
+hyper-tls//0.4.1 native-tls//0.2.3
+hyper-tls//0.4.1 tokio-tls//0.3.0
+hyper-tls//0.4.1 tokio//0.2.9
+hyper//0.13.1 bytes//0.5.4
+hyper//0.13.1 futures-channel//0.3.1
+hyper//0.13.1 futures-core//0.3.1
+hyper//0.13.1 futures-util//0.3.1
+hyper//0.13.1 h2//0.2.1
+hyper//0.13.1 http-body//0.3.1
+hyper//0.13.1 http//0.2.0
+hyper//0.13.1 httparse//1.3.4
+hyper//0.13.1 itoa//0.4.5
+hyper//0.13.1 log//0.4.8
+hyper//0.13.1 net2//0.2.33 feature:default
+hyper//0.13.1 net2//0.2.33 weak:feature:runtime
+hyper//0.13.1 net2//0.2.33 weak:feature:tcp
+hyper//0.13.1 net2//0.2.33 weak:optional
+hyper//0.13.1 pin-project//0.4.8
+hyper//0.13.1 time//0.1.42
+hyper//0.13.1 tokio//0.2.9
+hyper//0.13.1 tower-service//0.3.0
+hyper//0.13.1 want//0.3.0
+hyper//0.13.2 bytes//0.5.4
+hyper//0.13.2 futures-channel//0.3.1
+hyper//0.13.2 futures-core//0.3.1
+hyper//0.13.2 futures-util//0.3.1
+hyper//0.13.2 h2//0.2.1
+hyper//0.13.2 http-body//0.3.1
+hyper//0.13.2 http//0.2.0
+hyper//0.13.2 httparse//1.3.4
+hyper//0.13.2 itoa//0.4.5
+hyper//0.13.2 log//0.4.8
+hyper//0.13.2 net2//0.2.33 feature:default
+hyper//0.13.2 net2//0.2.33 weak:feature:runtime
+hyper//0.13.2 net2//0.2.33 weak:feature:tcp
+hyper//0.13.2 net2//0.2.33 weak:optional
+hyper//0.13.2 pin-project//0.4.8
+hyper//0.13.2 time//0.1.42
+hyper//0.13.2 tokio//0.2.9
+hyper//0.13.2 tower-service//0.3.0
+hyper//0.13.2 want//0.3.0
+hyphenation//0.7.1 atlatl//0.1.2
+hyphenation//0.7.1 bincode//1.2.1
+hyphenation//0.7.1 hyphenation_commons//0.7.1
+hyphenation//0.7.1 pocket-resources//0.3.2 weak:feature:embed_all
+hyphenation//0.7.1 pocket-resources//0.3.2 weak:optional
+hyphenation//0.7.1 serde//1.0.104
+hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfc
+hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfd
+hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfkc
+hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfkd
+hyphenation//0.7.1 unicode-normalization//0.1.8 weak:optional
+hyphenation_commons//0.7.1 atlatl//0.1.2
+hyphenation_commons//0.7.1 serde//1.0.104
+idna//0.1.5 matches//0.1.8
+idna//0.1.5 unicode-bidi//0.3.4
+idna//0.1.5 unicode-normalization//0.1.8
+idna//0.2.0 matches//0.1.8
+idna//0.2.0 unicode-bidi//0.3.4
+idna//0.2.0 unicode-normalization//0.1.8
+indexmap//1.3.0 autocfg//0.1.6
+indexmap//1.3.0 rayon//1.2.0 weak:optional
+indexmap//1.3.0 serde//1.0.104 weak:feature:serde-1
+indexmap//1.3.0 serde//1.0.104 weak:optional
+indexmap//1.3.1 autocfg//1.0.0
+indexmap//1.3.1 rayon//1.2.0 weak:optional
+indexmap//1.3.1 serde//1.0.104 weak:feature:serde-1
+indexmap//1.3.1 serde//1.0.104 weak:optional
+insta//0.11.0 console//0.8.0
+insta//0.11.0 difference//2.0.0
+insta//0.11.0 lazy_static//1.4.0
+insta//0.11.0 pest//2.1.2 weak:feature:redactions
+insta//0.11.0 pest//2.1.2 weak:optional
+insta//0.11.0 pest_derive//2.1.0 weak:feature:redactions
+insta//0.11.0 pest_derive//2.1.0 weak:optional
+insta//0.11.0 ron//0.5.1
+insta//0.11.0 serde//1.0.104
+insta//0.11.0 serde_json//1.0.41
+insta//0.11.0 serde_yaml//0.8.11
+insta//0.11.0 uuid//0.7.4
+insta//0.12.0 console//0.9.1
+insta//0.12.0 difference//2.0.0
+insta//0.12.0 lazy_static//1.4.0
+insta//0.12.0 pest//2.1.2 weak:feature:redactions
+insta//0.12.0 pest//2.1.2 weak:optional
+insta//0.12.0 pest_derive//2.1.0 weak:feature:redactions
+insta//0.12.0 pest_derive//2.1.0 weak:optional
+insta//0.12.0 ron//0.5.1 weak:optional
+insta//0.12.0 serde//1.0.104
+insta//0.12.0 serde_json//1.0.41
+insta//0.12.0 serde_yaml//0.8.11
+insta//0.12.0 uuid//0.8.1
+insta//0.13.1 backtrace//0.3.42 weak:optional
+insta//0.13.1 console//0.9.1
+insta//0.13.1 difference//2.0.0
+insta//0.13.1 lazy_static//1.4.0
+insta//0.13.1 pest//2.1.2 weak:feature:redactions
+insta//0.13.1 pest//2.1.2 weak:optional
+insta//0.13.1 pest_derive//2.1.0 weak:feature:redactions
+insta//0.13.1 pest_derive//2.1.0 weak:optional
+insta//0.13.1 ron//0.5.1 weak:optional
+insta//0.13.1 serde//1.0.104
+insta//0.13.1 serde_json//1.0.41
+insta//0.13.1 serde_yaml//0.8.11
+insta//0.8.2 chrono//0.4.9
+insta//0.8.2 ci_info//0.3.1
+insta//0.8.2 console//0.7.7
+insta//0.8.2 difference//2.0.0
+insta//0.8.2 failure//0.1.6
+insta//0.8.2 lazy_static//1.4.0
+insta//0.8.2 pest//2.1.2
+insta//0.8.2 pest_derive//2.1.0
+insta//0.8.2 ron//0.4.1
+insta//0.8.2 serde//1.0.104
+insta//0.8.2 serde_json//1.0.41
+insta//0.8.2 serde_yaml//0.8.11
+insta//0.8.2 uuid//0.7.4
+insta//0.9.0 chrono//0.4.9
+insta//0.9.0 ci_info//0.3.1
+insta//0.9.0 console//0.7.7
+insta//0.9.0 difference//2.0.0
+insta//0.9.0 failure//0.1.6
+insta//0.9.0 lazy_static//1.4.0
+insta//0.9.0 pest//2.1.2
+insta//0.9.0 pest_derive//2.1.0
+insta//0.9.0 ron//0.4.1
+insta//0.9.0 serde//1.0.104
+insta//0.9.0 serde_json//1.0.41
+insta//0.9.0 serde_yaml//0.8.11
+insta//0.9.0 uuid//0.7.4
+intervaltree//0.2.4 smallvec//0.6.10
+intervaltree//0.2.5 smallvec//1.1.0
+iovec//0.1.4 libc//0.2.66
+itertools//0.5.10 either//1.5.3
+itertools//0.7.11 either//1.5.3
+itertools//0.8.2 either//1.5.3
+jemalloc-ctl//0.3.3 jemalloc-sys//0.3.2
+jemalloc-ctl//0.3.3 libc//0.2.66
+jemalloc-ctl//0.3.3 paste//0.1.6
+jemalloc-sys//0.3.2 cc//1.0.46
+jemalloc-sys//0.3.2 fs_extra//1.1.0
+jemalloc-sys//0.3.2 libc//0.2.66
+jemallocator//0.3.2 jemalloc-sys//0.3.2
+jemallocator//0.3.2 libc//0.2.66
+jobserver//0.1.17 libc//0.2.66
+jobserver//0.1.17 log//0.4.8
+jobserver//0.1.21 libc//0.2.66
+kernel32-sys//0.2.2 winapi-build//0.1.1
+kernel32-sys//0.2.2 winapi//0.2.8
+lazy_static//1.1.0 spin//0.4.10 weak:feature:spin_no_std
+lazy_static//1.1.0 spin//0.4.10 weak:optional
+lazy_static//1.1.0 version_check//0.1.5
+lazy_static//1.4.0 spin//0.5.2 weak:feature:spin_no_std
+lazy_static//1.4.0 spin//0.5.2 weak:optional
+lexical-core//0.4.6 arrayvec//0.4.12 feature:default
+lexical-core//0.4.6 arrayvec//0.4.12 weak:feature:correct
+lexical-core//0.4.6 arrayvec//0.4.12 weak:optional
+lexical-core//0.4.6 cfg-if//0.1.10
+lexical-core//0.4.6 dtoa//0.4.5 weak:feature:grisu3
+lexical-core//0.4.6 dtoa//0.4.5 weak:optional
+lexical-core//0.4.6 rustc_version//0.2.3
+lexical-core//0.4.6 ryu//1.0.1 feature:default
+lexical-core//0.4.6 ryu//1.0.1 weak:optional
+lexical-core//0.4.6 static_assertions//0.3.4
+libc//0.2.66 rustc-std-workspace-core//1.0.0 weak:feature:rustc-dep-of-std
+libc//0.2.66 rustc-std-workspace-core//1.0.0 weak:optional
+libflate//0.1.27 adler32//1.0.4
+libflate//0.1.27 crc32fast//1.2.0
+libflate//0.1.27 rle-decode-fast//1.0.1
+libflate//0.1.27 take_mut//0.2.2
+libgit2-sys//0.10.0 cc//1.0.46
+libgit2-sys//0.10.0 libc//0.2.66
+libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:feature:ssh
+libgit2-sys//0.10.0 libssh2-sys//0.2.14 weak:optional
+libgit2-sys//0.10.0 libz-sys//1.0.25
+libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:feature:https
+libgit2-sys//0.10.0 openssl-sys//0.9.54 weak:optional
+libgit2-sys//0.10.0 pkg-config//0.3.17
+libgit2-sys//0.6.19 cc//1.0.46
+libgit2-sys//0.6.19 cmake//0.1.42
+libgit2-sys//0.6.19 curl-sys//0.4.25 weak:feature:curl
+libgit2-sys//0.6.19 curl-sys//0.4.25 weak:optional
+libgit2-sys//0.6.19 libc//0.2.66
+libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:feature:ssh
+libgit2-sys//0.6.19 libssh2-sys//0.2.14 weak:optional
+libgit2-sys//0.6.19 libz-sys//1.0.25
+libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:feature:https
+libgit2-sys//0.6.19 openssl-sys//0.9.54 weak:optional
+libgit2-sys//0.6.19 pkg-config//0.3.17
+libloading//0.5.2 cc//1.0.46
+libnghttp2-sys//0.1.2 cc//1.0.46
+libnghttp2-sys//0.1.2 libc//0.2.66
+libssh2-sys//0.2.13 cc//1.0.46
+libssh2-sys//0.2.13 libc//0.2.66
+libssh2-sys//0.2.13 libz-sys//1.0.25
+libssh2-sys//0.2.13 openssl-sys//0.9.54
+libssh2-sys//0.2.13 pkg-config//0.3.17
+libssh2-sys//0.2.14 cc//1.0.46
+libssh2-sys//0.2.14 libc//0.2.66
+libssh2-sys//0.2.14 libz-sys//1.0.25
+libssh2-sys//0.2.14 openssl-sys//0.9.54
+libssh2-sys//0.2.14 pkg-config//0.3.17
+libz-sys//1.0.25 cc//1.0.46
+libz-sys//1.0.25 libc//0.2.66
+libz-sys//1.0.25 pkg-config//0.3.17
+linked-hash-map//0.3.0 serde//0.8.23 weak:feature:serde_impl
+linked-hash-map//0.3.0 serde//0.8.23 weak:optional
+linked-hash-map//0.3.0 serde_test//0.8.23 weak:feature:serde_impl
+linked-hash-map//0.3.0 serde_test//0.8.23 weak:optional
+linked-hash-map//0.5.2 heapsize//0.4.2 weak:feature:heapsize_impl
+linked-hash-map//0.5.2 heapsize//0.4.2 weak:optional
+linked-hash-map//0.5.2 serde//1.0.104 weak:feature:serde_impl
+linked-hash-map//0.5.2 serde//1.0.104 weak:optional
+linked-hash-map//0.5.2 serde_test//1.0.102 weak:feature:serde_impl
+linked-hash-map//0.5.2 serde_test//1.0.102 weak:optional
+lipsum//0.6.0 rand//0.6.5
+lock_api//0.3.1 owning_ref//0.4.0 weak:optional
+lock_api//0.3.1 scopeguard//1.0.0 weak:optional
+lock_api//0.3.1 serde//1.0.104 weak:optional
+lock_api//0.3.3 owning_ref//0.4.0 weak:optional
+lock_api//0.3.3 scopeguard//1.0.0 weak:optional
+lock_api//0.3.3 serde//1.0.104 weak:optional
+log//0.3.9 log//0.4.8
+log//0.4.8 cfg-if//0.1.10
+log//0.4.8 serde//1.0.104 weak:optional
+log//0.4.8 sval//0.4.7 weak:feature:kv_unstable_sval
+log//0.4.8 sval//0.4.7 weak:optional
+loom//0.1.1 cfg-if//0.1.10
+loom//0.1.1 futures//0.1.29 weak:optional
+loom//0.1.1 generator//0.6.20 weak:optional
+loom//0.1.1 scoped-tls//0.1.2
+loom//0.1.1 serde//1.0.104 weak:feature:checkpoint
+loom//0.1.1 serde//1.0.104 weak:optional
+loom//0.1.1 serde_derive//1.0.104 weak:feature:checkpoint
+loom//0.1.1 serde_derive//1.0.104 weak:optional
+loom//0.1.1 serde_json//1.0.41 weak:feature:checkpoint
+loom//0.1.1 serde_json//1.0.41 weak:optional
+loom//0.2.14 cfg-if//0.1.10
+loom//0.2.14 futures-util//0.3.1 weak:feature:futures
+loom//0.2.14 futures-util//0.3.1 weak:optional
+loom//0.2.14 generator//0.6.20
+loom//0.2.14 scoped-tls//0.1.2
+loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
+loom//0.2.14 serde//1.0.104 weak:optional
+loom//0.2.14 serde_json//1.0.41 weak:feature:checkpoint
+loom//0.2.14 serde_json//1.0.41 weak:optional
+markup5ever//0.10.0 log//0.4.8
+markup5ever//0.10.0 phf//0.8.0
+markup5ever//0.10.0 phf_codegen//0.8.0
+markup5ever//0.10.0 serde//1.0.104
+markup5ever//0.10.0 serde_derive//1.0.104
+markup5ever//0.10.0 serde_json//1.0.41
+markup5ever//0.10.0 string_cache//0.8.0
+markup5ever//0.10.0 string_cache_codegen//0.5.1
+markup5ever//0.10.0 tendril//0.4.1
+markup5ever//0.7.5 phf//0.7.24
+markup5ever//0.7.5 phf_codegen//0.7.24
+markup5ever//0.7.5 serde//1.0.104
+markup5ever//0.7.5 serde_derive//1.0.104
+markup5ever//0.7.5 serde_json//1.0.41
+markup5ever//0.7.5 string_cache//0.7.5
+markup5ever//0.7.5 string_cache_codegen//0.4.4
+markup5ever//0.7.5 tendril//0.4.1
+memchr//0.1.11 libc//0.2.66
+memchr//2.2.1 libc//0.2.66 weak:optional
+memchr//2.3.0 libc//0.2.66 weak:optional
+memmap//0.4.0 fs2//0.2.5
+memmap//0.4.0 kernel32-sys//0.2.2
+memmap//0.4.0 libc//0.2.66
+memmap//0.4.0 winapi//0.2.8
+memmap//0.6.2 libc//0.2.66
+memmap//0.7.0 libc//0.2.66
+memoffset//0.5.1 rustc_version//0.2.3
+memoffset//0.5.3 rustc_version//0.2.3
+mesalink//1.1.0 base64//0.10.1
+mesalink//1.1.0 bitflags//1.2.1
+mesalink//1.1.0 enum_to_u8_slice_derive//0.1.1
+mesalink//1.1.0 env_logger//0.6.2
+mesalink//1.1.0 jemallocator//0.3.2 weak:feature:jemalloc_allocator
+mesalink//1.1.0 jemallocator//0.3.2 weak:optional
+mesalink//1.1.0 lazy_static//1.4.0
+mesalink//1.1.0 libc//0.2.66
+mesalink//1.1.0 parking_lot//0.9.0
+mesalink//1.1.0 ring//0.16.9
+mesalink//1.1.0 rustls//0.16.0
+mesalink//1.1.0 sct//0.6.0
+mesalink//1.1.0 untrusted//0.7.0
+mesalink//1.1.0 walkdir//2.2.9
+mesalink//1.1.0 webpki-roots//0.17.0
+mesalink//1.1.0 webpki//0.21.0
+mime_guess//2.0.1 mime//0.3.16
+mime_guess//2.0.1 unicase//2.6.0
+miniz-sys//0.1.12 cc//1.0.46
+miniz-sys//0.1.12 libc//0.2.66
+miniz_oxide//0.3.5 adler32//1.0.4
+miniz_oxide//0.3.6 adler32//1.0.4
+mio-uds//0.6.7 iovec//0.1.4
+mio-uds//0.6.7 libc//0.2.66
+mio-uds//0.6.7 mio//0.6.21
+mio//0.6.21 cfg-if//0.1.10
+mio//0.6.21 iovec//0.1.4
+mio//0.6.21 libc//0.2.66
+mio//0.6.21 log//0.4.8
+mio//0.6.21 net2//0.2.33
+mio//0.6.21 slab//0.4.2
+model//0.1.2 permutohedron//0.2.4
+model//0.1.2 proptest//0.8.7
+native-tls//0.2.3 log//0.4.8
+native-tls//0.2.3 openssl-probe//0.1.2
+native-tls//0.2.3 openssl-sys//0.9.54
+native-tls//0.2.3 openssl//0.10.28
+net2//0.2.33 cfg-if//0.1.10
+net2//0.2.33 libc//0.2.66
+no-panic//0.1.11 proc-macro2//1.0.8
+no-panic//0.1.11 quote//1.0.2
+no-panic//0.1.11 syn//1.0.14
+no-panic//0.1.12 proc-macro2//1.0.8
+no-panic//0.1.12 quote//1.0.2
+no-panic//0.1.12 syn//1.0.14
+nom//4.2.3 lazy_static//1.4.0 weak:feature:regexp_macros
+nom//4.2.3 lazy_static//1.4.0 weak:optional
+nom//4.2.3 memchr//2.3.0
+nom//4.2.3 regex//1.3.1 weak:feature:regexp
+nom//4.2.3 regex//1.3.1 weak:feature:regexp_macros
+nom//4.2.3 regex//1.3.1 weak:optional
+nom//4.2.3 version_check//0.1.5
+nom//5.1.0 lazy_static//1.4.0 weak:feature:regexp_macros
+nom//5.1.0 lazy_static//1.4.0 weak:optional
+nom//5.1.0 lexical-core//0.4.6 feature:default
+nom//5.1.0 lexical-core//0.4.6 weak:feature:lexical
+nom//5.1.0 lexical-core//0.4.6 weak:optional
+nom//5.1.0 memchr//2.3.0
+nom//5.1.0 regex//1.3.1 weak:feature:regexp
+nom//5.1.0 regex//1.3.1 weak:feature:regexp_macros
+nom//5.1.0 regex//1.3.1 weak:optional
+nom//5.1.0 version_check//0.1.5
+ntest//0.3.3 ntest_test_cases//0.3.4
+ntest//0.3.3 ntest_timeout//0.3.3
+ntest//0.3.3 timebomb//0.1.2
+ntest//0.5.1 ntest_test_cases//0.5.1
+ntest//0.5.1 ntest_timeout//0.5.1
+ntest_test_cases//0.3.4 proc-macro2//1.0.8
+ntest_test_cases//0.3.4 quote//1.0.2
+ntest_test_cases//0.3.4 syn//1.0.14
+ntest_test_cases//0.5.1 proc-macro2//1.0.8
+ntest_test_cases//0.5.1 quote//1.0.2
+ntest_test_cases//0.5.1 syn//1.0.14
+ntest_timeout//0.3.3 proc-macro2//1.0.8
+ntest_timeout//0.3.3 quote//1.0.2
+ntest_timeout//0.3.3 syn//1.0.14
+ntest_timeout//0.3.3 timebomb//0.1.2
+ntest_timeout//0.5.1 proc-macro2//1.0.8
+ntest_timeout//0.5.1 quote//1.0.2
+ntest_timeout//0.5.1 syn//1.0.14
+num-complex//0.2.4 autocfg//1.0.0
+num-complex//0.2.4 num-traits//0.2.11
+num-complex//0.2.4 rand//0.5.6 weak:optional
+num-complex//0.2.4 serde//1.0.104 weak:optional
+num-integer//0.1.41 autocfg//0.1.6
+num-integer//0.1.41 num-traits//0.2.11
+num-integer//0.1.42 autocfg//1.0.0
+num-integer//0.1.42 num-traits//0.2.11
+num-iter//0.1.39 autocfg//0.1.6
+num-iter//0.1.39 num-integer//0.1.42
+num-iter//0.1.39 num-traits//0.2.11
+num-iter//0.1.40 autocfg//1.0.0
+num-iter//0.1.40 num-integer//0.1.42
+num-iter//0.1.40 num-traits//0.2.11
+num-traits//0.1.43 num-traits//0.2.11
+num-traits//0.2.11 autocfg//1.0.0
+num-traits//0.2.11 libm//0.2.1
+num-traits//0.2.8 autocfg//0.1.6
+num_cpus//1.10.1 libc//0.2.66
+num_cpus//1.12.0 libc//0.2.66
+object//0.12.0 flate2//1.0.13 feature:default
+object//0.12.0 flate2//1.0.13 weak:feature:compression
+object//0.12.0 flate2//1.0.13 weak:optional
+object//0.12.0 goblin//0.0.22
+object//0.12.0 parity-wasm//0.38.0 feature:default
+object//0.12.0 parity-wasm//0.38.0 weak:feature:wasm
+object//0.12.0 parity-wasm//0.38.0 weak:optional
+object//0.12.0 scroll//0.9.2
+object//0.12.0 uuid//0.7.4
+object//0.17.0 crc32fast//1.2.0 weak:feature:write
+object//0.17.0 crc32fast//1.2.0 weak:optional
+object//0.17.0 flate2//1.0.13 feature:default
+object//0.17.0 flate2//1.0.13 weak:feature:compression
+object//0.17.0 flate2//1.0.13 weak:optional
+object//0.17.0 goblin//0.1.3
+object//0.17.0 indexmap//1.3.1 weak:feature:write
+object//0.17.0 indexmap//1.3.1 weak:optional
+object//0.17.0 parity-wasm//0.41.0 feature:default
+object//0.17.0 parity-wasm//0.41.0 weak:feature:wasm
+object//0.17.0 parity-wasm//0.41.0 weak:optional
+object//0.17.0 scroll//0.10.1
+object//0.17.0 target-lexicon//0.10.0
+object//0.17.0 uuid//0.8.1
+odds//0.3.1 rawpointer//0.1.0
+odds//0.3.1 rawslice//0.1.0
+odds//0.3.1 unchecked-index//0.2.2
+once_cell//1.2.0 parking_lot//0.9.0 weak:optional
+once_cell//1.3.1 parking_lot//0.9.0 weak:optional
+openssl-src//111.6.0 cc//1.0.46
+openssl-src//111.6.1 cc//1.0.46
+openssl-sys//0.9.52 autocfg//0.1.6
+openssl-sys//0.9.52 cc//1.0.46
+openssl-sys//0.9.52 libc//0.2.66
+openssl-sys//0.9.52 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.52 openssl-src//111.6.1 weak:optional
+openssl-sys//0.9.52 pkg-config//0.3.17
+openssl-sys//0.9.53 autocfg//0.1.6
+openssl-sys//0.9.53 cc//1.0.46
+openssl-sys//0.9.53 libc//0.2.66
+openssl-sys//0.9.53 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.53 openssl-src//111.6.1 weak:optional
+openssl-sys//0.9.53 pkg-config//0.3.17
+openssl-sys//0.9.54 autocfg//1.0.0
+openssl-sys//0.9.54 cc//1.0.46
+openssl-sys//0.9.54 libc//0.2.66
+openssl-sys//0.9.54 openssl-src//111.6.1 weak:feature:vendored
+openssl-sys//0.9.54 openssl-src//111.6.1 weak:optional
+openssl-sys//0.9.54 pkg-config//0.3.17
+openssl//0.10.26 bitflags//1.2.1
+openssl//0.10.26 cfg-if//0.1.10
+openssl//0.10.26 foreign-types//0.3.2
+openssl//0.10.26 lazy_static//1.4.0
+openssl//0.10.26 libc//0.2.66
+openssl//0.10.26 openssl-sys//0.9.54
+openssl//0.10.28 bitflags//1.2.1
+openssl//0.10.28 cfg-if//0.1.10
+openssl//0.10.28 foreign-types//0.3.2
+openssl//0.10.28 lazy_static//1.4.0
+openssl//0.10.28 libc//0.2.66
+openssl//0.10.28 openssl-sys//0.9.54
+ordermap//0.3.5 serde//1.0.104 weak:feature:serde-1
+ordermap//0.3.5 serde//1.0.104 weak:optional
+ordermap//0.4.2 serde//1.0.104 weak:feature:serde-1
+ordermap//0.4.2 serde//1.0.104 weak:optional
+owning_ref//0.4.0 stable_deref_trait//1.1.1
+parking_lot//0.10.0 lock_api//0.3.3
+parking_lot//0.10.0 parking_lot_core//0.7.0
+parking_lot//0.9.0 lock_api//0.3.3
+parking_lot//0.9.0 parking_lot_core//0.6.2
+parking_lot//0.9.0 rustc_version//0.2.3
+parking_lot_core//0.6.2 backtrace//0.3.42 weak:feature:deadlock_detection
+parking_lot_core//0.6.2 backtrace//0.3.42 weak:optional
+parking_lot_core//0.6.2 cfg-if//0.1.10
+parking_lot_core//0.6.2 libc//0.2.66
+parking_lot_core//0.6.2 petgraph//0.4.13 weak:feature:deadlock_detection
+parking_lot_core//0.6.2 petgraph//0.4.13 weak:optional
+parking_lot_core//0.6.2 rustc_version//0.2.3
+parking_lot_core//0.6.2 smallvec//0.6.10
+parking_lot_core//0.6.2 thread-id//3.3.0 weak:feature:deadlock_detection
+parking_lot_core//0.6.2 thread-id//3.3.0 weak:optional
+parking_lot_core//0.7.0 backtrace//0.3.42 weak:feature:deadlock_detection
+parking_lot_core//0.7.0 backtrace//0.3.42 weak:optional
+parking_lot_core//0.7.0 cfg-if//0.1.10
+parking_lot_core//0.7.0 libc//0.2.66
+parking_lot_core//0.7.0 petgraph//0.4.13 weak:feature:deadlock_detection
+parking_lot_core//0.7.0 petgraph//0.4.13 weak:optional
+parking_lot_core//0.7.0 smallvec//1.1.0
+parking_lot_core//0.7.0 thread-id//3.3.0 weak:feature:deadlock_detection
+parking_lot_core//0.7.0 thread-id//3.3.0 weak:optional
+partial-io//0.2.5 futures//0.1.29 weak:feature:tokio
+partial-io//0.2.5 futures//0.1.29 weak:optional
+partial-io//0.2.5 quickcheck//0.4.1 weak:optional
+partial-io//0.2.5 tokio-io//0.1.11 weak:feature:tokio
+partial-io//0.2.5 tokio-io//0.1.11 weak:optional
+partial-io//0.3.1 futures//0.1.29 weak:feature:tokio
+partial-io//0.3.1 futures//0.1.29 weak:optional
+partial-io//0.3.1 quickcheck//0.6.2 weak:optional
+partial-io//0.3.1 tokio-io//0.1.11 weak:feature:tokio
+partial-io//0.3.1 tokio-io//0.1.11 weak:optional
+paste-impl//0.1.6 proc-macro-hack//0.5.11
+paste-impl//0.1.6 proc-macro2//1.0.8
+paste-impl//0.1.6 quote//1.0.2
+paste-impl//0.1.6 syn//1.0.14
+paste//0.1.6 paste-impl//0.1.6
+paste//0.1.6 proc-macro-hack//0.5.11
+pest//2.1.2 serde//1.0.104 weak:feature:pretty-print
+pest//2.1.2 serde//1.0.104 weak:optional
+pest//2.1.2 serde_json//1.0.41 weak:feature:pretty-print
+pest//2.1.2 serde_json//1.0.41 weak:optional
+pest//2.1.2 ucd-trie//0.1.2
+pest_derive//2.1.0 pest//2.1.2
+pest_derive//2.1.0 pest_generator//2.1.1
+pest_generator//2.1.1 pest//2.1.2
+pest_generator//2.1.1 pest_meta//2.1.2
+pest_generator//2.1.1 proc-macro2//1.0.8
+pest_generator//2.1.1 quote//1.0.2
+pest_generator//2.1.1 syn//1.0.14
+pest_meta//2.1.2 maplit//1.0.2
+pest_meta//2.1.2 pest//2.1.2
+pest_meta//2.1.2 sha-1//0.8.1
+petgraph//0.4.13 fixedbitset//0.1.9
+petgraph//0.4.13 ordermap//0.3.5 feature:default
+petgraph//0.4.13 ordermap//0.3.5 weak:feature:all
+petgraph//0.4.13 ordermap//0.3.5 weak:feature:graphmap
+petgraph//0.4.13 ordermap//0.3.5 weak:optional
+petgraph//0.4.13 quickcheck//0.4.1 weak:feature:all
+petgraph//0.4.13 quickcheck//0.4.1 weak:optional
+petgraph//0.4.13 serde//1.0.104 weak:feature:serde-1
+petgraph//0.4.13 serde//1.0.104 weak:optional
+petgraph//0.4.13 serde_derive//1.0.104 weak:feature:serde-1
+petgraph//0.4.13 serde_derive//1.0.104 weak:optional
+petgraph//0.5.0 fixedbitset//0.2.0
+petgraph//0.5.0 indexmap//1.3.1
+petgraph//0.5.0 quickcheck//0.8.5 weak:feature:all
+petgraph//0.5.0 quickcheck//0.8.5 weak:optional
+petgraph//0.5.0 serde//1.0.104 weak:feature:serde-1
+petgraph//0.5.0 serde//1.0.104 weak:optional
+petgraph//0.5.0 serde_derive//1.0.104 weak:feature:serde-1
+petgraph//0.5.0 serde_derive//1.0.104 weak:optional
+phf//0.7.24 phf_macros//0.7.24 weak:feature:macros
+phf//0.7.24 phf_macros//0.7.24 weak:optional
+phf//0.7.24 phf_shared//0.7.24
+phf//0.8.0 phf_macros//0.8.0 weak:feature:macros
+phf//0.8.0 phf_macros//0.8.0 weak:optional
+phf//0.8.0 phf_shared//0.8.0
+phf//0.8.0 proc-macro-hack//0.5.11 weak:feature:macros
+phf//0.8.0 proc-macro-hack//0.5.11 weak:optional
+phf_codegen//0.7.24 phf_generator//0.7.24
+phf_codegen//0.7.24 phf_shared//0.7.24
+phf_codegen//0.8.0 phf_generator//0.8.0
+phf_codegen//0.8.0 phf_shared//0.8.0
+phf_generator//0.7.24 phf_shared//0.7.24
+phf_generator//0.7.24 rand//0.6.5
+phf_generator//0.8.0 phf_shared//0.8.0
+phf_generator//0.8.0 rand//0.7.2
+phf_macros//0.7.24 phf_generator//0.7.24
+phf_macros//0.7.24 phf_shared//0.7.24
+phf_macros//0.7.24 proc-macro2//0.4.30
+phf_macros//0.7.24 quote//0.6.13
+phf_macros//0.7.24 syn//0.15.44
+phf_macros//0.8.0 phf_generator//0.8.0
+phf_macros//0.8.0 phf_shared//0.8.0
+phf_macros//0.8.0 proc-macro-hack//0.5.11
+phf_macros//0.8.0 proc-macro2//1.0.8
+phf_macros//0.8.0 quote//1.0.2
+phf_macros//0.8.0 syn//1.0.14
+phf_shared//0.7.24 siphasher//0.2.3
+phf_shared//0.7.24 unicase//1.4.2 weak:optional
+phf_shared//0.8.0 siphasher//0.3.1
+phf_shared//0.8.0 unicase//2.6.0 weak:optional
+pico-sys//0.0.1 gcc//0.3.55
+pico-sys//0.0.1 libc//0.2.66
+pin-project-internal//0.4.6 proc-macro2//1.0.8
+pin-project-internal//0.4.6 quote//1.0.2
+pin-project-internal//0.4.6 syn//1.0.14
+pin-project-internal//0.4.8 proc-macro2//1.0.8
+pin-project-internal//0.4.8 quote//1.0.2
+pin-project-internal//0.4.8 syn//1.0.14
+pin-project//0.4.6 pin-project-internal//0.4.6
+pin-project//0.4.8 pin-project-internal//0.4.8
+pretty_assertions//0.6.1 ansi_term//0.11.0
+pretty_assertions//0.6.1 difference//2.0.0
+pretty_env_logger//0.3.1 chrono//0.4.9
+pretty_env_logger//0.3.1 env_logger//0.6.2
+pretty_env_logger//0.3.1 log//0.4.8
+pretty_env_logger//0.4.0 env_logger//0.7.1
+pretty_env_logger//0.4.0 log//0.4.8
+proc-macro-hack//0.4.2 proc-macro-hack-impl//0.4.2
+proc-macro-hack//0.5.11 proc-macro2//1.0.8
+proc-macro-hack//0.5.11 quote//1.0.2
+proc-macro-hack//0.5.11 syn//1.0.14
+proc-macro2//0.4.30 unicode-xid//0.1.0
+proc-macro2//1.0.8 unicode-xid//0.2.0
+proptest-derive//0.1.2 proc-macro2//0.4.30
+proptest-derive//0.1.2 quote//0.6.13
+proptest-derive//0.1.2 syn//0.15.44
+proptest//0.7.2 bit-set//0.5.1
+proptest//0.7.2 bitflags//1.2.1
+proptest//0.7.2 lazy_static//1.4.0
+proptest//0.7.2 num-traits//0.2.11
+proptest//0.7.2 quick-error//1.2.2 feature:default
+proptest//0.7.2 quick-error//1.2.2 weak:feature:fork
+proptest//0.7.2 quick-error//1.2.2 weak:feature:std
+proptest//0.7.2 quick-error//1.2.2 weak:feature:timeout
+proptest//0.7.2 quick-error//1.2.2 weak:optional
+proptest//0.7.2 rand//0.4.6
+proptest//0.7.2 regex-syntax//0.4.2 feature:default
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:fork
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:std
+proptest//0.7.2 regex-syntax//0.4.2 weak:feature:timeout
+proptest//0.7.2 regex-syntax//0.4.2 weak:optional
+proptest//0.7.2 rusty-fork//0.2.2 feature:default
+proptest//0.7.2 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.7.2 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.7.2 rusty-fork//0.2.2 weak:optional
+proptest//0.7.2 tempfile//3.1.0 feature:default
+proptest//0.7.2 tempfile//3.1.0 weak:feature:fork
+proptest//0.7.2 tempfile//3.1.0 weak:feature:timeout
+proptest//0.7.2 tempfile//3.1.0 weak:optional
+proptest//0.8.7 bit-set//0.5.1 feature:default
+proptest//0.8.7 bit-set//0.5.1 weak:optional
+proptest//0.8.7 bitflags//1.2.1
+proptest//0.8.7 byteorder//1.3.2
+proptest//0.8.7 lazy_static//1.4.0
+proptest//0.8.7 num-traits//0.2.11
+proptest//0.8.7 quick-error//1.2.2 feature:default
+proptest//0.8.7 quick-error//1.2.2 weak:feature:fork
+proptest//0.8.7 quick-error//1.2.2 weak:feature:std
+proptest//0.8.7 quick-error//1.2.2 weak:feature:timeout
+proptest//0.8.7 quick-error//1.2.2 weak:optional
+proptest//0.8.7 rand//0.5.6
+proptest//0.8.7 regex-syntax//0.6.12 feature:default
+proptest//0.8.7 regex-syntax//0.6.12 weak:feature:fork
+proptest//0.8.7 regex-syntax//0.6.12 weak:feature:std
+proptest//0.8.7 regex-syntax//0.6.12 weak:feature:timeout
+proptest//0.8.7 regex-syntax//0.6.12 weak:optional
+proptest//0.8.7 rusty-fork//0.2.2 feature:default
+proptest//0.8.7 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.8.7 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.8.7 rusty-fork//0.2.2 weak:optional
+proptest//0.8.7 tempfile//3.1.0 feature:default
+proptest//0.8.7 tempfile//3.1.0 weak:feature:fork
+proptest//0.8.7 tempfile//3.1.0 weak:feature:timeout
+proptest//0.8.7 tempfile//3.1.0 weak:optional
+proptest//0.9.4 bit-set//0.5.1 feature:default
+proptest//0.9.4 bit-set//0.5.1 weak:feature:default-code-coverage
+proptest//0.9.4 bit-set//0.5.1 weak:optional
+proptest//0.9.4 bitflags//1.2.1
+proptest//0.9.4 byteorder//1.3.2
+proptest//0.9.4 lazy_static//1.4.0 feature:default
+proptest//0.9.4 lazy_static//1.4.0 weak:feature:default-code-coverage
+proptest//0.9.4 lazy_static//1.4.0 weak:feature:fork
+proptest//0.9.4 lazy_static//1.4.0 weak:feature:std
+proptest//0.9.4 lazy_static//1.4.0 weak:feature:timeout
+proptest//0.9.4 lazy_static//1.4.0 weak:optional
+proptest//0.9.4 num-traits//0.2.11
+proptest//0.9.4 quick-error//1.2.2 feature:default
+proptest//0.9.4 quick-error//1.2.2 weak:feature:default-code-coverage
+proptest//0.9.4 quick-error//1.2.2 weak:feature:fork
+proptest//0.9.4 quick-error//1.2.2 weak:feature:std
+proptest//0.9.4 quick-error//1.2.2 weak:feature:timeout
+proptest//0.9.4 quick-error//1.2.2 weak:optional
+proptest//0.9.4 rand//0.6.5
+proptest//0.9.4 rand_chacha//0.1.1
+proptest//0.9.4 rand_xorshift//0.1.1
+proptest//0.9.4 regex-syntax//0.6.12 feature:default
+proptest//0.9.4 regex-syntax//0.6.12 weak:feature:default-code-coverage
+proptest//0.9.4 regex-syntax//0.6.12 weak:feature:fork
+proptest//0.9.4 regex-syntax//0.6.12 weak:feature:std
+proptest//0.9.4 regex-syntax//0.6.12 weak:feature:timeout
+proptest//0.9.4 regex-syntax//0.6.12 weak:optional
+proptest//0.9.4 rusty-fork//0.2.2 feature:default
+proptest//0.9.4 rusty-fork//0.2.2 weak:feature:default-code-coverage
+proptest//0.9.4 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.9.4 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.9.4 rusty-fork//0.2.2 weak:optional
+proptest//0.9.4 tempfile//3.1.0 feature:default
+proptest//0.9.4 tempfile//3.1.0 weak:feature:default-code-coverage
+proptest//0.9.4 tempfile//3.1.0 weak:feature:fork
+proptest//0.9.4 tempfile//3.1.0 weak:feature:timeout
+proptest//0.9.4 tempfile//3.1.0 weak:optional
+proptest//0.9.5 bit-set//0.5.1 feature:default
+proptest//0.9.5 bit-set//0.5.1 weak:feature:default-code-coverage
+proptest//0.9.5 bit-set//0.5.1 weak:optional
+proptest//0.9.5 bitflags//1.2.1
+proptest//0.9.5 byteorder//1.3.2
+proptest//0.9.5 lazy_static//1.4.0 feature:default
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:default-code-coverage
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:fork
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:std
+proptest//0.9.5 lazy_static//1.4.0 weak:feature:timeout
+proptest//0.9.5 lazy_static//1.4.0 weak:optional
+proptest//0.9.5 num-traits//0.2.11
+proptest//0.9.5 quick-error//1.2.2 feature:default
+proptest//0.9.5 quick-error//1.2.2 weak:feature:default-code-coverage
+proptest//0.9.5 quick-error//1.2.2 weak:feature:fork
+proptest//0.9.5 quick-error//1.2.2 weak:feature:std
+proptest//0.9.5 quick-error//1.2.2 weak:feature:timeout
+proptest//0.9.5 quick-error//1.2.2 weak:optional
+proptest//0.9.5 rand//0.6.5
+proptest//0.9.5 rand_chacha//0.1.1
+proptest//0.9.5 rand_xorshift//0.1.1
+proptest//0.9.5 regex-syntax//0.6.12 feature:default
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:default-code-coverage
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:fork
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:std
+proptest//0.9.5 regex-syntax//0.6.12 weak:feature:timeout
+proptest//0.9.5 regex-syntax//0.6.12 weak:optional
+proptest//0.9.5 rusty-fork//0.2.2 feature:default
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:default-code-coverage
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:fork
+proptest//0.9.5 rusty-fork//0.2.2 weak:feature:timeout
+proptest//0.9.5 rusty-fork//0.2.2 weak:optional
+proptest//0.9.5 tempfile//3.1.0 feature:default
+proptest//0.9.5 tempfile//3.1.0 weak:feature:default-code-coverage
+proptest//0.9.5 tempfile//3.1.0 weak:feature:fork
+proptest//0.9.5 tempfile//3.1.0 weak:feature:timeout
+proptest//0.9.5 tempfile//3.1.0 weak:optional
+publicsuffix//1.5.4 error-chain//0.12.1
+publicsuffix//1.5.4 idna//0.2.0
+publicsuffix//1.5.4 lazy_static//1.4.0
+publicsuffix//1.5.4 native-tls//0.2.3 feature:default
+publicsuffix//1.5.4 native-tls//0.2.3 weak:feature:remote_list
+publicsuffix//1.5.4 native-tls//0.2.3 weak:optional
+publicsuffix//1.5.4 regex//1.3.1
+publicsuffix//1.5.4 url//2.1.1
+pulldown-cmark//0.1.2 bitflags//0.9.1
+pulldown-cmark//0.1.2 getopts//0.2.21 feature:default
+pulldown-cmark//0.1.2 getopts//0.2.21 weak:optional
+pulldown-cmark//0.4.1 bitflags//1.2.1
+pulldown-cmark//0.4.1 getopts//0.2.21 feature:default
+pulldown-cmark//0.4.1 getopts//0.2.21 weak:optional
+pulldown-cmark//0.4.1 memchr//2.3.0
+pulldown-cmark//0.4.1 unicase//2.6.0
+pulse//0.5.3 atom//0.3.5
+pulse//0.5.3 time//0.1.42
+quantiles//0.7.1 serde//1.0.104 weak:feature:serde_support
+quantiles//0.7.1 serde//1.0.104 weak:optional
+quantiles//0.7.1 serde_derive//1.0.104 weak:feature:serde_support
+quantiles//0.7.1 serde_derive//1.0.104 weak:optional
+quickcheck//0.2.24 log//0.3.9
+quickcheck//0.2.24 rand//0.3.23
+quickcheck//0.2.27 env_logger//0.3.5
+quickcheck//0.2.27 log//0.3.9
+quickcheck//0.2.27 rand//0.3.23
+quickcheck//0.4.1 rand//0.3.23
+quickcheck//0.5.0 env_logger//0.4.3 feature:default
+quickcheck//0.5.0 env_logger//0.4.3 weak:feature:use_logging
+quickcheck//0.5.0 env_logger//0.4.3 weak:optional
+quickcheck//0.5.0 log//0.3.9 feature:default
+quickcheck//0.5.0 log//0.3.9 weak:feature:use_logging
+quickcheck//0.5.0 log//0.3.9 weak:optional
+quickcheck//0.5.0 rand//0.3.23
+quickcheck//0.6.2 env_logger//0.5.13 feature:default
+quickcheck//0.6.2 env_logger//0.5.13 weak:feature:regex
+quickcheck//0.6.2 env_logger//0.5.13 weak:feature:use_logging
+quickcheck//0.6.2 env_logger//0.5.13 weak:optional
+quickcheck//0.6.2 log//0.4.8 feature:default
+quickcheck//0.6.2 log//0.4.8 weak:feature:use_logging
+quickcheck//0.6.2 log//0.4.8 weak:optional
+quickcheck//0.6.2 rand//0.4.6
+quickcheck//0.7.2 env_logger//0.5.13 feature:default
+quickcheck//0.7.2 env_logger//0.5.13 weak:feature:regex
+quickcheck//0.7.2 env_logger//0.5.13 weak:feature:use_logging
+quickcheck//0.7.2 env_logger//0.5.13 weak:optional
+quickcheck//0.7.2 log//0.4.8 feature:default
+quickcheck//0.7.2 log//0.4.8 weak:feature:use_logging
+quickcheck//0.7.2 log//0.4.8 weak:optional
+quickcheck//0.7.2 rand//0.5.6
+quickcheck//0.7.2 rand_core//0.2.2
+quickcheck//0.8.5 env_logger//0.6.2 feature:default
+quickcheck//0.8.5 env_logger//0.6.2 weak:feature:regex
+quickcheck//0.8.5 env_logger//0.6.2 weak:feature:use_logging
+quickcheck//0.8.5 env_logger//0.6.2 weak:optional
+quickcheck//0.8.5 log//0.4.8 feature:default
+quickcheck//0.8.5 log//0.4.8 weak:feature:use_logging
+quickcheck//0.8.5 log//0.4.8 weak:optional
+quickcheck//0.8.5 rand_core//0.4.2
+quickcheck//0.9.0 env_logger//0.6.2 feature:default
+quickcheck//0.9.0 env_logger//0.6.2 weak:feature:regex
+quickcheck//0.9.0 env_logger//0.6.2 weak:feature:use_logging
+quickcheck//0.9.0 env_logger//0.6.2 weak:optional
+quickcheck//0.9.0 log//0.4.8 feature:default
+quickcheck//0.9.0 log//0.4.8 weak:feature:use_logging
+quickcheck//0.9.0 log//0.4.8 weak:optional
+quickcheck//0.9.0 rand//0.7.2
+quickcheck//0.9.0 rand_core//0.5.1
+quickcheck_macros//0.8.0 proc-macro2//0.4.30
+quickcheck_macros//0.8.0 quote//0.6.13
+quickcheck_macros//0.8.0 syn//0.15.44
+quote//0.6.13 proc-macro2//0.4.30
+quote//1.0.2 proc-macro2//1.0.8
+rand//0.3.23 libc//0.2.66
+rand//0.3.23 rand//0.4.6
+rand//0.4.6 libc//0.2.66 feature:default
+rand//0.4.6 libc//0.2.66 weak:feature:std
+rand//0.4.6 libc//0.2.66 weak:optional
+rand//0.5.6 libc//0.2.66 feature:default
+rand//0.5.6 libc//0.2.66 weak:feature:std
+rand//0.5.6 libc//0.2.66 weak:optional
+rand//0.5.6 log//0.4.8 weak:optional
+rand//0.5.6 rand_core//0.3.1
+rand//0.5.6 serde//1.0.104 weak:optional
+rand//0.5.6 serde_derive//1.0.104 weak:optional
+rand//0.6.5 autocfg//0.1.6
+rand//0.6.5 libc//0.2.66
+rand//0.6.5 log//0.4.8 weak:optional
+rand//0.6.5 rand_chacha//0.1.1
+rand//0.6.5 rand_core//0.4.2
+rand//0.6.5 rand_hc//0.1.0
+rand//0.6.5 rand_isaac//0.1.1
+rand//0.6.5 rand_jitter//0.1.4
+rand//0.6.5 rand_os//0.1.3 feature:default
+rand//0.6.5 rand_os//0.1.3 weak:feature:std
+rand//0.6.5 rand_os//0.1.3 weak:optional
+rand//0.6.5 rand_pcg//0.1.2
+rand//0.6.5 rand_xorshift//0.1.1
+rand//0.7.2 getrandom//0.1.14 feature:default
+rand//0.7.2 getrandom//0.1.14 weak:feature:f_getrandom
+rand//0.7.2 getrandom//0.1.14 weak:feature:std
+rand//0.7.2 getrandom//0.1.14 weak:optional
+rand//0.7.2 libc//0.2.66
+rand//0.7.2 log//0.4.8 weak:optional
+rand//0.7.2 rand_chacha//0.2.1
+rand//0.7.2 rand_core//0.5.1
+rand//0.7.2 rand_pcg//0.2.1 weak:feature:small_rng
+rand//0.7.2 rand_pcg//0.2.1 weak:optional
+rand_chacha//0.1.1 autocfg//0.1.6
+rand_chacha//0.1.1 rand_core//0.3.1
+rand_chacha//0.2.1 c2-chacha//0.2.3
+rand_chacha//0.2.1 rand_core//0.5.1
+rand_core//0.2.2 rand_core//0.3.1
+rand_core//0.3.1 rand_core//0.4.2
+rand_core//0.4.2 serde//1.0.104 weak:feature:serde1
+rand_core//0.4.2 serde//1.0.104 weak:optional
+rand_core//0.4.2 serde_derive//1.0.104 weak:feature:serde1
+rand_core//0.4.2 serde_derive//1.0.104 weak:optional
+rand_core//0.5.1 getrandom//0.1.14 weak:feature:std
+rand_core//0.5.1 getrandom//0.1.14 weak:optional
+rand_core//0.5.1 serde//1.0.104 weak:feature:serde1
+rand_core//0.5.1 serde//1.0.104 weak:optional
+rand_distr//0.2.2 rand//0.7.2
+rand_hc//0.1.0 rand_core//0.3.1
+rand_hc//0.2.0 rand_core//0.5.1
+rand_isaac//0.1.1 rand_core//0.3.1
+rand_isaac//0.1.1 serde//1.0.104 weak:feature:serde1
+rand_isaac//0.1.1 serde//1.0.104 weak:optional
+rand_isaac//0.1.1 serde_derive//1.0.104 weak:feature:serde1
+rand_isaac//0.1.1 serde_derive//1.0.104 weak:optional
+rand_isaac//0.2.0 rand_core//0.5.1
+rand_isaac//0.2.0 serde//1.0.104 weak:feature:serde1
+rand_isaac//0.2.0 serde//1.0.104 weak:optional
+rand_isaac//0.2.0 serde_derive//1.0.104 weak:feature:serde1
+rand_isaac//0.2.0 serde_derive//1.0.104 weak:optional
+rand_jitter//0.1.4 log//0.4.8 weak:optional
+rand_jitter//0.1.4 rand_core//0.4.2
+rand_os//0.1.3 libc//0.2.66
+rand_os//0.1.3 log//0.4.8 weak:optional
+rand_os//0.1.3 rand_core//0.4.2
+rand_pcg//0.1.2 autocfg//0.1.6
+rand_pcg//0.1.2 rand_core//0.4.2
+rand_pcg//0.1.2 serde//1.0.104 weak:feature:serde1
+rand_pcg//0.1.2 serde//1.0.104 weak:optional
+rand_pcg//0.1.2 serde_derive//1.0.104 weak:feature:serde1
+rand_pcg//0.1.2 serde_derive//1.0.104 weak:optional
+rand_pcg//0.2.1 rand_core//0.5.1
+rand_pcg//0.2.1 serde//1.0.104 weak:feature:serde1
+rand_pcg//0.2.1 serde//1.0.104 weak:optional
+rand_xorshift//0.1.1 rand_core//0.3.1
+rand_xorshift//0.1.1 serde//1.0.104 weak:feature:serde1
+rand_xorshift//0.1.1 serde//1.0.104 weak:optional
+rand_xorshift//0.1.1 serde_derive//1.0.104 weak:feature:serde1
+rand_xorshift//0.1.1 serde_derive//1.0.104 weak:optional
+rand_xorshift//0.2.0 rand_core//0.5.1
+rand_xorshift//0.2.0 serde//1.0.104 weak:feature:serde1
+rand_xorshift//0.2.0 serde//1.0.104 weak:optional
+rand_xoshiro//0.1.0 byteorder//1.3.2
+rand_xoshiro//0.1.0 rand_core//0.3.1
+rand_xoshiro//0.3.1 rand_core//0.5.1
+rand_xoshiro//0.3.1 serde//1.0.104 weak:feature:serde1
+rand_xoshiro//0.3.1 serde//1.0.104 weak:optional
+rand_xoshiro//0.4.0 rand_core//0.5.1
+rand_xoshiro//0.4.0 serde//1.0.104 weak:feature:serde1
+rand_xoshiro//0.4.0 serde//1.0.104 weak:optional
+rawslice//0.1.0 rawpointer//0.1.0
+rayon-core//1.6.0 crossbeam-deque//0.7.2
+rayon-core//1.6.0 crossbeam-queue//0.1.2
+rayon-core//1.6.0 crossbeam-utils//0.6.6
+rayon-core//1.6.0 lazy_static//1.4.0
+rayon-core//1.6.0 num_cpus//1.12.0
+rayon//0.8.2 rayon-core//1.6.0
+rayon//1.2.0 crossbeam-deque//0.7.2
+rayon//1.2.0 either//1.5.3
+rayon//1.2.0 rayon-core//1.6.0
+ref-cast-impl//0.2.7 proc-macro2//1.0.8
+ref-cast-impl//0.2.7 quote//1.0.2
+ref-cast-impl//0.2.7 syn//1.0.14
+ref-cast-impl//1.0.0 proc-macro2//1.0.8
+ref-cast-impl//1.0.0 quote//1.0.2
+ref-cast-impl//1.0.0 syn//1.0.14
+ref-cast//0.2.7 ref-cast-impl//0.2.7
+ref-cast//1.0.0 ref-cast-impl//1.0.0
+regex-syntax//0.5.6 ucd-util//0.1.5
+regex//0.1.80 aho-corasick//0.5.3
+regex//0.1.80 memchr//0.1.11
+regex//0.1.80 regex-syntax//0.3.9
+regex//0.1.80 thread_local//0.2.7
+regex//0.1.80 utf8-ranges//0.1.3
+regex//0.2.11 aho-corasick//0.6.10
+regex//0.2.11 memchr//2.3.0
+regex//0.2.11 regex-syntax//0.5.6
+regex//0.2.11 thread_local//0.3.6
+regex//0.2.11 utf8-ranges//1.0.4
+regex//1.3.1 aho-corasick//0.7.6 feature:default
+regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf
+regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf-literal
+regex//1.3.1 aho-corasick//0.7.6 weak:optional
+regex//1.3.1 memchr//2.3.0 feature:default
+regex//1.3.1 memchr//2.3.0 weak:feature:perf
+regex//1.3.1 memchr//2.3.0 weak:feature:perf-literal
+regex//1.3.1 memchr//2.3.0 weak:optional
+regex//1.3.1 regex-syntax//0.6.12
+regex//1.3.1 thread_local//0.3.6 feature:default
+regex//1.3.1 thread_local//0.3.6 weak:feature:perf
+regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
+regex//1.3.1 thread_local//0.3.6 weak:optional
+reqwest//0.10.0 async-compression//0.2.0 weak:feature:gzip
+reqwest//0.10.0 async-compression//0.2.0 weak:optional
+reqwest//0.10.0 base64//0.11.0
+reqwest//0.10.0 bytes//0.5.4
+reqwest//0.10.0 cookie//0.12.0 weak:feature:cookies
+reqwest//0.10.0 cookie//0.12.0 weak:optional
+reqwest//0.10.0 cookie_store//0.10.0 weak:feature:cookies
+reqwest//0.10.0 cookie_store//0.10.0 weak:optional
+reqwest//0.10.0 encoding_rs//0.8.22
+reqwest//0.10.0 futures-core//0.3.1
+reqwest//0.10.0 futures-util//0.3.1
+reqwest//0.10.0 http-body//0.3.1
+reqwest//0.10.0 http//0.2.0
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:feature:rust-tls
+reqwest//0.10.0 hyper-rustls//0.19.1 weak:optional
+reqwest//0.10.0 hyper-tls//0.4.1 feature:default
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:default-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:f_native-tls
+reqwest//0.10.0 hyper-tls//0.4.1 weak:feature:native-tls-vendored
+reqwest//0.10.0 hyper-tls//0.4.1 weak:optional
+reqwest//0.10.0 hyper//0.13.2
+reqwest//0.10.0 lazy_static//1.4.0
+reqwest//0.10.0 log//0.4.8
+reqwest//0.10.0 mime//0.3.16
+reqwest//0.10.0 mime_guess//2.0.1
+reqwest//0.10.0 native-tls//0.2.3 feature:default
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:default-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:f_native-tls
+reqwest//0.10.0 native-tls//0.2.3 weak:feature:native-tls-vendored
+reqwest//0.10.0 native-tls//0.2.3 weak:optional
+reqwest//0.10.0 percent-encoding//2.1.0
+reqwest//0.10.0 pin-project-lite//0.1.4
+reqwest//0.10.0 rustls//0.16.0 weak:feature:rust-tls
+reqwest//0.10.0 rustls//0.16.0 weak:optional
+reqwest//0.10.0 serde//1.0.104
+reqwest//0.10.0 serde_json//1.0.41 weak:feature:json
+reqwest//0.10.0 serde_json//1.0.41 weak:optional
+reqwest//0.10.0 serde_urlencoded//0.6.1
+reqwest//0.10.0 time//0.1.42
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:feature:rust-tls
+reqwest//0.10.0 tokio-rustls//0.12.2 weak:optional
+reqwest//0.10.0 tokio-tls//0.3.0 feature:default
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:default-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:f_native-tls
+reqwest//0.10.0 tokio-tls//0.3.0 weak:feature:native-tls-vendored
+reqwest//0.10.0 tokio-tls//0.3.0 weak:optional
+reqwest//0.10.0 tokio//0.2.9
+reqwest//0.10.0 url//2.1.1
+reqwest//0.10.0 webpki-roots//0.17.0 weak:feature:rust-tls
+reqwest//0.10.0 webpki-roots//0.17.0 weak:optional
+ring//0.14.6 cc//1.0.46
+ring//0.14.6 lazy_static//1.4.0
+ring//0.14.6 libc//0.2.66
+ring//0.14.6 spin//0.5.2
+ring//0.14.6 untrusted//0.6.2
+ring//0.16.9 cc//1.0.46
+ring//0.16.9 lazy_static//1.4.0
+ring//0.16.9 libc//0.2.66
+ring//0.16.9 spin//0.5.2
+ring//0.16.9 untrusted//0.7.0
+ron//0.4.1 base64//0.10.1
+ron//0.4.1 bitflags//1.2.1
+ron//0.4.1 serde//1.0.104
+ron//0.5.1 base64//0.10.1
+ron//0.5.1 bitflags//1.2.1
+ron//0.5.1 serde//1.0.104
+rustc-hash//1.0.1 byteorder//1.3.2
+rustc-test//0.3.0 getopts//0.2.21
+rustc-test//0.3.0 libc//0.2.66
+rustc-test//0.3.0 rustc-serialize//0.3.24
+rustc-test//0.3.0 rustc_version//0.2.3
+rustc-test//0.3.0 term//0.4.6
+rustc-test//0.3.0 time//0.1.42
+rustc_version//0.2.3 semver//0.9.0
+rustfix//0.4.6 failure//0.1.6
+rustfix//0.4.6 log//0.4.8
+rustfix//0.4.6 serde//1.0.104
+rustfix//0.4.6 serde_json//1.0.41
+rustls-native-certs//0.1.0 openssl-probe//0.1.2
+rustls-native-certs//0.1.0 rustls//0.16.0
+rustls//0.16.0 base64//0.10.1
+rustls//0.16.0 log//0.4.8 feature:default
+rustls//0.16.0 log//0.4.8 weak:feature:logging
+rustls//0.16.0 log//0.4.8 weak:optional
+rustls//0.16.0 ring//0.16.9
+rustls//0.16.0 sct//0.6.0
+rustls//0.16.0 webpki//0.21.0
+rustversion//0.1.4 proc-macro2//1.0.8
+rustversion//0.1.4 quote//1.0.2
+rustversion//0.1.4 syn//1.0.14
+rustversion//1.0.1 proc-macro2//1.0.8
+rustversion//1.0.1 quote//1.0.2
+rustversion//1.0.1 syn//1.0.14
+rusty-fork//0.2.2 fnv//1.0.6
+rusty-fork//0.2.2 quick-error//1.2.2
+rusty-fork//0.2.2 tempfile//3.1.0
+rusty-fork//0.2.2 wait-timeout//0.2.0 feature:default
+rusty-fork//0.2.2 wait-timeout//0.2.0 weak:feature:timeout
+rusty-fork//0.2.2 wait-timeout//0.2.0 weak:optional
+ryu//1.0.1 no-panic//0.1.12 weak:optional
+scroll//0.10.1 rustc_version//0.2.3
+scroll//0.10.1 scroll_derive//0.10.1 weak:feature:derive
+scroll//0.10.1 scroll_derive//0.10.1 weak:optional
+scroll//0.9.2 rustc_version//0.2.3
+scroll//0.9.2 scroll_derive//0.9.5 weak:feature:derive
+scroll//0.9.2 scroll_derive//0.9.5 weak:optional
+scroll_derive//0.10.1 proc-macro2//1.0.8
+scroll_derive//0.10.1 quote//1.0.2
+scroll_derive//0.10.1 syn//1.0.14
+scroll_derive//0.9.5 proc-macro2//0.4.30
+scroll_derive//0.9.5 quote//0.6.13
+scroll_derive//0.9.5 syn//0.15.44
+sct//0.6.0 ring//0.16.9
+sct//0.6.0 untrusted//0.7.0
+semver//0.9.0 semver-parser//0.7.0
+semver//0.9.0 serde//1.0.104 weak:feature:ci
+semver//0.9.0 serde//1.0.104 weak:optional
+serde-big-array//0.1.5 serde//1.0.104
+serde-big-array//0.1.5 serde_derive//1.0.104
+serde//1.0.104 serde_derive//1.0.104 weak:feature:derive
+serde//1.0.104 serde_derive//1.0.104 weak:optional
+serde_bytes//0.10.4 serde//1.0.104
+serde_bytes//0.11.2 serde//1.0.104
+serde_cbor//0.9.0 byteorder//1.3.2
+serde_cbor//0.9.0 half//1.4.0
+serde_cbor//0.9.0 serde//1.0.104
+serde_derive//1.0.104 proc-macro2//1.0.8
+serde_derive//1.0.104 quote//1.0.2
+serde_derive//1.0.104 syn//1.0.14
+serde_json//0.8.6 dtoa//0.2.2
+serde_json//0.8.6 itoa//0.1.1
+serde_json//0.8.6 linked-hash-map//0.3.0 weak:feature:perserve_order
+serde_json//0.8.6 linked-hash-map//0.3.0 weak:optional
+serde_json//0.8.6 num-traits//0.1.43
+serde_json//0.8.6 serde//0.8.23
+serde_json//1.0.41 indexmap//1.3.1 weak:feature:preserve_order
+serde_json//1.0.41 indexmap//1.3.1 weak:optional
+serde_json//1.0.41 itoa//0.4.5
+serde_json//1.0.41 ryu//1.0.1
+serde_json//1.0.41 serde//1.0.104
+serde_test//0.8.23 serde//0.8.23
+serde_test//1.0.102 serde//1.0.104
+serde_urlencoded//0.6.1 dtoa//0.4.5
+serde_urlencoded//0.6.1 itoa//0.4.5
+serde_urlencoded//0.6.1 serde//1.0.104
+serde_urlencoded//0.6.1 url//2.1.1
+serde_yaml//0.8.11 dtoa//0.4.5
+serde_yaml//0.8.11 linked-hash-map//0.5.2
+serde_yaml//0.8.11 serde//1.0.104
+serde_yaml//0.8.11 yaml-rust//0.4.3
+sha-1//0.8.1 block-buffer//0.7.3
+sha-1//0.8.1 digest//0.8.1
+sha-1//0.8.1 fake-simd//0.1.2
+sha-1//0.8.1 opaque-debug//0.2.3
+sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
+sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
+sha1-asm//0.4.3 cc//1.0.46
+sha1//0.6.0 serde//1.0.104 weak:optional
+signal-hook-registry//1.2.0 arc-swap//0.4.4
+signal-hook-registry//1.2.0 libc//0.2.66
+signal-hook//0.1.12 futures//0.1.29 weak:feature:tokio-support
+signal-hook//0.1.12 futures//0.1.29 weak:optional
+signal-hook//0.1.12 libc//0.2.66
+signal-hook//0.1.12 mio//0.6.21 weak:feature:mio-support
+signal-hook//0.1.12 mio//0.6.21 weak:feature:tokio-support
+signal-hook//0.1.12 mio//0.6.21 weak:optional
+signal-hook//0.1.12 signal-hook-registry//1.2.0
+signal-hook//0.1.12 tokio-reactor//0.1.11 weak:feature:tokio-support
+signal-hook//0.1.12 tokio-reactor//0.1.11 weak:optional
+slog//2.5.2 erased-serde//0.3.10 weak:feature:nested-values
+slog//2.5.2 erased-serde//0.3.10 weak:optional
+smallvec//0.6.10 serde//1.0.104 weak:optional
+smallvec//1.1.0 serde//1.0.104 weak:optional
+speculate//0.1.2 proc-macro2//0.4.30
+speculate//0.1.2 quote//0.6.13
+speculate//0.1.2 syn//0.14.9
+speculate//0.1.2 unicode-xid//0.1.0
+stream-cipher//0.3.2 blobby//0.1.2 weak:feature:dev
+stream-cipher//0.3.2 blobby//0.1.2 weak:optional
+stream-cipher//0.3.2 generic-array//0.12.3
+streaming-stats//0.2.2 num-traits//0.2.11
+string_cache//0.7.5 lazy_static//1.4.0
+string_cache//0.7.5 new_debug_unreachable//1.0.4
+string_cache//0.7.5 phf_shared//0.7.24
+string_cache//0.7.5 precomputed-hash//0.1.1
+string_cache//0.7.5 serde//1.0.104
+string_cache//0.7.5 string_cache_codegen//0.4.4
+string_cache//0.7.5 string_cache_shared//0.3.0
+string_cache//0.8.0 lazy_static//1.4.0
+string_cache//0.8.0 new_debug_unreachable//1.0.4
+string_cache//0.8.0 phf_shared//0.8.0
+string_cache//0.8.0 precomputed-hash//0.1.1
+string_cache//0.8.0 serde//1.0.104
+string_cache_codegen//0.4.4 phf_generator//0.7.24
+string_cache_codegen//0.4.4 phf_shared//0.7.24
+string_cache_codegen//0.4.4 proc-macro2//1.0.8
+string_cache_codegen//0.4.4 quote//1.0.2
+string_cache_codegen//0.4.4 string_cache_shared//0.3.0
+string_cache_codegen//0.5.1 phf_generator//0.8.0
+string_cache_codegen//0.5.1 phf_shared//0.8.0
+string_cache_codegen//0.5.1 proc-macro2//1.0.8
+string_cache_codegen//0.5.1 quote//1.0.2
+sval//0.4.7 serde//1.0.104 weak:feature:serde_no_std
+sval//0.4.7 serde//1.0.104 weak:feature:serde_std
+sval//0.4.7 serde//1.0.104 weak:optional
+sval//0.4.7 smallvec//0.6.10 weak:feature:arbitrary-depth
+sval//0.4.7 smallvec//0.6.10 weak:optional
+sval//0.4.7 sval_derive//0.4.7 weak:feature:derive
+sval//0.4.7 sval_derive//0.4.7 weak:optional
+sval_derive//0.4.7 proc-macro2//1.0.8
+sval_derive//0.4.7 quote//1.0.2
+sval_derive//0.4.7 syn//1.0.14
+syn//0.11.11 quote//0.3.15 feature:default
+syn//0.11.11 quote//0.3.15 weak:feature:printing
+syn//0.11.11 quote//0.3.15 weak:optional
+syn//0.11.11 synom//0.11.3 feature:default
+syn//0.11.11 synom//0.11.3 weak:feature:parsing
+syn//0.11.11 synom//0.11.3 weak:optional
+syn//0.11.11 unicode-xid//0.0.4 feature:default
+syn//0.11.11 unicode-xid//0.0.4 weak:feature:parsing
+syn//0.11.11 unicode-xid//0.0.4 weak:optional
+syn//0.14.9 proc-macro2//0.4.30
+syn//0.14.9 quote//0.6.13 feature:default
+syn//0.14.9 quote//0.6.13 weak:feature:printing
+syn//0.14.9 quote//0.6.13 weak:feature:proc-macro
+syn//0.14.9 quote//0.6.13 weak:optional
+syn//0.14.9 unicode-xid//0.1.0 weak:optional
+syn//0.15.44 proc-macro2//0.4.30
+syn//0.15.44 quote//0.6.13 feature:default
+syn//0.15.44 quote//0.6.13 weak:feature:printing
+syn//0.15.44 quote//0.6.13 weak:feature:proc-macro
+syn//0.15.44 quote//0.6.13 weak:optional
+syn//0.15.44 unicode-xid//0.1.0
+syn//1.0.14 proc-macro2//1.0.8
+syn//1.0.14 quote//1.0.2 feature:default
+syn//1.0.14 quote//1.0.2 weak:feature:printing
+syn//1.0.14 quote//1.0.2 weak:feature:proc-macro
+syn//1.0.14 quote//1.0.2 weak:optional
+syn//1.0.14 unicode-xid//0.2.0
+synom//0.11.3 unicode-xid//0.0.4
+synstructure//0.12.1 proc-macro2//1.0.8
+synstructure//0.12.1 quote//1.0.2
+synstructure//0.12.1 syn//1.0.14
+synstructure//0.12.1 unicode-xid//0.2.0
+tar//0.4.26 filetime//0.2.8
+tar//0.4.26 libc//0.2.66
+tar//0.4.26 xattr//0.2.2 feature:default
+tar//0.4.26 xattr//0.2.2 weak:optional
+tempdir//0.3.7 rand//0.4.6
+tempdir//0.3.7 remove_dir_all//0.5.2
+tempfile//3.1.0 cfg-if//0.1.10
+tempfile//3.1.0 libc//0.2.66
+tempfile//3.1.0 rand//0.7.2
+tempfile//3.1.0 remove_dir_all//0.5.2
+tendril//0.4.1 encoding//0.2.33 weak:optional
+tendril//0.4.1 encoding_rs//0.8.22 weak:optional
+tendril//0.4.1 futf//0.1.4
+tendril//0.4.1 mac//0.1.1
+tendril//0.4.1 utf-8//0.7.5
+term//0.2.14 kernel32-sys//0.2.2
+term//0.2.14 winapi//0.2.8
+term//0.6.1 dirs//2.0.2
+term_size//0.3.1 libc//0.2.66
+termios//0.3.1 libc//0.2.66
+test-assembler//0.1.5 byteorder//0.5.3
+tester//0.6.0 getopts//0.2.21
+tester//0.6.0 libc//0.2.66
+tester//0.6.0 term//0.6.1
+textwrap//0.11.0 hyphenation//0.7.1 weak:optional
+textwrap//0.11.0 term_size//0.3.1 weak:optional
+textwrap//0.11.0 unicode-width//0.1.6
+thiserror-impl//1.0.6 proc-macro2//1.0.8
+thiserror-impl//1.0.6 quote//1.0.2
+thiserror-impl//1.0.6 syn//1.0.14
+thiserror//1.0.6 thiserror-impl//1.0.6
+thread-id//2.0.0 kernel32-sys//0.2.2
+thread-id//2.0.0 libc//0.2.66
+thread-id//3.3.0 libc//0.2.66
+thread_local//0.2.7 thread-id//2.0.0
+thread_local//0.3.6 lazy_static//1.4.0
+time//0.1.42 libc//0.2.66
+time//0.1.42 rustc-serialize//0.3.24 weak:optional
+timebomb//0.1.2 pulse//0.5.3
+tokio-codec//0.1.1 bytes//0.4.12
+tokio-codec//0.1.1 futures//0.1.29
+tokio-codec//0.1.1 tokio-io//0.1.11
+tokio-core//0.1.17 bytes//0.4.12
+tokio-core//0.1.17 futures//0.1.29
+tokio-core//0.1.17 iovec//0.1.4
+tokio-core//0.1.17 log//0.4.8
+tokio-core//0.1.17 mio//0.6.21
+tokio-core//0.1.17 scoped-tls//0.1.2
+tokio-core//0.1.17 tokio-executor//0.1.9
+tokio-core//0.1.17 tokio-io//0.1.11
+tokio-core//0.1.17 tokio-reactor//0.1.11
+tokio-core//0.1.17 tokio-timer//0.2.12
+tokio-core//0.1.17 tokio//0.1.22
+tokio-current-thread//0.1.6 futures//0.1.29
+tokio-current-thread//0.1.6 tokio-executor//0.1.9
+tokio-executor//0.1.9 crossbeam-utils//0.6.6
+tokio-executor//0.1.9 futures//0.1.29
+tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:feature:current-thread
+tokio-executor//0.2.0.6 crossbeam-channel//0.3.9 weak:optional
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-deque//0.7.2 weak:optional
+tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-queue//0.1.2 weak:optional
+tokio-executor//0.2.0.6 crossbeam-utils//0.6.6 weak:feature:threadpool
+tokio-executor//0.2.0.6 crossbeam-utils//0.6.6 weak:optional
+tokio-executor//0.2.0.6 futures-core-preview//0.3.0.19 weak:feature:threadpool
+tokio-executor//0.2.0.6 futures-core-preview//0.3.0.19 weak:optional
+tokio-executor//0.2.0.6 futures-util-preview//0.3.0.19
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:blocking
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:feature:threadpool
+tokio-executor//0.2.0.6 lazy_static//1.4.0 weak:optional
+tokio-executor//0.2.0.6 num_cpus//1.12.0 weak:feature:threadpool
+tokio-executor//0.2.0.6 num_cpus//1.12.0 weak:optional
+tokio-executor//0.2.0.6 slab//0.4.2 weak:feature:threadpool
+tokio-executor//0.2.0.6 slab//0.4.2 weak:optional
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:feature:blocking
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:feature:threadpool
+tokio-executor//0.2.0.6 tokio-sync//0.2.0.6 weak:optional
+tokio-executor//0.2.0.6 tracing//0.1.12 weak:optional
+tokio-fs//0.1.6 futures//0.1.29
+tokio-fs//0.1.6 tokio-io//0.1.11
+tokio-fs//0.1.6 tokio-threadpool//0.1.17
+tokio-io//0.1.11 bytes//0.4.12
+tokio-io//0.1.11 futures//0.1.29
+tokio-io//0.1.11 log//0.4.8
+tokio-macros//0.2.3 quote//1.0.2
+tokio-macros//0.2.3 syn//1.0.14
+tokio-mock-task//0.1.1 futures//0.1.29
+tokio-process//0.2.4 crossbeam-queue//0.1.2
+tokio-process//0.2.4 futures//0.1.29
+tokio-process//0.2.4 lazy_static//1.4.0
+tokio-process//0.2.4 libc//0.2.66
+tokio-process//0.2.4 log//0.4.8
+tokio-process//0.2.4 mio//0.6.21
+tokio-process//0.2.4 tokio-io//0.1.11
+tokio-process//0.2.4 tokio-reactor//0.1.11
+tokio-process//0.2.4 tokio-signal//0.2.7
+tokio-reactor//0.1.11 crossbeam-utils//0.6.6
+tokio-reactor//0.1.11 futures//0.1.29
+tokio-reactor//0.1.11 lazy_static//1.4.0
+tokio-reactor//0.1.11 log//0.4.8
+tokio-reactor//0.1.11 mio//0.6.21
+tokio-reactor//0.1.11 num_cpus//1.12.0
+tokio-reactor//0.1.11 parking_lot//0.9.0
+tokio-reactor//0.1.11 slab//0.4.2
+tokio-reactor//0.1.11 tokio-executor//0.1.9
+tokio-reactor//0.1.11 tokio-io//0.1.11
+tokio-reactor//0.1.11 tokio-sync//0.1.7
+tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
+tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
+tokio-rustls//0.12.2 futures-core//0.3.1
+tokio-rustls//0.12.2 rustls//0.16.0
+tokio-rustls//0.12.2 tokio//0.2.9
+tokio-rustls//0.12.2 webpki//0.21.0
+tokio-signal//0.2.7 futures//0.1.29
+tokio-signal//0.2.7 libc//0.2.66
+tokio-signal//0.2.7 mio-uds//0.6.7
+tokio-signal//0.2.7 mio//0.6.21
+tokio-signal//0.2.7 signal-hook//0.1.12
+tokio-signal//0.2.7 tokio-executor//0.1.9
+tokio-signal//0.2.7 tokio-io//0.1.11
+tokio-signal//0.2.7 tokio-reactor//0.1.11
+tokio-sync//0.1.7 fnv//1.0.6
+tokio-sync//0.1.7 futures//0.1.29
+tokio-sync//0.2.0.6 fnv//1.0.6
+tokio-sync//0.2.0.6 futures-core-preview//0.3.0.19
+tokio-sync//0.2.0.6 futures-sink-preview//0.3.0.19 weak:feature:async-traits
+tokio-sync//0.2.0.6 futures-sink-preview//0.3.0.19 weak:optional
+tokio-sync//0.2.0.6 futures-util-preview//0.3.0.19
+tokio-tcp//0.1.3 bytes//0.4.12
+tokio-tcp//0.1.3 futures//0.1.29
+tokio-tcp//0.1.3 iovec//0.1.4
+tokio-tcp//0.1.3 mio//0.6.21
+tokio-tcp//0.1.3 tokio-io//0.1.11
+tokio-tcp//0.1.3 tokio-reactor//0.1.11
+tokio-test//0.2.0 bytes//0.5.4
+tokio-test//0.2.0 futures-core//0.3.1
+tokio-test//0.2.0 tokio//0.2.9
+tokio-threadpool//0.1.17 crossbeam-deque//0.7.2
+tokio-threadpool//0.1.17 crossbeam-queue//0.1.2
+tokio-threadpool//0.1.17 crossbeam-utils//0.6.6
+tokio-threadpool//0.1.17 futures//0.1.29
+tokio-threadpool//0.1.17 lazy_static//1.4.0
+tokio-threadpool//0.1.17 log//0.4.8
+tokio-threadpool//0.1.17 num_cpus//1.12.0
+tokio-threadpool//0.1.17 slab//0.4.2
+tokio-threadpool//0.1.17 tokio-executor//0.1.9
+tokio-timer//0.2.12 crossbeam-utils//0.6.6
+tokio-timer//0.2.12 futures//0.1.29
+tokio-timer//0.2.12 slab//0.4.2
+tokio-timer//0.2.12 tokio-executor//0.1.9
+tokio-tls//0.3.0 native-tls//0.2.3
+tokio-tls//0.3.0 tokio//0.2.9
+tokio-udp//0.1.5 bytes//0.4.12
+tokio-udp//0.1.5 futures//0.1.29
+tokio-udp//0.1.5 log//0.4.8
+tokio-udp//0.1.5 mio//0.6.21
+tokio-udp//0.1.5 tokio-codec//0.1.1
+tokio-udp//0.1.5 tokio-io//0.1.11
+tokio-udp//0.1.5 tokio-reactor//0.1.11
+tokio-uds//0.2.5 bytes//0.4.12
+tokio-uds//0.2.5 futures//0.1.29
+tokio-uds//0.2.5 iovec//0.1.4
+tokio-uds//0.2.5 libc//0.2.66
+tokio-uds//0.2.5 log//0.4.8
+tokio-uds//0.2.5 mio-uds//0.6.7
+tokio-uds//0.2.5 mio//0.6.21
+tokio-uds//0.2.5 tokio-codec//0.1.1
+tokio-uds//0.2.5 tokio-io//0.1.11
+tokio-uds//0.2.5 tokio-reactor//0.1.11
+tokio-util//0.2.0 bytes//0.5.4
+tokio-util//0.2.0 futures-core//0.3.1
+tokio-util//0.2.0 futures-sink//0.3.1
+tokio-util//0.2.0 log//0.4.8
+tokio-util//0.2.0 pin-project-lite//0.1.4
+tokio-util//0.2.0 tokio//0.2.9
+tokio//0.1.22 bytes//0.4.12
+tokio//0.1.22 futures//0.1.29
+tokio//0.1.22 mio//0.6.21 feature:default
+tokio//0.1.22 mio//0.6.21 weak:feature:reactor
+tokio//0.1.22 mio//0.6.21 weak:feature:rt-full
+tokio//0.1.22 mio//0.6.21 weak:optional
+tokio//0.1.22 num_cpus//1.12.0 feature:default
+tokio//0.1.22 num_cpus//1.12.0 weak:feature:rt-full
+tokio//0.1.22 num_cpus//1.12.0 weak:optional
+tokio//0.1.22 tokio-codec//0.1.1 feature:default
+tokio//0.1.22 tokio-codec//0.1.1 weak:feature:codec
+tokio//0.1.22 tokio-codec//0.1.1 weak:optional
+tokio//0.1.22 tokio-current-thread//0.1.6 feature:default
+tokio//0.1.22 tokio-current-thread//0.1.6 weak:feature:rt-full
+tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional
+tokio//0.1.22 tokio-executor//0.1.9 feature:default
+tokio//0.1.22 tokio-executor//0.1.9 weak:feature:rt-full
+tokio//0.1.22 tokio-executor//0.1.9 weak:optional
+tokio//0.1.22 tokio-fs//0.1.6 feature:default
+tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
+tokio//0.1.22 tokio-fs//0.1.6 weak:optional
+tokio//0.1.22 tokio-io//0.1.11 feature:default
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:codec
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:io
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:reactor
+tokio//0.1.22 tokio-io//0.1.11 weak:feature:rt-full
+tokio//0.1.22 tokio-io//0.1.11 weak:optional
+tokio//0.1.22 tokio-reactor//0.1.11 feature:default
+tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:reactor
+tokio//0.1.22 tokio-reactor//0.1.11 weak:feature:rt-full
+tokio//0.1.22 tokio-reactor//0.1.11 weak:optional
+tokio//0.1.22 tokio-sync//0.1.7 feature:default
+tokio//0.1.22 tokio-sync//0.1.7 weak:feature:sync
+tokio//0.1.22 tokio-sync//0.1.7 weak:optional
+tokio//0.1.22 tokio-tcp//0.1.3 feature:default
+tokio//0.1.22 tokio-tcp//0.1.3 weak:feature:tcp
+tokio//0.1.22 tokio-tcp//0.1.3 weak:optional
+tokio//0.1.22 tokio-threadpool//0.1.17 feature:default
+tokio//0.1.22 tokio-threadpool//0.1.17 weak:feature:rt-full
+tokio//0.1.22 tokio-threadpool//0.1.17 weak:optional
+tokio//0.1.22 tokio-timer//0.2.12 feature:default
+tokio//0.1.22 tokio-timer//0.2.12 weak:feature:rt-full
+tokio//0.1.22 tokio-timer//0.2.12 weak:feature:timer
+tokio//0.1.22 tokio-timer//0.2.12 weak:optional
+tokio//0.1.22 tokio-udp//0.1.5 feature:default
+tokio//0.1.22 tokio-udp//0.1.5 weak:feature:udp
+tokio//0.1.22 tokio-udp//0.1.5 weak:optional
+tokio//0.1.22 tokio-uds//0.2.5 feature:default
+tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
+tokio//0.1.22 tokio-uds//0.2.5 weak:optional
+tokio//0.1.22 tracing-core//0.1.9 weak:feature:experimental-tracing
+tokio//0.1.22 tracing-core//0.1.9 weak:optional
+tokio//0.2.9 bytes//0.5.4
+tokio//0.2.9 fnv//1.0.6 weak:feature:full
+tokio//0.2.9 fnv//1.0.6 weak:feature:sync
+tokio//0.2.9 fnv//1.0.6 weak:optional
+tokio//0.2.9 futures-core//0.3.1 weak:feature:full
+tokio//0.2.9 futures-core//0.3.1 weak:feature:stream
+tokio//0.2.9 futures-core//0.3.1 weak:optional
+tokio//0.2.9 iovec//0.1.4 weak:feature:full
+tokio//0.2.9 iovec//0.1.4 weak:feature:net
+tokio//0.2.9 iovec//0.1.4 weak:feature:tcp
+tokio//0.2.9 iovec//0.1.4 weak:optional
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:full
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:io-driver
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:net
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:process
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:signal
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:tcp
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:udp
+tokio//0.2.9 lazy_static//1.4.0 weak:feature:uds
+tokio//0.2.9 lazy_static//1.4.0 weak:optional
+tokio//0.2.9 libc//0.2.66 weak:feature:full
+tokio//0.2.9 libc//0.2.66 weak:feature:net
+tokio//0.2.9 libc//0.2.66 weak:feature:process
+tokio//0.2.9 libc//0.2.66 weak:feature:signal
+tokio//0.2.9 libc//0.2.66 weak:feature:uds
+tokio//0.2.9 libc//0.2.66 weak:optional
+tokio//0.2.9 memchr//2.3.0 weak:feature:full
+tokio//0.2.9 memchr//2.3.0 weak:feature:io-util
+tokio//0.2.9 memchr//2.3.0 weak:optional
+tokio//0.2.9 mio-uds//0.6.7 weak:feature:full
+tokio//0.2.9 mio-uds//0.6.7 weak:feature:net
+tokio//0.2.9 mio-uds//0.6.7 weak:feature:process
+tokio//0.2.9 mio-uds//0.6.7 weak:feature:signal
+tokio//0.2.9 mio-uds//0.6.7 weak:feature:uds
+tokio//0.2.9 mio-uds//0.6.7 weak:optional
+tokio//0.2.9 mio//0.6.21 weak:feature:full
+tokio//0.2.9 mio//0.6.21 weak:feature:io-driver
+tokio//0.2.9 mio//0.6.21 weak:feature:net
+tokio//0.2.9 mio//0.6.21 weak:feature:process
+tokio//0.2.9 mio//0.6.21 weak:feature:signal
+tokio//0.2.9 mio//0.6.21 weak:feature:tcp
+tokio//0.2.9 mio//0.6.21 weak:feature:udp
+tokio//0.2.9 mio//0.6.21 weak:feature:uds
+tokio//0.2.9 mio//0.6.21 weak:optional
+tokio//0.2.9 num_cpus//1.12.0 weak:feature:full
+tokio//0.2.9 num_cpus//1.12.0 weak:feature:rt-threaded
+tokio//0.2.9 num_cpus//1.12.0 weak:optional
+tokio//0.2.9 pin-project-lite//0.1.4
+tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:full
+tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:process
+tokio//0.2.9 signal-hook-registry//1.2.0 weak:feature:signal
+tokio//0.2.9 signal-hook-registry//1.2.0 weak:optional
+tokio//0.2.9 slab//0.4.2 weak:feature:full
+tokio//0.2.9 slab//0.4.2 weak:feature:time
+tokio//0.2.9 slab//0.4.2 weak:optional
+tokio//0.2.9 tokio-macros//0.2.3 weak:feature:full
+tokio//0.2.9 tokio-macros//0.2.3 weak:feature:macros
+tokio//0.2.9 tokio-macros//0.2.3 weak:optional
+toml//0.4.10 serde//1.0.104
+toml//0.5.3 linked-hash-map//0.5.2 weak:feature:preserve_order
+toml//0.5.3 linked-hash-map//0.5.2 weak:optional
+toml//0.5.3 serde//1.0.104
+tower-test//0.3.0 futures-util//0.3.1
+tower-test//0.3.0 pin-project//0.4.8
+tower-test//0.3.0 tokio-test//0.2.0
+tower-test//0.3.0 tokio//0.2.9
+tower-test//0.3.0 tower-layer//0.3.0
+tower-test//0.3.0 tower-service//0.3.0
+tower-util//0.3.0 futures-core//0.3.1
+tower-util//0.3.0 futures-util//0.3.1 feature:default
+tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
+tower-util//0.3.0 futures-util//0.3.1 weak:optional
+tower-util//0.3.0 pin-project//0.4.8
+tower-util//0.3.0 tower-service//0.3.0
+tracing-attributes//0.1.6 quote//1.0.2
+tracing-attributes//0.1.6 syn//1.0.14
+tracing-core//0.1.7 lazy_static//1.4.0
+tracing-core//0.1.7 spin//0.5.2
+tracing-core//0.1.9 lazy_static//1.4.0 feature:default
+tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
+tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
+tracing-futures//0.2.1 futures-task//0.3.1 weak:feature:futures-03
+tracing-futures//0.2.1 futures-task//0.3.1 weak:optional
+tracing-futures//0.2.1 futures//0.3.1 weak:feature:futures-03
+tracing-futures//0.2.1 futures//0.3.1 weak:optional
+tracing-futures//0.2.1 pin-project//0.4.8 feature:default
+tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:futures-03
+tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:std-future
+tracing-futures//0.2.1 pin-project//0.4.8 weak:optional
+tracing-futures//0.2.1 tokio-executor//0.1.9 weak:optional
+tracing-futures//0.2.1 tokio//0.1.22 weak:optional
+tracing-futures//0.2.1 tracing//0.1.12
+tracing//0.1.12 cfg-if//0.1.10
+tracing//0.1.12 log//0.4.8 weak:feature:log-always
+tracing//0.1.12 log//0.4.8 weak:optional
+tracing//0.1.12 tracing-attributes//0.1.6
+tracing//0.1.12 tracing-core//0.1.9
+trybuild//1.0.17 glob//0.3.0
+trybuild//1.0.17 lazy_static//1.4.0
+trybuild//1.0.17 serde//1.0.104
+trybuild//1.0.17 serde_json//1.0.41
+trybuild//1.0.17 termcolor//1.0.5
+trybuild//1.0.17 toml//0.5.3
+unicase//1.4.2 version_check//0.1.5
+unicase//2.6.0 version_check//0.9.1
+unicode-bidi//0.3.4 matches//0.1.8
+unicode-bidi//0.3.4 serde//1.0.104 weak:feature:with_serde
+unicode-bidi//0.3.4 serde//1.0.104 weak:optional
+unicode-normalization//0.1.8 smallvec//0.6.10
+url//1.7.2 encoding//0.2.33 weak:feature:query_encoding
+url//1.7.2 encoding//0.2.33 weak:optional
+url//1.7.2 heapsize//0.4.2 weak:feature:heap_size
+url//1.7.2 heapsize//0.4.2 weak:optional
+url//1.7.2 idna//0.1.5
+url//1.7.2 matches//0.1.8
+url//1.7.2 percent-encoding//1.0.1
+url//1.7.2 rustc-serialize//0.3.24 weak:optional
+url//1.7.2 serde//0.8.23 weak:optional
+url//2.1.1 idna//0.2.0
+url//2.1.1 matches//0.1.8
+url//2.1.1 percent-encoding//2.1.0
+url//2.1.1 serde//1.0.104 weak:optional
+uuid//0.7.4 byteorder//1.3.2 weak:feature:u128
+uuid//0.7.4 byteorder//1.3.2 weak:optional
+uuid//0.7.4 md5//0.6.1 weak:feature:v3
+uuid//0.7.4 md5//0.6.1 weak:optional
+uuid//0.7.4 rand//0.6.5 weak:feature:v4
+uuid//0.7.4 rand//0.6.5 weak:optional
+uuid//0.7.4 serde//1.0.104 weak:optional
+uuid//0.7.4 sha1//0.6.0 weak:feature:v5
+uuid//0.7.4 sha1//0.6.0 weak:optional
+uuid//0.7.4 slog//2.5.2 weak:optional
+uuid//0.8.1 md5//0.6.1 weak:feature:v3
+uuid//0.8.1 md5//0.6.1 weak:optional
+uuid//0.8.1 rand//0.7.2 weak:feature:v4
+uuid//0.8.1 rand//0.7.2 weak:optional
+uuid//0.8.1 serde//1.0.104 weak:optional
+uuid//0.8.1 sha1//0.6.0 weak:feature:v5
+uuid//0.8.1 sha1//0.6.0 weak:optional
+uuid//0.8.1 slog//2.5.2 weak:optional
+vec_map//0.8.1 serde//1.0.104 weak:feature:eders
+vec_map//0.8.1 serde//1.0.104 weak:optional
+version-sync//0.6.0 itertools//0.7.11
+version-sync//0.6.0 lazy_static//1.1.0
+version-sync//0.6.0 pulldown-cmark//0.1.2
+version-sync//0.6.0 regex//1.3.1
+version-sync//0.6.0 semver-parser//0.9.0
+version-sync//0.6.0 syn//0.15.44
+version-sync//0.6.0 toml//0.4.10
+version-sync//0.6.0 url//1.7.2
+version-sync//0.8.1 itertools//0.8.2
+version-sync//0.8.1 proc-macro2//0.4.30
+version-sync//0.8.1 pulldown-cmark//0.4.1
+version-sync//0.8.1 regex//1.3.1
+version-sync//0.8.1 semver-parser//0.9.0
+version-sync//0.8.1 syn//0.15.44
+version-sync//0.8.1 toml//0.5.3
+version-sync//0.8.1 url//1.7.2
+wait-timeout//0.2.0 libc//0.2.66
+walkdir//1.0.7 same-file//0.1.3
+walkdir//2.2.9 same-file//1.0.5
+want//0.3.0 log//0.4.8
+want//0.3.0 try-lock//0.2.2
+webpki-roots//0.17.0 webpki//0.21.0
+webpki-roots//0.18.0 webpki//0.21.0
+webpki//0.21.0 ring//0.16.9
+webpki//0.21.0 untrusted//0.7.0
+which//3.1.0 failure//0.1.6 feature:default
+which//3.1.0 failure//0.1.6 weak:optional
+which//3.1.0 libc//0.2.66
+xattr//0.2.2 libc//0.2.66
+yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:feature:preserve_order
+yaml-rust//0.3.5 linked-hash-map//0.3.0 weak:optional
+yaml-rust//0.4.3 linked-hash-map//0.5.2
+zstd-safe//2.0.3 libc//0.2.66
+zstd-safe//2.0.3 zstd-sys//1.4.15
+zstd-sys//1.4.15 bindgen//0.51.1
+zstd-sys//1.4.15 cc//1.0.46
+zstd-sys//1.4.15 glob//0.3.0
+zstd-sys//1.4.15 libc//0.2.66
+zstd-sys//1.4.15 pkg-config//0.3.17
+zstd//0.5.1 futures//0.1.29 weak:feature:tokio
+zstd//0.5.1 futures//0.1.29 weak:optional
+zstd//0.5.1 tokio-io//0.1.11 weak:feature:tokio
+zstd//0.5.1 tokio-io//0.1.11 weak:optional
+zstd//0.5.1 zstd-safe//2.0.3
