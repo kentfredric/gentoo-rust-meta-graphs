@@ -2,9 +2,11 @@ addr2line//0.11.0 addr2line 0.11.0
 adler32//1.0.4 adler32 1.0.4
 afl//0.4.4 afl 0.4.4
 afl//0.5.2 afl 0.5.2
+afl//0.6.0 afl 0.6.0
 aho-corasick//0.5.3 aho-corasick 0.5.3
 aho-corasick//0.6.10 aho-corasick 0.6.10
 aho-corasick//0.7.6 aho-corasick 0.7.6
+aho-corasick//0.7.8 aho-corasick 0.7.8
 ansi_term//0.11.0 ansi_term 0.11.0
 ansi_term//0.12.1 ansi_term 0.12.1
 anyhow//1.0.26 anyhow 1.0.26
@@ -138,6 +140,7 @@ futures-channel-preview//0.3.0.19 futures-channel-preview 0.3.0.19
 futures-channel//0.3.1 futures-channel 0.3.1
 futures-core-preview//0.3.0.19 futures-core-preview 0.3.0.19
 futures-core//0.3.1 futures-core 0.3.1
+futures-core//0.3.4 futures-core 0.3.4
 futures-executor//0.3.1 futures-executor 0.3.1
 futures-io-preview//0.3.0.19 futures-io-preview 0.3.0.19
 futures-io//0.3.1 futures-io 0.3.1
@@ -180,7 +183,9 @@ hex-literal//0.1.4 hex-literal 0.1.4
 hex-literal//0.2.1 hex-literal 0.2.1
 hex//0.2.0 hex 0.2.0
 hex//0.3.2 hex 0.3.2
+hex//0.4.2 hex 0.4.2
 html5ever//0.22.5 html5ever 0.22.5
+html5ever//0.25.1 html5ever 0.25.1
 http-body//0.3.1 http-body 0.3.1
 http//0.1.21 http 0.1.21
 http//0.2.0 http 0.2.0
@@ -433,6 +438,7 @@ ring//0.14.6 ring 0.14.6
 ring//0.16.9 ring 0.16.9
 rle-decode-fast//1.0.1 rle-decode-fast 1.0.1
 ron//0.4.1 ron 0.4.1
+ron//0.4.2 ron 0.4.2
 ron//0.5.1 ron 0.5.1
 rspec//1.0.0.3 rspec 1.0.0.3
 rustc-demangle//0.1.16 rustc-demangle 0.1.16
@@ -552,10 +558,13 @@ tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
 tokio-tcp//0.1.3 tokio-tcp 0.1.3
 tokio-test//0.2.0 tokio-test 0.2.0
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
+tokio-threadpool//0.1.18 tokio-threadpool 0.1.18
 tokio-timer//0.2.12 tokio-timer 0.2.12
 tokio-tls//0.3.0 tokio-tls 0.3.0
 tokio-udp//0.1.5 tokio-udp 0.1.5
+tokio-udp//0.1.6 tokio-udp 0.1.6
 tokio-uds//0.2.5 tokio-uds 0.2.5
+tokio-uds//0.2.6 tokio-uds 0.2.6
 tokio-util//0.2.0 tokio-util 0.2.0
 tokio//0.1.22 tokio 0.1.22
 tokio//0.2.9 tokio 0.2.9
@@ -580,6 +589,7 @@ unchecked-index//0.2.2 unchecked-index 0.2.2
 unicase//1.4.2 unicase 1.4.2
 unicase//2.6.0 unicase 2.6.0
 unicode-bidi//0.3.4 unicode-bidi 0.3.4
+unicode-normalization//0.1.12 unicode-normalization 0.1.12
 unicode-normalization//0.1.8 unicode-normalization 0.1.8
 unicode-segmentation//1.6.0 unicode-segmentation 1.6.0
 unicode-width//0.1.6 unicode-width 0.1.6
@@ -646,6 +656,12 @@ afl//0.5.2 clap//2.33.0 weak:feature:f_cargo-afl
 afl//0.5.2 clap//2.33.0 weak:optional
 afl//0.5.2 rustc_version//0.2.3
 afl//0.5.2 xdg//2.2.0
+afl//0.6.0 cc//1.0.46 weak:feature:f_cargo-afl
+afl//0.6.0 cc//1.0.46 weak:optional
+afl//0.6.0 clap//2.33.0 weak:feature:f_cargo-afl
+afl//0.6.0 clap//2.33.0 weak:optional
+afl//0.6.0 rustc_version//0.2.3
+afl//0.6.0 xdg//2.2.0
 aho-corasick//0.5.3 memchr//0.1.11
 aho-corasick//0.5.3 quickcheck//0.2.27 weak:test
 aho-corasick//0.5.3 rand//0.3.23 weak:test
@@ -654,6 +670,8 @@ aho-corasick//0.6.10 quickcheck//0.7.2 weak:test
 aho-corasick//0.6.10 rand//0.5.6 weak:test
 aho-corasick//0.7.6 doc-comment//0.3.1 weak:test
 aho-corasick//0.7.6 memchr//2.3.0
+aho-corasick//0.7.8 doc-comment//0.3.1 weak:test
+aho-corasick//0.7.8 memchr//2.3.0
 ansi_term//0.12.1 doc-comment//0.3.1 weak:test
 ansi_term//0.12.1 regex//1.3.1 weak:test
 ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
@@ -697,7 +715,7 @@ async-compression//0.2.0 flate2//1.0.13 weak:feature:deflate
 async-compression//0.2.0 flate2//1.0.13 weak:feature:gzip
 async-compression//0.2.0 flate2//1.0.13 weak:feature:zlib
 async-compression//0.2.0 flate2//1.0.13 weak:optional
-async-compression//0.2.0 futures-core//0.3.1
+async-compression//0.2.0 futures-core//0.3.4
 async-compression//0.2.0 futures-io//0.3.1 weak:feature:all
 async-compression//0.2.0 futures-io//0.3.1 weak:feature:all-implementations
 async-compression//0.2.0 futures-io//0.3.1 weak:feature:futures-bufread
@@ -1183,7 +1201,7 @@ flate2//1.0.13 tokio-io//0.1.11 weak:feature:tokio
 flate2//1.0.13 tokio-io//0.1.11 weak:optional
 flate2//1.0.13 tokio-io//0.1.11 weak:test
 flate2//1.0.13 tokio-tcp//0.1.3 weak:test
-flate2//1.0.13 tokio-threadpool//0.1.17 weak:test
+flate2//1.0.13 tokio-threadpool//0.1.18 weak:test
 float-ord//0.2.0 rand//0.3.23 weak:test
 foreign-types-macros//0.2.0 proc-macro2//1.0.8
 foreign-types-macros//0.2.0 quote//1.0.2
@@ -1217,10 +1235,10 @@ futf//0.1.4 mac//0.1.1
 futf//0.1.4 new_debug_unreachable//1.0.4
 futures-channel-preview//0.3.0.19 futures-core-preview//0.3.0.19
 futures-channel-preview//0.3.0.19 futures-sink-preview//0.3.0.19
-futures-channel//0.3.1 futures-core//0.3.1
+futures-channel//0.3.1 futures-core//0.3.4
 futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
-futures-executor//0.3.1 futures-core//0.3.1
+futures-executor//0.3.1 futures-core//0.3.4
 futures-executor//0.3.1 futures-task//0.3.1
 futures-executor//0.3.1 futures-util//0.3.1
 futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
@@ -1237,7 +1255,7 @@ futures-select-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
 futures-select-macro-preview//0.3.0.19 proc-macro2//1.0.8
 futures-select-macro-preview//0.3.0.19 quote//1.0.2
 futures-select-macro-preview//0.3.0.19 syn//1.0.14
-futures-test//0.3.1 futures-core//0.3.1
+futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.1
 futures-test//0.3.1 futures-task//0.3.1
@@ -1282,7 +1300,7 @@ futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:feature:io-compat
 futures-util-preview//0.3.0.19 tokio-io//0.1.11 weak:optional
 futures-util//0.3.1 futures-channel//0.3.1 weak:feature:channel
 futures-util//0.3.1 futures-channel//0.3.1 weak:optional
-futures-util//0.3.1 futures-core//0.3.1
+futures-util//0.3.1 futures-core//0.3.4
 futures-util//0.3.1 futures-io//0.3.1 weak:feature:io
 futures-util//0.3.1 futures-io//0.3.1 weak:feature:io-compat
 futures-util//0.3.1 futures-io//0.3.1 weak:feature:read-initializer
@@ -1319,7 +1337,7 @@ futures-util//0.3.1 tokio-io//0.1.11 weak:feature:io-compat
 futures-util//0.3.1 tokio-io//0.1.11 weak:optional
 futures//0.3.1 assert_matches//1.3.0 weak:test
 futures//0.3.1 futures-channel//0.3.1
-futures//0.3.1 futures-core//0.3.1
+futures//0.3.1 futures-core//0.3.4
 futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.1
 futures//0.3.1 futures-sink//0.3.1
@@ -1468,7 +1486,7 @@ goblin//0.2.0 scroll//0.10.1
 h2//0.2.1 bytes//0.5.4
 h2//0.2.1 env_logger//0.5.13 weak:test
 h2//0.2.1 fnv//1.0.6
-h2//0.2.1 futures-core//0.3.1
+h2//0.2.1 futures-core//0.3.4
 h2//0.2.1 futures-sink//0.3.1
 h2//0.2.1 futures-util//0.3.1
 h2//0.2.1 hex//0.2.0 weak:test
@@ -1500,6 +1518,11 @@ hex-literal//0.1.4 hex-literal-impl//0.1.2
 hex-literal//0.1.4 proc-macro-hack//0.4.2
 hex-literal//0.2.1 hex-literal-impl//0.2.1
 hex-literal//0.2.1 proc-macro-hack//0.5.11
+hex//0.4.2 pretty_assertions//0.6.1 weak:test
+hex//0.4.2 serde//1.0.104 weak:optional
+hex//0.4.2 serde//1.0.104 weak:test
+hex//0.4.2 serde_json//1.0.41 weak:test
+hex//0.4.2 version-sync//0.8.1 weak:test
 html5ever//0.22.5 log//0.4.8
 html5ever//0.22.5 mac//0.1.1
 html5ever//0.22.5 markup5ever//0.7.5
@@ -1507,6 +1530,12 @@ html5ever//0.22.5 proc-macro2//0.4.30
 html5ever//0.22.5 quote//0.6.13
 html5ever//0.22.5 rustc-serialize//0.3.24 weak:test
 html5ever//0.22.5 rustc-test//0.3.0 weak:test
+html5ever//0.25.1 log//0.4.8
+html5ever//0.25.1 mac//0.1.1
+html5ever//0.25.1 markup5ever//0.10.0
+html5ever//0.25.1 proc-macro2//1.0.8
+html5ever//0.25.1 quote//1.0.2
+html5ever//0.25.1 syn//1.0.14
 http-body//0.3.1 bytes//0.5.4
 http-body//0.3.1 http//0.2.0
 http//0.1.21 bytes//0.4.12
@@ -1557,7 +1586,7 @@ hyper-tls//0.4.1 tokio//0.2.9
 hyper-tls//0.4.1 tokio//0.2.9 weak:test
 hyper//0.13.1 bytes//0.5.4
 hyper//0.13.1 futures-channel//0.3.1
-hyper//0.13.1 futures-core//0.3.1
+hyper//0.13.1 futures-core//0.3.4
 hyper//0.13.1 futures-util//0.3.1
 hyper//0.13.1 futures-util//0.3.1 weak:test
 hyper//0.13.1 h2//0.2.1
@@ -1581,7 +1610,7 @@ hyper//0.13.1 url//1.7.2 weak:test
 hyper//0.13.1 want//0.3.0
 hyper//0.13.2 bytes//0.5.4
 hyper//0.13.2 futures-channel//0.3.1
-hyper//0.13.2 futures-core//0.3.1
+hyper//0.13.2 futures-core//0.3.4
 hyper//0.13.2 futures-util//0.3.1
 hyper//0.13.2 futures-util//0.3.1 weak:test
 hyper//0.13.2 h2//0.2.1
@@ -1612,11 +1641,11 @@ hyphenation//0.7.1 pocket-resources//0.3.2 weak:feature:embed_all
 hyphenation//0.7.1 pocket-resources//0.3.2 weak:optional
 hyphenation//0.7.1 quickcheck//0.7.2 weak:test
 hyphenation//0.7.1 serde//1.0.104
-hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfc
-hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfd
-hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfkc
-hyphenation//0.7.1 unicode-normalization//0.1.8 weak:feature:nfkd
-hyphenation//0.7.1 unicode-normalization//0.1.8 weak:optional
+hyphenation//0.7.1 unicode-normalization//0.1.12 weak:feature:nfc
+hyphenation//0.7.1 unicode-normalization//0.1.12 weak:feature:nfd
+hyphenation//0.7.1 unicode-normalization//0.1.12 weak:feature:nfkc
+hyphenation//0.7.1 unicode-normalization//0.1.12 weak:feature:nfkd
+hyphenation//0.7.1 unicode-normalization//0.1.12 weak:optional
 hyphenation//0.7.1 unicode-segmentation//1.6.0 weak:test
 hyphenation_commons//0.7.1 atlatl//0.1.2
 hyphenation_commons//0.7.1 serde//1.0.104
@@ -1624,12 +1653,12 @@ idna//0.1.5 matches//0.1.8
 idna//0.1.5 rustc-serialize//0.3.24 weak:test
 idna//0.1.5 rustc-test//0.3.0 weak:test
 idna//0.1.5 unicode-bidi//0.3.4
-idna//0.1.5 unicode-normalization//0.1.8
+idna//0.1.5 unicode-normalization//0.1.12
 idna//0.2.0 matches//0.1.8
 idna//0.2.0 rustc-test//0.3.0 weak:test
 idna//0.2.0 serde_json//1.0.41 weak:test
 idna//0.2.0 unicode-bidi//0.3.4
-idna//0.2.0 unicode-normalization//0.1.8
+idna//0.2.0 unicode-normalization//0.1.12
 indexmap//1.3.0 autocfg//0.1.6
 indexmap//1.3.0 fnv//1.0.6 weak:test
 indexmap//1.3.0 itertools//0.8.2 weak:test
@@ -1694,7 +1723,7 @@ insta//0.8.2 failure//0.1.6
 insta//0.8.2 lazy_static//1.4.0
 insta//0.8.2 pest//2.1.2
 insta//0.8.2 pest_derive//2.1.0
-insta//0.8.2 ron//0.4.1
+insta//0.8.2 ron//0.4.2
 insta//0.8.2 serde//1.0.104
 insta//0.8.2 serde_json//1.0.41
 insta//0.8.2 serde_yaml//0.8.11
@@ -1707,7 +1736,7 @@ insta//0.9.0 failure//0.1.6
 insta//0.9.0 lazy_static//1.4.0
 insta//0.9.0 pest//2.1.2
 insta//0.9.0 pest_derive//2.1.0
-insta//0.9.0 ron//0.4.1
+insta//0.9.0 ron//0.4.2
 insta//0.9.0 serde//1.0.104
 insta//0.9.0 serde_json//1.0.41
 insta//0.9.0 serde_yaml//0.8.11
@@ -2625,10 +2654,10 @@ regex//0.2.11 rand//0.4.6 weak:test
 regex//0.2.11 regex-syntax//0.5.6
 regex//0.2.11 thread_local//0.3.6
 regex//0.2.11 utf8-ranges//1.0.4
-regex//1.3.1 aho-corasick//0.7.6 feature:default
-regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf
-regex//1.3.1 aho-corasick//0.7.6 weak:feature:perf-literal
-regex//1.3.1 aho-corasick//0.7.6 weak:optional
+regex//1.3.1 aho-corasick//0.7.8 feature:default
+regex//1.3.1 aho-corasick//0.7.8 weak:feature:perf
+regex//1.3.1 aho-corasick//0.7.8 weak:feature:perf-literal
+regex//1.3.1 aho-corasick//0.7.8 weak:optional
 regex//1.3.1 doc-comment//0.3.1 weak:test
 regex//1.3.1 lazy_static//1.4.0 weak:test
 regex//1.3.1 memchr//2.3.0 feature:default
@@ -2654,7 +2683,7 @@ reqwest//0.10.0 cookie_store//0.10.0 weak:optional
 reqwest//0.10.0 doc-comment//0.3.1 weak:test
 reqwest//0.10.0 encoding_rs//0.8.22
 reqwest//0.10.0 env_logger//0.6.2 weak:test
-reqwest//0.10.0 futures-core//0.3.1
+reqwest//0.10.0 futures-core//0.3.4
 reqwest//0.10.0 futures-util//0.3.1
 reqwest//0.10.0 http-body//0.3.1
 reqwest//0.10.0 http//0.2.0
@@ -2714,6 +2743,11 @@ ron//0.4.1 bitflags//1.2.1
 ron//0.4.1 serde//1.0.104
 ron//0.4.1 serde_bytes//0.10.4 weak:test
 ron//0.4.1 serde_json//1.0.41 weak:test
+ron//0.4.2 base64//0.10.1
+ron//0.4.2 bitflags//1.2.1
+ron//0.4.2 serde//1.0.104
+ron//0.4.2 serde_bytes//0.10.4 weak:test
+ron//0.4.2 serde_json//1.0.41 weak:test
 ron//0.5.1 base64//0.10.1
 ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.104
@@ -3057,7 +3091,7 @@ tokio-fs//0.1.6 tempdir//0.3.7 weak:test
 tokio-fs//0.1.6 tempfile//3.1.0 weak:test
 tokio-fs//0.1.6 tokio-io//0.1.11
 tokio-fs//0.1.6 tokio-io//0.1.11 weak:test
-tokio-fs//0.1.6 tokio-threadpool//0.1.17
+tokio-fs//0.1.6 tokio-threadpool//0.1.18
 tokio-fs//0.1.6 tokio//0.1.22 weak:test
 tokio-io//0.1.11 bytes//0.4.12
 tokio-io//0.1.11 futures//0.1.29
@@ -3093,7 +3127,7 @@ tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
 tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
-tokio-rustls//0.12.2 futures-core//0.3.1
+tokio-rustls//0.12.2 futures-core//0.3.4
 tokio-rustls//0.12.2 futures-util//0.3.1 weak:test
 tokio-rustls//0.12.2 lazy_static//1.4.0 weak:test
 tokio-rustls//0.12.2 rustls//0.16.0
@@ -3129,7 +3163,7 @@ tokio-tcp//0.1.3 tokio-io//0.1.11
 tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
 tokio-test//0.2.0 bytes//0.5.4
-tokio-test//0.2.0 futures-core//0.3.1
+tokio-test//0.2.0 futures-core//0.3.4
 tokio-test//0.2.0 futures-util//0.3.1 weak:test
 tokio-test//0.2.0 tokio//0.2.9
 tokio-test//0.2.0 tokio//0.2.9 weak:test
@@ -3144,6 +3178,17 @@ tokio-threadpool//0.1.17 num_cpus//1.12.0
 tokio-threadpool//0.1.17 rand//0.7.2 weak:test
 tokio-threadpool//0.1.17 slab//0.4.2
 tokio-threadpool//0.1.17 tokio-executor//0.1.9
+tokio-threadpool//0.1.18 crossbeam-deque//0.7.2
+tokio-threadpool//0.1.18 crossbeam-queue//0.2.1
+tokio-threadpool//0.1.18 crossbeam-utils//0.7.0
+tokio-threadpool//0.1.18 env_logger//0.6.2 weak:test
+tokio-threadpool//0.1.18 futures//0.1.29
+tokio-threadpool//0.1.18 lazy_static//1.4.0
+tokio-threadpool//0.1.18 log//0.4.8
+tokio-threadpool//0.1.18 num_cpus//1.12.0
+tokio-threadpool//0.1.18 rand//0.7.2 weak:test
+tokio-threadpool//0.1.18 slab//0.4.2
+tokio-threadpool//0.1.18 tokio-executor//0.1.9
 tokio-timer//0.2.12 crossbeam-utils//0.6.6
 tokio-timer//0.2.12 futures//0.1.29
 tokio-timer//0.2.12 rand//0.7.2 weak:test
@@ -3166,6 +3211,14 @@ tokio-udp//0.1.5 mio//0.6.21
 tokio-udp//0.1.5 tokio-codec//0.1.1
 tokio-udp//0.1.5 tokio-io//0.1.11
 tokio-udp//0.1.5 tokio-reactor//0.1.11
+tokio-udp//0.1.6 bytes//0.4.12
+tokio-udp//0.1.6 env_logger//0.6.2 weak:test
+tokio-udp//0.1.6 futures//0.1.29
+tokio-udp//0.1.6 log//0.4.8
+tokio-udp//0.1.6 mio//0.6.21
+tokio-udp//0.1.6 tokio-codec//0.1.1
+tokio-udp//0.1.6 tokio-io//0.1.11
+tokio-udp//0.1.6 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
 tokio-uds//0.2.5 futures//0.1.29
 tokio-uds//0.2.5 iovec//0.1.4
@@ -3178,8 +3231,20 @@ tokio-uds//0.2.5 tokio-codec//0.1.1
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
+tokio-uds//0.2.6 bytes//0.4.12
+tokio-uds//0.2.6 futures//0.1.29
+tokio-uds//0.2.6 iovec//0.1.4
+tokio-uds//0.2.6 libc//0.2.66
+tokio-uds//0.2.6 log//0.4.8
+tokio-uds//0.2.6 mio-uds//0.6.7
+tokio-uds//0.2.6 mio//0.6.21
+tokio-uds//0.2.6 tempfile//3.1.0 weak:test
+tokio-uds//0.2.6 tokio-codec//0.1.1
+tokio-uds//0.2.6 tokio-io//0.1.11
+tokio-uds//0.2.6 tokio-reactor//0.1.11
+tokio-uds//0.2.6 tokio//0.1.22 weak:test
 tokio-util//0.2.0 bytes//0.5.4
-tokio-util//0.2.0 futures-core//0.3.1
+tokio-util//0.2.0 futures-core//0.3.4
 tokio-util//0.2.0 futures-sink//0.3.1
 tokio-util//0.2.0 futures//0.3.1 weak:test
 tokio-util//0.2.0 log//0.4.8
@@ -3227,28 +3292,28 @@ tokio//0.1.22 tokio-sync//0.1.7 weak:optional
 tokio//0.1.22 tokio-tcp//0.1.3 feature:default
 tokio//0.1.22 tokio-tcp//0.1.3 weak:feature:tcp
 tokio//0.1.22 tokio-tcp//0.1.3 weak:optional
-tokio//0.1.22 tokio-threadpool//0.1.17 feature:default
-tokio//0.1.22 tokio-threadpool//0.1.17 weak:feature:rt-full
-tokio//0.1.22 tokio-threadpool//0.1.17 weak:optional
+tokio//0.1.22 tokio-threadpool//0.1.18 feature:default
+tokio//0.1.22 tokio-threadpool//0.1.18 weak:feature:rt-full
+tokio//0.1.22 tokio-threadpool//0.1.18 weak:optional
 tokio//0.1.22 tokio-timer//0.2.12 feature:default
 tokio//0.1.22 tokio-timer//0.2.12 weak:feature:rt-full
 tokio//0.1.22 tokio-timer//0.2.12 weak:feature:timer
 tokio//0.1.22 tokio-timer//0.2.12 weak:optional
-tokio//0.1.22 tokio-udp//0.1.5 feature:default
-tokio//0.1.22 tokio-udp//0.1.5 weak:feature:udp
-tokio//0.1.22 tokio-udp//0.1.5 weak:optional
-tokio//0.1.22 tokio-uds//0.2.5 feature:default
-tokio//0.1.22 tokio-uds//0.2.5 weak:feature:uds
-tokio//0.1.22 tokio-uds//0.2.5 weak:optional
+tokio//0.1.22 tokio-udp//0.1.6 feature:default
+tokio//0.1.22 tokio-udp//0.1.6 weak:feature:udp
+tokio//0.1.22 tokio-udp//0.1.6 weak:optional
+tokio//0.1.22 tokio-uds//0.2.6 feature:default
+tokio//0.1.22 tokio-uds//0.2.6 weak:feature:uds
+tokio//0.1.22 tokio-uds//0.2.6 weak:optional
 tokio//0.1.22 tracing-core//0.1.9 weak:feature:experimental-tracing
 tokio//0.1.22 tracing-core//0.1.9 weak:optional
 tokio//0.2.9 bytes//0.5.4
 tokio//0.2.9 fnv//1.0.6 weak:feature:full
 tokio//0.2.9 fnv//1.0.6 weak:feature:sync
 tokio//0.2.9 fnv//1.0.6 weak:optional
-tokio//0.2.9 futures-core//0.3.1 weak:feature:full
-tokio//0.2.9 futures-core//0.3.1 weak:feature:stream
-tokio//0.2.9 futures-core//0.3.1 weak:optional
+tokio//0.2.9 futures-core//0.3.4 weak:feature:full
+tokio//0.2.9 futures-core//0.3.4 weak:feature:stream
+tokio//0.2.9 futures-core//0.3.4 weak:optional
 tokio//0.2.9 futures//0.3.1 weak:test
 tokio//0.2.9 iovec//0.1.4 weak:feature:full
 tokio//0.2.9 iovec//0.1.4 weak:feature:net
@@ -3321,7 +3386,7 @@ tower-test//0.3.0 tokio//0.2.9
 tower-test//0.3.0 tokio//0.2.9 weak:test
 tower-test//0.3.0 tower-layer//0.3.0
 tower-test//0.3.0 tower-service//0.3.0
-tower-util//0.3.0 futures-core//0.3.1
+tower-util//0.3.0 futures-core//0.3.4
 tower-util//0.3.0 futures-util//0.3.1 feature:default
 tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
 tower-util//0.3.0 futures-util//0.3.1 weak:optional
@@ -3371,6 +3436,7 @@ unicode-bidi//0.3.4 matches//0.1.8
 unicode-bidi//0.3.4 serde//1.0.104 weak:feature:with_serde
 unicode-bidi//0.3.4 serde//1.0.104 weak:optional
 unicode-bidi//0.3.4 serde_test//1.0.102 weak:test
+unicode-normalization//0.1.12 smallvec//1.1.0
 unicode-normalization//0.1.8 smallvec//0.6.10
 unicode-segmentation//1.6.0 quickcheck//0.7.2 weak:test
 url//1.7.2 encoding//0.2.33 weak:feature:query_encoding
