@@ -150,6 +150,7 @@ futures-select-macro-preview//0.3.0.19 futures-select-macro-preview 0.3.0.19
 futures-sink-preview//0.3.0.19 futures-sink-preview 0.3.0.19
 futures-sink//0.3.1 futures-sink 0.3.1
 futures-task//0.3.1 futures-task 0.3.1
+futures-task//0.3.4 futures-task 0.3.4
 futures-test//0.3.1 futures-test 0.3.1
 futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
 futures-util//0.3.1 futures-util 0.3.1
@@ -417,10 +418,13 @@ rand_xoshiro//0.1.0 rand_xoshiro 0.1.0
 rand_xoshiro//0.3.1 rand_xoshiro 0.3.1
 rand_xoshiro//0.4.0 rand_xoshiro 0.4.0
 rawpointer//0.1.0 rawpointer 0.1.0
+rawpointer//0.2.1 rawpointer 0.2.1
 rawslice//0.1.0 rawslice 0.1.0
 rayon-core//1.6.0 rayon-core 1.6.0
+rayon-core//1.6.1 rayon-core 1.6.1
 rayon//0.8.2 rayon 0.8.2
 rayon//1.2.0 rayon 1.2.0
+rayon//1.2.1 rayon 1.2.1
 ref-cast-impl//0.2.7 ref-cast-impl 0.2.7
 ref-cast-impl//1.0.0 ref-cast-impl 1.0.0
 ref-cast//0.2.7 ref-cast 0.2.7
@@ -510,6 +514,7 @@ string_cache_shared//0.3.0 string_cache_shared 0.3.0
 strsim//0.8.0 strsim 0.8.0
 sval//0.4.7 sval 0.4.7
 sval_derive//0.4.7 sval_derive 0.4.7
+sval_derive//0.5.1 sval_derive 0.5.1
 syn//0.11.11 syn 0.11.11
 syn//0.14.9 syn 0.14.9
 syn//0.15.44 syn 0.15.44
@@ -531,7 +536,9 @@ termcolor//1.0.5 termcolor 1.0.5
 termios//0.3.1 termios 0.3.1
 test-assembler//0.1.5 test-assembler 0.1.5
 tester//0.6.0 tester 0.6.0
+tester//0.7.0 tester 0.7.0
 textwrap//0.11.0 textwrap 0.11.0
+thiserror-impl//1.0.11 thiserror-impl 1.0.11
 thiserror-impl//1.0.6 thiserror-impl 1.0.6
 thiserror//1.0.6 thiserror 1.0.6
 thread-id//2.0.0 thread-id 2.0.0
@@ -541,13 +548,16 @@ thread_local//0.3.6 thread_local 0.3.6
 time//0.1.42 time 0.1.42
 timebomb//0.1.2 timebomb 0.1.2
 tokio-codec//0.1.1 tokio-codec 0.1.1
+tokio-codec//0.1.2 tokio-codec 0.1.2
 tokio-core//0.1.17 tokio-core 0.1.17
 tokio-current-thread//0.1.6 tokio-current-thread 0.1.6
+tokio-executor//0.1.10 tokio-executor 0.1.10
 tokio-executor//0.1.9 tokio-executor 0.1.9
 tokio-executor//0.2.0.6 tokio-executor 0.2.0.6
 tokio-fs//0.1.6 tokio-fs 0.1.6
 tokio-io//0.1.11 tokio-io 0.1.11
 tokio-macros//0.2.3 tokio-macros 0.2.3
+tokio-macros//0.2.4 tokio-macros 0.2.4
 tokio-mock-task//0.1.1 tokio-mock-task 0.1.1
 tokio-process//0.2.4 tokio-process 0.2.4
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
@@ -1239,7 +1249,7 @@ futures-channel//0.3.1 futures-core//0.3.4
 futures-channel//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-channel//0.3.1 futures-sink//0.3.1 weak:optional
 futures-executor//0.3.1 futures-core//0.3.4
-futures-executor//0.3.1 futures-task//0.3.1
+futures-executor//0.3.1 futures-task//0.3.4
 futures-executor//0.3.1 futures-util//0.3.1
 futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
@@ -1258,7 +1268,7 @@ futures-select-macro-preview//0.3.0.19 syn//1.0.14
 futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.1
-futures-test//0.3.1 futures-task//0.3.1
+futures-test//0.3.1 futures-task//0.3.4
 futures-test//0.3.1 futures-util//0.3.1
 futures-test//0.3.1 pin-utils//0.1.0.4
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
@@ -1310,7 +1320,7 @@ futures-util//0.3.1 futures-macro//0.3.1 weak:feature:async-await-macro
 futures-util//0.3.1 futures-macro//0.3.1 weak:optional
 futures-util//0.3.1 futures-sink//0.3.1 weak:feature:sink
 futures-util//0.3.1 futures-sink//0.3.1 weak:optional
-futures-util//0.3.1 futures-task//0.3.1
+futures-util//0.3.1 futures-task//0.3.4
 futures-util//0.3.1 futures//0.1.29 weak:feature:compat
 futures-util//0.3.1 futures//0.1.29 weak:feature:io-compat
 futures-util//0.3.1 futures//0.1.29 weak:optional
@@ -1341,7 +1351,7 @@ futures//0.3.1 futures-core//0.3.4
 futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.1
 futures//0.3.1 futures-sink//0.3.1
-futures//0.3.1 futures-task//0.3.1
+futures//0.3.1 futures-task//0.3.4
 futures//0.3.1 futures-util//0.3.1
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
@@ -1383,7 +1393,7 @@ gimli//0.19.0 indexmap//1.3.1 weak:optional
 gimli//0.19.0 memmap//0.7.0 weak:test
 gimli//0.19.0 num_cpus//1.12.0 weak:test
 gimli//0.19.0 object//0.12.0 weak:test
-gimli//0.19.0 rayon//1.2.0 weak:test
+gimli//0.19.0 rayon//1.2.1 weak:test
 gimli//0.19.0 regex//1.3.1 weak:test
 gimli//0.19.0 stable_deref_trait//1.1.1
 gimli//0.19.0 test-assembler//0.1.5 weak:test
@@ -1665,7 +1675,7 @@ indexmap//1.3.0 itertools//0.8.2 weak:test
 indexmap//1.3.0 lazy_static//1.4.0 weak:test
 indexmap//1.3.0 quickcheck//0.8.5 weak:test
 indexmap//1.3.0 rand//0.6.5 weak:test
-indexmap//1.3.0 rayon//1.2.0 weak:optional
+indexmap//1.3.0 rayon//1.2.1 weak:optional
 indexmap//1.3.0 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.0 serde//1.0.104 weak:optional
 indexmap//1.3.0 serde_test//1.0.102 weak:test
@@ -1675,7 +1685,7 @@ indexmap//1.3.1 itertools//0.8.2 weak:test
 indexmap//1.3.1 lazy_static//1.4.0 weak:test
 indexmap//1.3.1 quickcheck//0.8.5 weak:test
 indexmap//1.3.1 rand//0.6.5 weak:test
-indexmap//1.3.1 rayon//1.2.0 weak:optional
+indexmap//1.3.1 rayon//1.2.1 weak:optional
 indexmap//1.3.1 serde//1.0.104 weak:feature:serde-1
 indexmap//1.3.1 serde//1.0.104 weak:optional
 indexmap//1.3.1 serde_test//1.0.102 weak:test
@@ -2613,14 +2623,30 @@ rayon-core//1.6.0 num_cpus//1.12.0
 rayon-core//1.6.0 rand//0.6.5 weak:test
 rayon-core//1.6.0 rand_xorshift//0.1.1 weak:test
 rayon-core//1.6.0 scoped-tls//1.0.0 weak:test
-rayon//0.8.2 rayon-core//1.6.0
+rayon-core//1.6.1 crossbeam-deque//0.7.2
+rayon-core//1.6.1 crossbeam-queue//0.2.1
+rayon-core//1.6.1 crossbeam-utils//0.7.0
+rayon-core//1.6.1 lazy_static//1.4.0
+rayon-core//1.6.1 libc//0.2.66 weak:test
+rayon-core//1.6.1 num_cpus//1.12.0
+rayon-core//1.6.1 rand//0.6.5 weak:test
+rayon-core//1.6.1 rand_xorshift//0.1.1 weak:test
+rayon-core//1.6.1 scoped-tls//1.0.0 weak:test
+rayon//0.8.2 rayon-core//1.6.1
 rayon//1.2.0 crossbeam-deque//0.7.2
 rayon//1.2.0 doc-comment//0.3.1 weak:test
 rayon//1.2.0 either//1.5.3
 rayon//1.2.0 lazy_static//1.4.0 weak:test
 rayon//1.2.0 rand//0.6.5 weak:test
 rayon//1.2.0 rand_xorshift//0.1.1 weak:test
-rayon//1.2.0 rayon-core//1.6.0
+rayon//1.2.0 rayon-core//1.6.1
+rayon//1.2.1 crossbeam-deque//0.7.2
+rayon//1.2.1 doc-comment//0.3.1 weak:test
+rayon//1.2.1 either//1.5.3
+rayon//1.2.1 lazy_static//1.4.0 weak:test
+rayon//1.2.1 rand//0.6.5 weak:test
+rayon//1.2.1 rand_xorshift//0.1.1 weak:test
+rayon//1.2.1 rayon-core//1.6.1
 ref-cast-impl//0.2.7 proc-macro2//1.0.8
 ref-cast-impl//0.2.7 quote//1.0.2
 ref-cast-impl//0.2.7 syn//1.0.14
@@ -2947,6 +2973,9 @@ sval//0.4.7 sval_derive//0.4.7 weak:optional
 sval_derive//0.4.7 proc-macro2//1.0.8
 sval_derive//0.4.7 quote//1.0.2
 sval_derive//0.4.7 syn//1.0.14
+sval_derive//0.5.1 proc-macro2//1.0.8
+sval_derive//0.5.1 quote//1.0.2
+sval_derive//0.5.1 syn//1.0.14
 syn//0.11.11 quote//0.3.15 feature:default
 syn//0.11.11 quote//0.3.15 weak:feature:printing
 syn//0.11.11 quote//0.3.15 weak:optional
@@ -2980,7 +3009,7 @@ syn//1.0.14 quote//1.0.2 feature:default
 syn//1.0.14 quote//1.0.2 weak:feature:printing
 syn//1.0.14 quote//1.0.2 weak:feature:proc-macro
 syn//1.0.14 quote//1.0.2 weak:optional
-syn//1.0.14 rayon//1.2.0 weak:test
+syn//1.0.14 rayon//1.2.1 weak:test
 syn//1.0.14 ref-cast//1.0.0 weak:test
 syn//1.0.14 regex//1.3.1 weak:test
 syn//1.0.14 reqwest//0.10.0 weak:test
@@ -3021,10 +3050,16 @@ test-assembler//0.1.5 byteorder//0.5.3
 tester//0.6.0 getopts//0.2.21
 tester//0.6.0 libc//0.2.66
 tester//0.6.0 term//0.6.1
+tester//0.7.0 getopts//0.2.21
+tester//0.7.0 libc//0.2.66
+tester//0.7.0 term//0.6.1
 textwrap//0.11.0 hyphenation//0.7.1 weak:optional
 textwrap//0.11.0 term_size//0.3.1 weak:optional
 textwrap//0.11.0 unicode-width//0.1.6
 textwrap//0.11.0 version-sync//0.6.0 weak:test
+thiserror-impl//1.0.11 proc-macro2//1.0.8
+thiserror-impl//1.0.11 quote//1.0.2
+thiserror-impl//1.0.11 syn//1.0.14
 thiserror-impl//1.0.6 proc-macro2//1.0.8
 thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.14
@@ -3045,6 +3080,9 @@ timebomb//0.1.2 pulse//0.5.3
 tokio-codec//0.1.1 bytes//0.4.12
 tokio-codec//0.1.1 futures//0.1.29
 tokio-codec//0.1.1 tokio-io//0.1.11
+tokio-codec//0.1.2 bytes//0.4.12
+tokio-codec//0.1.2 futures//0.1.29
+tokio-codec//0.1.2 tokio-io//0.1.11
 tokio-core//0.1.17 bytes//0.4.12
 tokio-core//0.1.17 env_logger//0.4.3 weak:test
 tokio-core//0.1.17 futures//0.1.29
@@ -3053,13 +3091,16 @@ tokio-core//0.1.17 libc//0.2.66 weak:test
 tokio-core//0.1.17 log//0.4.8
 tokio-core//0.1.17 mio//0.6.21
 tokio-core//0.1.17 scoped-tls//0.1.2
-tokio-core//0.1.17 tokio-executor//0.1.9
+tokio-core//0.1.17 tokio-executor//0.1.10
 tokio-core//0.1.17 tokio-io//0.1.11
 tokio-core//0.1.17 tokio-reactor//0.1.11
 tokio-core//0.1.17 tokio-timer//0.2.12
 tokio-core//0.1.17 tokio//0.1.22
 tokio-current-thread//0.1.6 futures//0.1.29
-tokio-current-thread//0.1.6 tokio-executor//0.1.9
+tokio-current-thread//0.1.6 tokio-executor//0.1.10
+tokio-executor//0.1.10 crossbeam-utils//0.7.0
+tokio-executor//0.1.10 futures//0.1.29
+tokio-executor//0.1.10 tokio//0.1.22 weak:test
 tokio-executor//0.1.9 crossbeam-utils//0.6.6
 tokio-executor//0.1.9 futures//0.1.29
 tokio-executor//0.1.9 tokio//0.1.22 weak:test
@@ -3100,6 +3141,10 @@ tokio-io//0.1.11 tokio-current-thread//0.1.6 weak:test
 tokio-macros//0.2.3 quote//1.0.2
 tokio-macros//0.2.3 syn//1.0.14
 tokio-macros//0.2.3 tokio//0.2.9 weak:test
+tokio-macros//0.2.4 proc-macro2//1.0.8
+tokio-macros//0.2.4 quote//1.0.2
+tokio-macros//0.2.4 syn//1.0.14
+tokio-macros//0.2.4 tokio//0.2.9 weak:test
 tokio-mock-task//0.1.1 futures//0.1.29
 tokio-process//0.2.4 crossbeam-queue//0.1.2
 tokio-process//0.2.4 failure//0.1.6 weak:test
@@ -3122,7 +3167,7 @@ tokio-reactor//0.1.11 num_cpus//1.12.0
 tokio-reactor//0.1.11 num_cpus//1.12.0 weak:test
 tokio-reactor//0.1.11 parking_lot//0.9.0
 tokio-reactor//0.1.11 slab//0.4.2
-tokio-reactor//0.1.11 tokio-executor//0.1.9
+tokio-reactor//0.1.11 tokio-executor//0.1.10
 tokio-reactor//0.1.11 tokio-io//0.1.11
 tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
@@ -3140,7 +3185,7 @@ tokio-signal//0.2.7 libc//0.2.66
 tokio-signal//0.2.7 mio-uds//0.6.7
 tokio-signal//0.2.7 mio//0.6.21
 tokio-signal//0.2.7 signal-hook//0.1.12
-tokio-signal//0.2.7 tokio-executor//0.1.9
+tokio-signal//0.2.7 tokio-executor//0.1.10
 tokio-signal//0.2.7 tokio-io//0.1.11
 tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
@@ -3177,7 +3222,7 @@ tokio-threadpool//0.1.17 log//0.4.8
 tokio-threadpool//0.1.17 num_cpus//1.12.0
 tokio-threadpool//0.1.17 rand//0.7.2 weak:test
 tokio-threadpool//0.1.17 slab//0.4.2
-tokio-threadpool//0.1.17 tokio-executor//0.1.9
+tokio-threadpool//0.1.17 tokio-executor//0.1.10
 tokio-threadpool//0.1.18 crossbeam-deque//0.7.2
 tokio-threadpool//0.1.18 crossbeam-queue//0.2.1
 tokio-threadpool//0.1.18 crossbeam-utils//0.7.0
@@ -3188,12 +3233,12 @@ tokio-threadpool//0.1.18 log//0.4.8
 tokio-threadpool//0.1.18 num_cpus//1.12.0
 tokio-threadpool//0.1.18 rand//0.7.2 weak:test
 tokio-threadpool//0.1.18 slab//0.4.2
-tokio-threadpool//0.1.18 tokio-executor//0.1.9
+tokio-threadpool//0.1.18 tokio-executor//0.1.10
 tokio-timer//0.2.12 crossbeam-utils//0.6.6
 tokio-timer//0.2.12 futures//0.1.29
 tokio-timer//0.2.12 rand//0.7.2 weak:test
 tokio-timer//0.2.12 slab//0.4.2
-tokio-timer//0.2.12 tokio-executor//0.1.9
+tokio-timer//0.2.12 tokio-executor//0.1.10
 tokio-timer//0.2.12 tokio-mock-task//0.1.1 weak:test
 tokio-timer//0.2.12 tokio//0.1.22 weak:test
 tokio-tls//0.3.0 cfg-if//0.1.10 weak:test
@@ -3208,7 +3253,7 @@ tokio-udp//0.1.5 env_logger//0.5.13 weak:test
 tokio-udp//0.1.5 futures//0.1.29
 tokio-udp//0.1.5 log//0.4.8
 tokio-udp//0.1.5 mio//0.6.21
-tokio-udp//0.1.5 tokio-codec//0.1.1
+tokio-udp//0.1.5 tokio-codec//0.1.2
 tokio-udp//0.1.5 tokio-io//0.1.11
 tokio-udp//0.1.5 tokio-reactor//0.1.11
 tokio-udp//0.1.6 bytes//0.4.12
@@ -3216,7 +3261,7 @@ tokio-udp//0.1.6 env_logger//0.6.2 weak:test
 tokio-udp//0.1.6 futures//0.1.29
 tokio-udp//0.1.6 log//0.4.8
 tokio-udp//0.1.6 mio//0.6.21
-tokio-udp//0.1.6 tokio-codec//0.1.1
+tokio-udp//0.1.6 tokio-codec//0.1.2
 tokio-udp//0.1.6 tokio-io//0.1.11
 tokio-udp//0.1.6 tokio-reactor//0.1.11
 tokio-uds//0.2.5 bytes//0.4.12
@@ -3227,7 +3272,7 @@ tokio-uds//0.2.5 log//0.4.8
 tokio-uds//0.2.5 mio-uds//0.6.7
 tokio-uds//0.2.5 mio//0.6.21
 tokio-uds//0.2.5 tempfile//3.1.0 weak:test
-tokio-uds//0.2.5 tokio-codec//0.1.1
+tokio-uds//0.2.5 tokio-codec//0.1.2
 tokio-uds//0.2.5 tokio-io//0.1.11
 tokio-uds//0.2.5 tokio-reactor//0.1.11
 tokio-uds//0.2.5 tokio//0.1.22 weak:test
@@ -3239,7 +3284,7 @@ tokio-uds//0.2.6 log//0.4.8
 tokio-uds//0.2.6 mio-uds//0.6.7
 tokio-uds//0.2.6 mio//0.6.21
 tokio-uds//0.2.6 tempfile//3.1.0 weak:test
-tokio-uds//0.2.6 tokio-codec//0.1.1
+tokio-uds//0.2.6 tokio-codec//0.1.2
 tokio-uds//0.2.6 tokio-io//0.1.11
 tokio-uds//0.2.6 tokio-reactor//0.1.11
 tokio-uds//0.2.6 tokio//0.1.22 weak:test
@@ -3264,15 +3309,15 @@ tokio//0.1.22 num_cpus//1.12.0 feature:default
 tokio//0.1.22 num_cpus//1.12.0 weak:feature:rt-full
 tokio//0.1.22 num_cpus//1.12.0 weak:optional
 tokio//0.1.22 num_cpus//1.12.0 weak:test
-tokio//0.1.22 tokio-codec//0.1.1 feature:default
-tokio//0.1.22 tokio-codec//0.1.1 weak:feature:codec
-tokio//0.1.22 tokio-codec//0.1.1 weak:optional
+tokio//0.1.22 tokio-codec//0.1.2 feature:default
+tokio//0.1.22 tokio-codec//0.1.2 weak:feature:codec
+tokio//0.1.22 tokio-codec//0.1.2 weak:optional
 tokio//0.1.22 tokio-current-thread//0.1.6 feature:default
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:feature:rt-full
 tokio//0.1.22 tokio-current-thread//0.1.6 weak:optional
-tokio//0.1.22 tokio-executor//0.1.9 feature:default
-tokio//0.1.22 tokio-executor//0.1.9 weak:feature:rt-full
-tokio//0.1.22 tokio-executor//0.1.9 weak:optional
+tokio//0.1.22 tokio-executor//0.1.10 feature:default
+tokio//0.1.22 tokio-executor//0.1.10 weak:feature:rt-full
+tokio//0.1.22 tokio-executor//0.1.10 weak:optional
 tokio//0.1.22 tokio-fs//0.1.6 feature:default
 tokio//0.1.22 tokio-fs//0.1.6 weak:feature:fs
 tokio//0.1.22 tokio-fs//0.1.6 weak:optional
@@ -3366,9 +3411,9 @@ tokio//0.2.9 slab//0.4.2 weak:feature:full
 tokio//0.2.9 slab//0.4.2 weak:feature:time
 tokio//0.2.9 slab//0.4.2 weak:optional
 tokio//0.2.9 tempfile//3.1.0 weak:test
-tokio//0.2.9 tokio-macros//0.2.3 weak:feature:full
-tokio//0.2.9 tokio-macros//0.2.3 weak:feature:macros
-tokio//0.2.9 tokio-macros//0.2.3 weak:optional
+tokio//0.2.9 tokio-macros//0.2.4 weak:feature:full
+tokio//0.2.9 tokio-macros//0.2.4 weak:feature:macros
+tokio//0.2.9 tokio-macros//0.2.4 weak:optional
 tokio//0.2.9 tokio-test//0.2.0 weak:test
 toml//0.4.10 serde//1.0.104
 toml//0.4.10 serde_derive//1.0.104 weak:test
@@ -3404,15 +3449,15 @@ tracing-core//0.1.7 spin//0.5.2
 tracing-core//0.1.9 lazy_static//1.4.0 feature:default
 tracing-core//0.1.9 lazy_static//1.4.0 weak:feature:std
 tracing-core//0.1.9 lazy_static//1.4.0 weak:optional
-tracing-futures//0.2.1 futures-task//0.3.1 weak:feature:futures-03
-tracing-futures//0.2.1 futures-task//0.3.1 weak:optional
+tracing-futures//0.2.1 futures-task//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.1 futures-task//0.3.4 weak:optional
 tracing-futures//0.2.1 futures//0.3.1 weak:feature:futures-03
 tracing-futures//0.2.1 futures//0.3.1 weak:optional
 tracing-futures//0.2.1 pin-project//0.4.8 feature:default
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:futures-03
 tracing-futures//0.2.1 pin-project//0.4.8 weak:feature:std-future
 tracing-futures//0.2.1 pin-project//0.4.8 weak:optional
-tracing-futures//0.2.1 tokio-executor//0.1.9 weak:optional
+tracing-futures//0.2.1 tokio-executor//0.1.10 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:test
 tracing-futures//0.2.1 tracing//0.1.12
