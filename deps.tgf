@@ -76,6 +76,7 @@ compiletest_rs//0.4.0 compiletest_rs 0.4.0
 console//0.7.7 console 0.7.7
 console//0.8.0 console 0.8.0
 console//0.9.1 console 0.9.1
+console//0.9.2 console 0.9.2
 conv//0.3.3 conv 0.3.3
 cookie//0.12.0 cookie 0.12.0
 cookie_store//0.10.0 cookie_store 0.10.0
@@ -174,6 +175,7 @@ futures-task//0.3.4 futures-task 0.3.4
 futures-test//0.3.1 futures-test 0.3.1
 futures-util-preview//0.3.0.19 futures-util-preview 0.3.0.19
 futures-util//0.3.1 futures-util 0.3.1
+futures-util//0.3.4 futures-util 0.3.4
 futures//0.1.29 futures 0.1.29
 futures//0.3.1 futures 0.3.1
 gcc//0.3.55 gcc 0.3.55
@@ -458,6 +460,7 @@ regex-syntax//0.3.9 regex-syntax 0.3.9
 regex-syntax//0.4.2 regex-syntax 0.4.2
 regex-syntax//0.5.6 regex-syntax 0.5.6
 regex-syntax//0.6.12 regex-syntax 0.6.12
+regex-syntax//0.6.14 regex-syntax 0.6.14
 regex//0.1.80 regex 0.1.80
 regex//0.2.11 regex 0.2.11
 regex//1.3.1 regex 1.3.1
@@ -483,6 +486,7 @@ rustls-native-certs//0.1.0 rustls-native-certs 0.1.0
 rustls//0.16.0 rustls 0.16.0
 rustversion//0.1.4 rustversion 0.1.4
 rustversion//1.0.1 rustversion 1.0.1
+rustversion//1.0.2 rustversion 1.0.2
 rusty-fork//0.2.2 rusty-fork 0.2.2
 ryu//1.0.1 ryu 1.0.1
 safemem//0.3.3 safemem 0.3.3
@@ -505,6 +509,7 @@ serde-big-array//0.1.5 serde-big-array 0.1.5
 serde//0.8.23 serde 0.8.23
 serde//1.0.104 serde 1.0.104
 serde_bytes//0.10.4 serde_bytes 0.10.4
+serde_bytes//0.10.5 serde_bytes 0.10.5
 serde_bytes//0.11.2 serde_bytes 0.11.2
 serde_bytes//0.11.3 serde_bytes 0.11.3
 serde_cbor//0.9.0 serde_cbor 0.9.0
@@ -519,6 +524,7 @@ serde_yaml//0.8.11 serde_yaml 0.8.11
 sha-1//0.8.1 sha-1 0.8.1
 sha-1//0.8.2 sha-1 0.8.2
 sha1-asm//0.4.3 sha1-asm 0.4.3
+sha1-asm//0.4.4 sha1-asm 0.4.4
 sha1//0.6.0 sha1 0.6.0
 sha2-asm//0.5.3 sha2-asm 0.5.3
 sha2//0.8.1 sha2 0.8.1
@@ -578,6 +584,7 @@ thread-id//2.0.0 thread-id 2.0.0
 thread-id//3.3.0 thread-id 3.3.0
 thread_local//0.2.7 thread_local 0.2.7
 thread_local//0.3.6 thread_local 0.3.6
+thread_local//1.0.1 thread_local 1.0.1
 time-macros-impl//0.1.0 time-macros-impl 0.1.0
 time-macros//0.1.0 time-macros 0.1.0
 time//0.1.42 time 0.1.42
@@ -600,6 +607,7 @@ tokio-process//0.2.4 tokio-process 0.2.4
 tokio-reactor//0.1.11 tokio-reactor 0.1.11
 tokio-rustls//0.12.2 tokio-rustls 0.12.2
 tokio-signal//0.2.7 tokio-signal 0.2.7
+tokio-signal//0.2.9 tokio-signal 0.2.9
 tokio-socks//0.2.0 tokio-socks 0.2.0
 tokio-sync//0.1.7 tokio-sync 0.1.7
 tokio-sync//0.2.0.6 tokio-sync 0.2.0.6
@@ -608,6 +616,7 @@ tokio-test//0.2.0 tokio-test 0.2.0
 tokio-threadpool//0.1.17 tokio-threadpool 0.1.17
 tokio-threadpool//0.1.18 tokio-threadpool 0.1.18
 tokio-timer//0.2.12 tokio-timer 0.2.12
+tokio-timer//0.2.13 tokio-timer 0.2.13
 tokio-tls//0.3.0 tokio-tls 0.3.0
 tokio-udp//0.1.5 tokio-udp 0.1.5
 tokio-udp//0.1.6 tokio-udp 0.1.6
@@ -626,6 +635,7 @@ tracing-attributes//0.1.6 tracing-attributes 0.1.6
 tracing-core//0.1.7 tracing-core 0.1.7
 tracing-core//0.1.9 tracing-core 0.1.9
 tracing-futures//0.2.1 tracing-futures 0.2.1
+tracing-futures//0.2.2 tracing-futures 0.2.2
 tracing//0.1.12 tracing 0.1.12
 try-lock//0.2.2 try-lock 0.2.2
 trybuild//1.0.17 trybuild 1.0.17
@@ -729,7 +739,7 @@ ansi_term//0.12.1 serde//1.0.104 weak:feature:derive_serde_style
 ansi_term//0.12.1 serde//1.0.104 weak:optional
 ansi_term//0.12.1 serde_json//1.0.41 weak:test
 anyhow//1.0.26 futures//0.3.1 weak:test
-anyhow//1.0.26 rustversion//1.0.1 weak:test
+anyhow//1.0.26 rustversion//1.0.2 weak:test
 anyhow//1.0.26 thiserror//1.0.6 weak:test
 anyhow//1.0.26 trybuild//1.0.21 weak:test
 approx//0.3.2 num-complex//0.2.4 weak:optional
@@ -912,7 +922,7 @@ base64//0.9.3 safemem//0.3.3
 bincode//0.8.0 byteorder//1.3.4
 bincode//0.8.0 num-traits//0.1.43
 bincode//0.8.0 serde//1.0.104
-bincode//0.8.0 serde_bytes//0.10.4 weak:test
+bincode//0.8.0 serde_bytes//0.10.5 weak:test
 bincode//0.8.0 serde_derive//1.0.104 weak:test
 bincode//1.2.1 byteorder//1.3.4
 bincode//1.2.1 serde//1.0.104
@@ -1176,6 +1186,13 @@ console//0.9.1 regex//1.3.1
 console//0.9.1 termios//0.3.1
 console//0.9.1 unicode-width//0.1.6 feature:default
 console//0.9.1 unicode-width//0.1.6 weak:optional
+console//0.9.2 clicolors-control//1.0.1
+console//0.9.2 lazy_static//1.4.0
+console//0.9.2 libc//0.2.66
+console//0.9.2 regex//1.3.1
+console//0.9.2 termios//0.3.1
+console//0.9.2 unicode-width//0.1.6 feature:default
+console//0.9.2 unicode-width//0.1.6 weak:optional
 conv//0.3.3 custom_derive//0.1.7
 conv//0.3.3 quickcheck//0.2.24 weak:test
 cookie//0.12.0 base64//0.10.1 weak:feature:secure
@@ -1443,7 +1460,7 @@ futures-channel//0.3.4 futures-sink//0.3.4 weak:feature:sink
 futures-channel//0.3.4 futures-sink//0.3.4 weak:optional
 futures-executor//0.3.1 futures-core//0.3.4
 futures-executor//0.3.1 futures-task//0.3.4
-futures-executor//0.3.1 futures-util//0.3.1
+futures-executor//0.3.1 futures-util//0.3.4
 futures-executor//0.3.1 num_cpus//1.12.0 weak:feature:thread-pool
 futures-executor//0.3.1 num_cpus//1.12.0 weak:optional
 futures-join-macro-preview//0.3.0.19 proc-macro-hack//0.5.11
@@ -1466,7 +1483,7 @@ futures-test//0.3.1 futures-core//0.3.4
 futures-test//0.3.1 futures-executor//0.3.1
 futures-test//0.3.1 futures-io//0.3.4
 futures-test//0.3.1 futures-task//0.3.4
-futures-test//0.3.1 futures-util//0.3.1
+futures-test//0.3.1 futures-util//0.3.4
 futures-test//0.3.1 pin-utils//0.1.0.4
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:feature:channel
 futures-util-preview//0.3.0.19 futures-channel-preview//0.3.0.19 weak:optional
@@ -1542,6 +1559,43 @@ futures-util//0.3.1 slab//0.4.2 weak:feature:std
 futures-util//0.3.1 slab//0.4.2 weak:optional
 futures-util//0.3.1 tokio-io//0.1.13 weak:feature:io-compat
 futures-util//0.3.1 tokio-io//0.1.13 weak:optional
+futures-util//0.3.4 futures-channel//0.3.4 weak:feature:channel
+futures-util//0.3.4 futures-channel//0.3.4 weak:optional
+futures-util//0.3.4 futures-core//0.3.4
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:io
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:io-compat
+futures-util//0.3.4 futures-io//0.3.4 weak:feature:read-initializer
+futures-util//0.3.4 futures-io//0.3.4 weak:optional
+futures-util//0.3.4 futures-macro//0.3.4 feature:default
+futures-util//0.3.4 futures-macro//0.3.4 weak:feature:async-await-macro
+futures-util//0.3.4 futures-macro//0.3.4 weak:optional
+futures-util//0.3.4 futures-sink//0.3.4 weak:feature:sink
+futures-util//0.3.4 futures-sink//0.3.4 weak:optional
+futures-util//0.3.4 futures-task//0.3.4
+futures-util//0.3.4 futures//0.1.29 weak:feature:compat
+futures-util//0.3.4 futures//0.1.29 weak:feature:io-compat
+futures-util//0.3.4 futures//0.1.29 weak:optional
+futures-util//0.3.4 memchr//2.3.2 weak:feature:io
+futures-util//0.3.4 memchr//2.3.2 weak:feature:io-compat
+futures-util//0.3.4 memchr//2.3.2 weak:feature:read-initializer
+futures-util//0.3.4 memchr//2.3.2 weak:optional
+futures-util//0.3.4 pin-utils//0.1.0.4
+futures-util//0.3.4 proc-macro-hack//0.5.11 feature:default
+futures-util//0.3.4 proc-macro-hack//0.5.11 weak:feature:async-await-macro
+futures-util//0.3.4 proc-macro-hack//0.5.11 weak:optional
+futures-util//0.3.4 proc-macro-nested//0.1.3 feature:default
+futures-util//0.3.4 proc-macro-nested//0.1.3 weak:feature:async-await-macro
+futures-util//0.3.4 proc-macro-nested//0.1.3 weak:optional
+futures-util//0.3.4 slab//0.4.2 feature:default
+futures-util//0.3.4 slab//0.4.2 weak:feature:channel
+futures-util//0.3.4 slab//0.4.2 weak:feature:compat
+futures-util//0.3.4 slab//0.4.2 weak:feature:io
+futures-util//0.3.4 slab//0.4.2 weak:feature:io-compat
+futures-util//0.3.4 slab//0.4.2 weak:feature:read-initializer
+futures-util//0.3.4 slab//0.4.2 weak:feature:std
+futures-util//0.3.4 slab//0.4.2 weak:optional
+futures-util//0.3.4 tokio-io//0.1.13 weak:feature:io-compat
+futures-util//0.3.4 tokio-io//0.1.13 weak:optional
 futures//0.3.1 assert_matches//1.3.0 weak:test
 futures//0.3.1 futures-channel//0.3.4
 futures//0.3.1 futures-core//0.3.4
@@ -1549,7 +1603,7 @@ futures//0.3.1 futures-executor//0.3.1
 futures//0.3.1 futures-io//0.3.4
 futures//0.3.1 futures-sink//0.3.4
 futures//0.3.1 futures-task//0.3.4
-futures//0.3.1 futures-util//0.3.1
+futures//0.3.1 futures-util//0.3.4
 futures//0.3.1 pin-utils//0.1.0.4 weak:test
 futures//0.3.1 tokio//0.1.22 weak:test
 gcc//0.3.55 rayon//0.8.2 weak:feature:parallel
@@ -1695,7 +1749,7 @@ h2//0.2.1 env_logger//0.5.13 weak:test
 h2//0.2.1 fnv//1.0.6
 h2//0.2.1 futures-core//0.3.4
 h2//0.2.1 futures-sink//0.3.4
-h2//0.2.1 futures-util//0.3.1
+h2//0.2.1 futures-util//0.3.4
 h2//0.2.1 hex//0.2.0 weak:test
 h2//0.2.1 http//0.2.0
 h2//0.2.1 indexmap//1.3.1
@@ -1775,7 +1829,7 @@ hyper-rustls//0.19.1 bytes//0.5.4
 hyper-rustls//0.19.1 ct-logs//0.6.0 feature:default
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:feature:tokio-runtime
 hyper-rustls//0.19.1 ct-logs//0.6.0 weak:optional
-hyper-rustls//0.19.1 futures-util//0.3.1
+hyper-rustls//0.19.1 futures-util//0.3.4
 hyper-rustls//0.19.1 hyper//0.13.2
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 feature:default
 hyper-rustls//0.19.1 rustls-native-certs//0.1.0 weak:feature:tokio-runtime
@@ -1794,8 +1848,8 @@ hyper-tls//0.4.1 tokio//0.2.9 weak:test
 hyper//0.13.1 bytes//0.5.4
 hyper//0.13.1 futures-channel//0.3.4
 hyper//0.13.1 futures-core//0.3.4
-hyper//0.13.1 futures-util//0.3.1
-hyper//0.13.1 futures-util//0.3.1 weak:test
+hyper//0.13.1 futures-util//0.3.4
+hyper//0.13.1 futures-util//0.3.4 weak:test
 hyper//0.13.1 h2//0.2.1
 hyper//0.13.1 http-body//0.3.1
 hyper//0.13.1 http//0.2.0
@@ -1818,8 +1872,8 @@ hyper//0.13.1 want//0.3.0
 hyper//0.13.2 bytes//0.5.4
 hyper//0.13.2 futures-channel//0.3.4
 hyper//0.13.2 futures-core//0.3.4
-hyper//0.13.2 futures-util//0.3.1
-hyper//0.13.2 futures-util//0.3.1 weak:test
+hyper//0.13.2 futures-util//0.3.4
+hyper//0.13.2 futures-util//0.3.4 weak:test
 hyper//0.13.2 h2//0.2.1
 hyper//0.13.2 http-body//0.3.1
 hyper//0.13.2 http//0.2.0
@@ -1898,7 +1952,7 @@ insta//0.11.0 serde//1.0.104
 insta//0.11.0 serde_json//1.0.41
 insta//0.11.0 serde_yaml//0.8.11
 insta//0.11.0 uuid//0.7.4
-insta//0.12.0 console//0.9.1
+insta//0.12.0 console//0.9.2
 insta//0.12.0 difference//2.0.0
 insta//0.12.0 lazy_static//1.4.0
 insta//0.12.0 pest//2.1.2 weak:feature:redactions
@@ -1911,7 +1965,7 @@ insta//0.12.0 serde_json//1.0.41
 insta//0.12.0 serde_yaml//0.8.11
 insta//0.12.0 uuid//0.8.1
 insta//0.13.1 backtrace//0.3.44 weak:optional
-insta//0.13.1 console//0.9.1
+insta//0.13.1 console//0.9.2
 insta//0.13.1 difference//2.0.0
 insta//0.13.1 lazy_static//1.4.0
 insta//0.13.1 pest//2.1.2 weak:feature:redactions
@@ -2083,8 +2137,8 @@ loom//0.1.1 serde_derive//1.0.104 weak:optional
 loom//0.1.1 serde_json//1.0.41 weak:feature:checkpoint
 loom//0.1.1 serde_json//1.0.41 weak:optional
 loom//0.2.14 cfg-if//0.1.10
-loom//0.2.14 futures-util//0.3.1 weak:feature:futures
-loom//0.2.14 futures-util//0.3.1 weak:optional
+loom//0.2.14 futures-util//0.3.4 weak:feature:futures
+loom//0.2.14 futures-util//0.3.4 weak:optional
 loom//0.2.14 generator//0.6.20
 loom//0.2.14 scoped-tls//0.1.2
 loom//0.2.14 serde//1.0.104 weak:feature:checkpoint
@@ -2463,9 +2517,9 @@ pin-project-internal//0.4.6 syn//1.0.14
 pin-project-internal//0.4.8 proc-macro2//1.0.8
 pin-project-internal//0.4.8 quote//1.0.2
 pin-project-internal//0.4.8 syn//1.0.14
-pin-project-lite//0.1.2 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.2 rustversion//1.0.2 weak:test
 pin-project-lite//0.1.2 trybuild//1.0.21 weak:test
-pin-project-lite//0.1.4 rustversion//1.0.1 weak:test
+pin-project-lite//0.1.4 rustversion//1.0.2 weak:test
 pin-project-lite//0.1.4 trybuild//1.0.21 weak:test
 pin-project//0.4.6 pin-project-internal//0.4.6
 pin-project//0.4.8 pin-project-internal//0.4.8
@@ -2530,11 +2584,11 @@ proptest//0.8.7 quick-error//1.2.3 weak:feature:std
 proptest//0.8.7 quick-error//1.2.3 weak:feature:timeout
 proptest//0.8.7 quick-error//1.2.3 weak:optional
 proptest//0.8.7 rand//0.5.6
-proptest//0.8.7 regex-syntax//0.6.12 feature:default
-proptest//0.8.7 regex-syntax//0.6.12 weak:feature:fork
-proptest//0.8.7 regex-syntax//0.6.12 weak:feature:std
-proptest//0.8.7 regex-syntax//0.6.12 weak:feature:timeout
-proptest//0.8.7 regex-syntax//0.6.12 weak:optional
+proptest//0.8.7 regex-syntax//0.6.14 feature:default
+proptest//0.8.7 regex-syntax//0.6.14 weak:feature:fork
+proptest//0.8.7 regex-syntax//0.6.14 weak:feature:std
+proptest//0.8.7 regex-syntax//0.6.14 weak:feature:timeout
+proptest//0.8.7 regex-syntax//0.6.14 weak:optional
 proptest//0.8.7 regex//1.3.1 weak:test
 proptest//0.8.7 rusty-fork//0.2.2 feature:default
 proptest//0.8.7 rusty-fork//0.2.2 weak:feature:fork
@@ -2565,12 +2619,12 @@ proptest//0.9.4 quick-error//1.2.3 weak:optional
 proptest//0.9.4 rand//0.6.5
 proptest//0.9.4 rand_chacha//0.1.1
 proptest//0.9.4 rand_xorshift//0.1.1
-proptest//0.9.4 regex-syntax//0.6.12 feature:default
-proptest//0.9.4 regex-syntax//0.6.12 weak:feature:default-code-coverage
-proptest//0.9.4 regex-syntax//0.6.12 weak:feature:fork
-proptest//0.9.4 regex-syntax//0.6.12 weak:feature:std
-proptest//0.9.4 regex-syntax//0.6.12 weak:feature:timeout
-proptest//0.9.4 regex-syntax//0.6.12 weak:optional
+proptest//0.9.4 regex-syntax//0.6.14 feature:default
+proptest//0.9.4 regex-syntax//0.6.14 weak:feature:default-code-coverage
+proptest//0.9.4 regex-syntax//0.6.14 weak:feature:fork
+proptest//0.9.4 regex-syntax//0.6.14 weak:feature:std
+proptest//0.9.4 regex-syntax//0.6.14 weak:feature:timeout
+proptest//0.9.4 regex-syntax//0.6.14 weak:optional
 proptest//0.9.4 regex//1.3.1 weak:test
 proptest//0.9.4 rusty-fork//0.2.2 feature:default
 proptest//0.9.4 rusty-fork//0.2.2 weak:feature:default-code-coverage
@@ -2603,12 +2657,12 @@ proptest//0.9.5 quick-error//1.2.3 weak:optional
 proptest//0.9.5 rand//0.6.5
 proptest//0.9.5 rand_chacha//0.1.1
 proptest//0.9.5 rand_xorshift//0.1.1
-proptest//0.9.5 regex-syntax//0.6.12 feature:default
-proptest//0.9.5 regex-syntax//0.6.12 weak:feature:default-code-coverage
-proptest//0.9.5 regex-syntax//0.6.12 weak:feature:fork
-proptest//0.9.5 regex-syntax//0.6.12 weak:feature:std
-proptest//0.9.5 regex-syntax//0.6.12 weak:feature:timeout
-proptest//0.9.5 regex-syntax//0.6.12 weak:optional
+proptest//0.9.5 regex-syntax//0.6.14 feature:default
+proptest//0.9.5 regex-syntax//0.6.14 weak:feature:default-code-coverage
+proptest//0.9.5 regex-syntax//0.6.14 weak:feature:fork
+proptest//0.9.5 regex-syntax//0.6.14 weak:feature:std
+proptest//0.9.5 regex-syntax//0.6.14 weak:feature:timeout
+proptest//0.9.5 regex-syntax//0.6.14 weak:optional
 proptest//0.9.5 regex//1.3.1 weak:test
 proptest//0.9.5 rusty-fork//0.2.2 feature:default
 proptest//0.9.5 rusty-fork//0.2.2 weak:feature:default-code-coverage
@@ -2872,7 +2926,7 @@ ref-cast//0.2.7 ref-cast-impl//0.2.7
 ref-cast//0.2.7 rustversion//0.1.4 weak:test
 ref-cast//0.2.7 trybuild//1.0.21 weak:test
 ref-cast//1.0.0 ref-cast-impl//1.0.0
-ref-cast//1.0.0 rustversion//1.0.1 weak:test
+ref-cast//1.0.0 rustversion//1.0.2 weak:test
 ref-cast//1.0.0 trybuild//1.0.21 weak:test
 regex-syntax//0.3.9 quickcheck//0.2.27 weak:test
 regex-syntax//0.3.9 rand//0.3.23 weak:test
@@ -2907,7 +2961,7 @@ regex//1.3.1 memchr//2.3.2 weak:feature:perf-literal
 regex//1.3.1 memchr//2.3.2 weak:optional
 regex//1.3.1 quickcheck//0.8.5 weak:test
 regex//1.3.1 rand//0.6.5 weak:test
-regex//1.3.1 regex-syntax//0.6.12
+regex//1.3.1 regex-syntax//0.6.14
 regex//1.3.1 thread_local//0.3.6 feature:default
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf
 regex//1.3.1 thread_local//0.3.6 weak:feature:perf-cache
@@ -2925,7 +2979,7 @@ reqwest//0.10.0 doc-comment//0.3.1 weak:test
 reqwest//0.10.0 encoding_rs//0.8.22
 reqwest//0.10.0 env_logger//0.6.2 weak:test
 reqwest//0.10.0 futures-core//0.3.4
-reqwest//0.10.0 futures-util//0.3.1
+reqwest//0.10.0 futures-util//0.3.4
 reqwest//0.10.0 http-body//0.3.1
 reqwest//0.10.0 http//0.2.0
 reqwest//0.10.0 hyper-rustls//0.19.1 weak:feature:rust-tls
@@ -2981,7 +3035,7 @@ reqwest//0.10.1 doc-comment//0.3.1 weak:test
 reqwest//0.10.1 encoding_rs//0.8.22
 reqwest//0.10.1 env_logger//0.6.2 weak:test
 reqwest//0.10.1 futures-core//0.3.4
-reqwest//0.10.1 futures-util//0.3.1
+reqwest//0.10.1 futures-util//0.3.4
 reqwest//0.10.1 http-body//0.3.1
 reqwest//0.10.1 http//0.2.0
 reqwest//0.10.1 hyper-rustls//0.19.1 weak:feature:rust-tls
@@ -3039,17 +3093,17 @@ ring//0.16.9 untrusted//0.7.0
 ron//0.4.1 base64//0.10.1
 ron//0.4.1 bitflags//1.2.1
 ron//0.4.1 serde//1.0.104
-ron//0.4.1 serde_bytes//0.10.4 weak:test
+ron//0.4.1 serde_bytes//0.10.5 weak:test
 ron//0.4.1 serde_json//1.0.41 weak:test
 ron//0.4.2 base64//0.10.1
 ron//0.4.2 bitflags//1.2.1
 ron//0.4.2 serde//1.0.104
-ron//0.4.2 serde_bytes//0.10.4 weak:test
+ron//0.4.2 serde_bytes//0.10.5 weak:test
 ron//0.4.2 serde_json//1.0.41 weak:test
 ron//0.5.1 base64//0.10.1
 ron//0.5.1 bitflags//1.2.1
 ron//0.5.1 serde//1.0.104
-ron//0.5.1 serde_bytes//0.10.4 weak:test
+ron//0.5.1 serde_bytes//0.10.5 weak:test
 ron//0.5.1 serde_json//1.0.41 weak:test
 rustc-hash//1.0.1 byteorder//1.3.4
 rustc-serialize//0.3.24 rand//0.3.23 weak:test
@@ -3087,6 +3141,9 @@ rustversion//0.1.4 syn//1.0.14
 rustversion//1.0.1 proc-macro2//1.0.8
 rustversion//1.0.1 quote//1.0.2
 rustversion//1.0.1 syn//1.0.14
+rustversion//1.0.2 proc-macro2//1.0.8
+rustversion//1.0.2 quote//1.0.2
+rustversion//1.0.2 syn//1.0.14
 rusty-fork//0.2.2 fnv//1.0.6
 rusty-fork//0.2.2 quick-error//1.2.3
 rusty-fork//0.2.2 tempfile//3.1.0
@@ -3130,6 +3187,10 @@ serde_bytes//0.10.4 bincode//0.8.0 weak:test
 serde_bytes//0.10.4 serde//1.0.104
 serde_bytes//0.10.4 serde_derive//1.0.104 weak:test
 serde_bytes//0.10.4 serde_test//1.0.104 weak:test
+serde_bytes//0.10.5 bincode//1.2.1 weak:test
+serde_bytes//0.10.5 serde//1.0.104
+serde_bytes//0.10.5 serde_derive//1.0.104 weak:test
+serde_bytes//0.10.5 serde_test//1.0.104 weak:test
 serde_bytes//0.11.2 bincode//1.2.1 weak:test
 serde_bytes//0.11.2 serde//1.0.104
 serde_bytes//0.11.2 serde_derive//1.0.104 weak:test
@@ -3141,7 +3202,7 @@ serde_bytes//0.11.3 serde_test//1.0.104 weak:test
 serde_cbor//0.9.0 byteorder//1.3.4
 serde_cbor//0.9.0 half//1.4.0
 serde_cbor//0.9.0 serde//1.0.104
-serde_cbor//0.9.0 serde_bytes//0.10.4 weak:test
+serde_cbor//0.9.0 serde_bytes//0.10.5 weak:test
 serde_cbor//0.9.0 serde_derive//1.0.104 weak:test
 serde_derive//1.0.104 proc-macro2//1.0.8
 serde_derive//1.0.104 quote//1.0.2
@@ -3181,8 +3242,8 @@ sha-1//0.8.1 digest//0.8.1
 sha-1//0.8.1 fake-simd//0.1.2
 sha-1//0.8.1 hex-literal//0.1.4 weak:test
 sha-1//0.8.1 opaque-debug//0.2.3
-sha-1//0.8.1 sha1-asm//0.4.3 weak:feature:asm
-sha-1//0.8.1 sha1-asm//0.4.3 weak:optional
+sha-1//0.8.1 sha1-asm//0.4.4 weak:feature:asm
+sha-1//0.8.1 sha1-asm//0.4.4 weak:optional
 sha-1//0.8.2 block-buffer//0.7.3
 sha-1//0.8.2 digest//0.8.1
 sha-1//0.8.2 fake-simd//0.1.2
@@ -3190,10 +3251,11 @@ sha-1//0.8.2 hex-literal//0.1.4 weak:test
 sha-1//0.8.2 libc//0.2.66 weak:feature:asm-aarch64
 sha-1//0.8.2 libc//0.2.66 weak:optional
 sha-1//0.8.2 opaque-debug//0.2.3
-sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm
-sha-1//0.8.2 sha1-asm//0.4.3 weak:feature:asm-aarch64
-sha-1//0.8.2 sha1-asm//0.4.3 weak:optional
+sha-1//0.8.2 sha1-asm//0.4.4 weak:feature:asm
+sha-1//0.8.2 sha1-asm//0.4.4 weak:feature:asm-aarch64
+sha-1//0.8.2 sha1-asm//0.4.4 weak:optional
 sha1-asm//0.4.3 cc//1.0.50
+sha1-asm//0.4.4 cc//1.0.50
 sha1//0.6.0 openssl//0.10.28 weak:test
 sha1//0.6.0 rand//0.4.6 weak:test
 sha1//0.6.0 serde//1.0.104 weak:optional
@@ -3366,7 +3428,7 @@ thiserror-impl//1.0.6 quote//1.0.2
 thiserror-impl//1.0.6 syn//1.0.14
 thiserror//1.0.6 anyhow//1.0.26 weak:test
 thiserror//1.0.6 ref-cast//1.0.0 weak:test
-thiserror//1.0.6 rustversion//1.0.1 weak:test
+thiserror//1.0.6 rustversion//1.0.2 weak:test
 thiserror//1.0.6 thiserror-impl//1.0.6
 thiserror//1.0.6 trybuild//1.0.21 weak:test
 thread-id//2.0.0 kernel32-sys//0.2.2
@@ -3374,6 +3436,7 @@ thread-id//2.0.0 libc//0.2.66
 thread-id//3.3.0 libc//0.2.66
 thread_local//0.2.7 thread-id//2.0.0
 thread_local//0.3.6 lazy_static//1.4.0
+thread_local//1.0.1 lazy_static//1.4.0
 time-macros-impl//0.1.0 proc-macro-hack//0.5.11
 time-macros-impl//0.1.0 proc-macro2//1.0.8
 time-macros-impl//0.1.0 quote//1.0.2
@@ -3383,7 +3446,7 @@ time-macros//0.1.0 time-macros-impl//0.1.0
 time//0.1.42 libc//0.2.66
 time//0.1.42 log//0.4.8 weak:test
 time//0.1.42 rustc-serialize//0.3.24 weak:optional
-time//0.2.6 rustversion//1.0.1
+time//0.2.6 rustversion//1.0.2
 time//0.2.6 serde//1.0.104 weak:optional
 time//0.2.6 time-macros//0.1.0
 timebomb//0.1.2 pulse//0.5.3
@@ -3404,7 +3467,7 @@ tokio-core//0.1.17 scoped-tls//0.1.2
 tokio-core//0.1.17 tokio-executor//0.1.10
 tokio-core//0.1.17 tokio-io//0.1.13
 tokio-core//0.1.17 tokio-reactor//0.1.11
-tokio-core//0.1.17 tokio-timer//0.2.12
+tokio-core//0.1.17 tokio-timer//0.2.13
 tokio-core//0.1.17 tokio//0.1.22
 tokio-current-thread//0.1.6 futures//0.1.29
 tokio-current-thread//0.1.6 tokio-executor//0.1.10
@@ -3470,7 +3533,7 @@ tokio-process//0.2.4 log//0.4.8 weak:test
 tokio-process//0.2.4 mio//0.6.21
 tokio-process//0.2.4 tokio-io//0.1.13
 tokio-process//0.2.4 tokio-reactor//0.1.11
-tokio-process//0.2.4 tokio-signal//0.2.7
+tokio-process//0.2.4 tokio-signal//0.2.9
 tokio-process//0.2.4 tokio//0.1.22 weak:test
 tokio-reactor//0.1.11 crossbeam-utils//0.6.6
 tokio-reactor//0.1.11 futures//0.1.29
@@ -3487,7 +3550,7 @@ tokio-reactor//0.1.11 tokio-sync//0.1.7
 tokio-rustls//0.12.2 bytes//0.5.4 weak:feature:unstable
 tokio-rustls//0.12.2 bytes//0.5.4 weak:optional
 tokio-rustls//0.12.2 futures-core//0.3.4
-tokio-rustls//0.12.2 futures-util//0.3.1 weak:test
+tokio-rustls//0.12.2 futures-util//0.3.4 weak:test
 tokio-rustls//0.12.2 lazy_static//1.4.0 weak:test
 tokio-rustls//0.12.2 rustls//0.16.0
 tokio-rustls//0.12.2 tokio//0.2.9
@@ -3503,6 +3566,15 @@ tokio-signal//0.2.7 tokio-executor//0.1.10
 tokio-signal//0.2.7 tokio-io//0.1.13
 tokio-signal//0.2.7 tokio-reactor//0.1.11
 tokio-signal//0.2.7 tokio//0.1.22 weak:test
+tokio-signal//0.2.9 futures//0.1.29
+tokio-signal//0.2.9 libc//0.2.66
+tokio-signal//0.2.9 mio-uds//0.6.7
+tokio-signal//0.2.9 mio//0.6.21
+tokio-signal//0.2.9 signal-hook-registry//1.2.0
+tokio-signal//0.2.9 tokio-executor//0.1.10
+tokio-signal//0.2.9 tokio-io//0.1.13
+tokio-signal//0.2.9 tokio-reactor//0.1.11
+tokio-signal//0.2.9 tokio//0.1.22 weak:test
 tokio-socks//0.2.0 bytes//0.4.12
 tokio-socks//0.2.0 derefable//0.1.0
 tokio-socks//0.2.0 either//1.5.3
@@ -3531,7 +3603,7 @@ tokio-tcp//0.1.3 tokio-reactor//0.1.11
 tokio-tcp//0.1.3 tokio//0.1.22 weak:test
 tokio-test//0.2.0 bytes//0.5.4
 tokio-test//0.2.0 futures-core//0.3.4
-tokio-test//0.2.0 futures-util//0.3.1 weak:test
+tokio-test//0.2.0 futures-util//0.3.4 weak:test
 tokio-test//0.2.0 tokio//0.2.9
 tokio-test//0.2.0 tokio//0.2.9 weak:test
 tokio-threadpool//0.1.17 crossbeam-deque//0.7.2
@@ -3563,6 +3635,13 @@ tokio-timer//0.2.12 slab//0.4.2
 tokio-timer//0.2.12 tokio-executor//0.1.10
 tokio-timer//0.2.12 tokio-mock-task//0.1.1 weak:test
 tokio-timer//0.2.12 tokio//0.1.22 weak:test
+tokio-timer//0.2.13 crossbeam-utils//0.7.0
+tokio-timer//0.2.13 futures//0.1.29
+tokio-timer//0.2.13 rand//0.7.2 weak:test
+tokio-timer//0.2.13 slab//0.4.2
+tokio-timer//0.2.13 tokio-executor//0.1.10
+tokio-timer//0.2.13 tokio-mock-task//0.1.1 weak:test
+tokio-timer//0.2.13 tokio//0.1.22 weak:test
 tokio-tls//0.3.0 cfg-if//0.1.10 weak:test
 tokio-tls//0.3.0 env_logger//0.6.2 weak:test
 tokio-tls//0.3.0 futures//0.3.1 weak:test
@@ -3662,10 +3741,10 @@ tokio//0.1.22 tokio-tcp//0.1.3 weak:optional
 tokio//0.1.22 tokio-threadpool//0.1.18 feature:default
 tokio//0.1.22 tokio-threadpool//0.1.18 weak:feature:rt-full
 tokio//0.1.22 tokio-threadpool//0.1.18 weak:optional
-tokio//0.1.22 tokio-timer//0.2.12 feature:default
-tokio//0.1.22 tokio-timer//0.2.12 weak:feature:rt-full
-tokio//0.1.22 tokio-timer//0.2.12 weak:feature:timer
-tokio//0.1.22 tokio-timer//0.2.12 weak:optional
+tokio//0.1.22 tokio-timer//0.2.13 feature:default
+tokio//0.1.22 tokio-timer//0.2.13 weak:feature:rt-full
+tokio//0.1.22 tokio-timer//0.2.13 weak:feature:timer
+tokio//0.1.22 tokio-timer//0.2.13 weak:optional
 tokio//0.1.22 tokio-udp//0.1.6 feature:default
 tokio//0.1.22 tokio-udp//0.1.6 weak:feature:udp
 tokio//0.1.22 tokio-udp//0.1.6 weak:optional
@@ -3746,7 +3825,7 @@ toml//0.5.3 serde_derive//1.0.104 weak:test
 toml//0.5.3 serde_json//1.0.41 weak:test
 tower-layer//0.3.0 tower-service//0.3.0 weak:test
 tower-service//0.3.0 http//0.1.21 weak:test
-tower-test//0.3.0 futures-util//0.3.1
+tower-test//0.3.0 futures-util//0.3.4
 tower-test//0.3.0 pin-project//0.4.8
 tower-test//0.3.0 tokio-test//0.2.0
 tower-test//0.3.0 tokio//0.2.9
@@ -3754,9 +3833,9 @@ tower-test//0.3.0 tokio//0.2.9 weak:test
 tower-test//0.3.0 tower-layer//0.3.0
 tower-test//0.3.0 tower-service//0.3.0
 tower-util//0.3.0 futures-core//0.3.4
-tower-util//0.3.0 futures-util//0.3.1 feature:default
-tower-util//0.3.0 futures-util//0.3.1 weak:feature:call-all
-tower-util//0.3.0 futures-util//0.3.1 weak:optional
+tower-util//0.3.0 futures-util//0.3.4 feature:default
+tower-util//0.3.0 futures-util//0.3.4 weak:feature:call-all
+tower-util//0.3.0 futures-util//0.3.4 weak:optional
 tower-util//0.3.0 pin-project//0.4.8
 tower-util//0.3.0 tokio-test//0.2.0 weak:test
 tower-util//0.3.0 tokio//0.2.9 weak:test
@@ -3764,7 +3843,7 @@ tower-util//0.3.0 tower-service//0.3.0
 tower-util//0.3.0 tower-test//0.3.0 weak:test
 tracing-attributes//0.1.6 quote//1.0.2
 tracing-attributes//0.1.6 syn//1.0.14
-tracing-attributes//0.1.6 tracing-futures//0.2.1 weak:test
+tracing-attributes//0.1.6 tracing-futures//0.2.2 weak:test
 tracing-attributes//0.1.6 tracing//0.1.12 weak:test
 tracing-core//0.1.7 lazy_static//1.4.0
 tracing-core//0.1.7 spin//0.5.2
@@ -3783,6 +3862,18 @@ tracing-futures//0.2.1 tokio-executor//0.1.10 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:optional
 tracing-futures//0.2.1 tokio//0.1.22 weak:test
 tracing-futures//0.2.1 tracing//0.1.12
+tracing-futures//0.2.2 futures-task//0.3.4 weak:feature:futures-03
+tracing-futures//0.2.2 futures-task//0.3.4 weak:optional
+tracing-futures//0.2.2 futures//0.3.1 weak:feature:futures-03
+tracing-futures//0.2.2 futures//0.3.1 weak:optional
+tracing-futures//0.2.2 pin-project//0.4.8 feature:default
+tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:futures-03
+tracing-futures//0.2.2 pin-project//0.4.8 weak:feature:std-future
+tracing-futures//0.2.2 pin-project//0.4.8 weak:optional
+tracing-futures//0.2.2 tokio-executor//0.1.10 weak:optional
+tracing-futures//0.2.2 tokio//0.1.22 weak:optional
+tracing-futures//0.2.2 tokio//0.1.22 weak:test
+tracing-futures//0.2.2 tracing//0.1.12
 tracing//0.1.12 cfg-if//0.1.10
 tracing//0.1.12 futures//0.1.29 weak:test
 tracing//0.1.12 log//0.4.8 weak:feature:log-always
